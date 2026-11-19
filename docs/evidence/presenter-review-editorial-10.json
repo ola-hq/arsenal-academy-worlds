@@ -213,5 +213,8 @@
     "External school access and ads may differ",
     "New highlights captions unavailable; five frames sampled, full audio not independently cleared",
     "2025 event photo rights disclosure remains in credits"
-  ]
+  ],
+  "implementationCommit": "ccf86b3",
+  "publication": "Development branch pushed; main remains f0addac30e9a9373e7be878e31f1502d39134bd0, latest Pages run 44595533075 succeeded.",
+  "lateConnectionLimit": "After the successful local browser checks and screenshots, browser access became unavailable following a user interruption. An optional final all-films/public-site browser recheck could not run. No publication was attempted. Public-site web fetch was also unavailable; GitHub branch and successful deployment status were readable."
 }
