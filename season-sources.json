@@ -223,5 +223,43 @@
     "audioScope": "No independent complete audio listen; teacher preview remains required",
     "paidCreditsUsed": 0,
     "lyricsReproduced": false
+  },
+  "presenterUpdate": {
+    "date": "2026-11-19",
+    "reviewBuild": "editorial-10",
+    "status": "Awaiting owner publication approval",
+    "newFilm": {
+      "id": "merino-super-sub",
+      "title": "Merino: The Super Sub",
+      "subtitle": "Leicester 0–2 Arsenal · 15 February 2025",
+      "art": "men",
+      "duration": "2:04",
+      "categories": [
+        "highlights",
+        "stories"
+      ],
+      "publisher": "Arsenal",
+      "url": "https://www.youtube.com/watch?v=_38iolVhDTQ",
+      "description": "A midfielder steps up as an emergency centre-forward. Merino comes off the bench and scores twice late to help his team win. Official match highlights.",
+      "watch": "Watch the passes before Merino’s finishes. How do the substitutes and starting players help each other?",
+      "note": "Official Arsenal channel and playable 2:04 source verified. Sampled match footage includes pitch-side betting advertisements. No captions were available; full commentary and crowd audio have not been independently cleared. External player, ads and school access can vary.",
+      "image": "art/players/mikel-merino.jpg",
+      "imageAlt": "Mikel Merino in an archive portrait",
+      "artNote": "Player portrait · not a video still"
+    },
+    "facts": [
+      {
+        "claim": "Merino entered at 69 minutes and scored at 81 and 87, Leicester 0–2 Arsenal, 15 February 2025",
+        "url": "https://www.lcfc.com/match-centre?gameId=2444714"
+      },
+      {
+        "claim": "First unbeaten Premier League season; Preston also unbeaten in 1888/89 top division; not repeated in Premier League",
+        "url": "https://www.premierleague.com/en/news/4622657/the-most-iconic-moments-in-premier-league-history"
+      },
+      {
+        "claim": "Completed 2025/26 table: champions Arsenal had five defeats, so this did not repeat 2003/04 unbeaten season",
+        "url": "https://www.premierleague.com/en/tables/premier-league/2025-26"
+      }
+    ]
   }
 }

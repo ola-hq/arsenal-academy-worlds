@@ -4,7 +4,7 @@
   const all = s => [...document.querySelectorAll(s)];
   const rooms = ['slides', 'draft', 'scout', 'cinema', 'captains', 'matchday'];
   const names = {matchday:'Arsenal Matchday',draft:'Draft Day',scout:'Scouting Academy',cinema:'Arsenal Cinema',captains:'Captain’s Vault'};
-  const chapters = ['Welcome to Arsenal','Our North London home','The Invincibles','The trophy cabinet','The visionary','Arsenal Women','Every player matters','Watch the magic','Your player. Your card.','The live draft','Ways to lead','The Captain’s Vault'];
+  const chapters = ["This is Arsenal", "Home is North London", "The Invincibles", "Greatness takes a team", "Believe Prepare Improve", "History makers", "Every player matters", "Watch the magic", "Your player Your story", "Your turn is coming", "How will you lead", "The Captains Vault"];
   let slide = 0, activeRoom = 'slides', selectedFeed = -1, speechGeneration = 0;
   document.body.classList.toggle('is-embedded',window.parent!==window);
   const canSpeak = 'speechSynthesis' in window;
@@ -64,23 +64,23 @@
         html+=image('emirates-exterior.jpg','Emirates Stadium exterior beneath a blue London sky','Emirates Stadium, 2009 · Ed g2s / CC BY-SA 3.0');
         html+='<div class="location-strip"><span>LONDON, ENGLAND</span><strong>N5</strong><span>OUR NORTH LONDON HOME</span></div>'; break;
       case 2:
-        html=copy('THE SEASON NO ONE COULD STOP','THE<br><em>INVINCIBLES.</em>','2003–04. An entire Premier League season without a defeat.',prompt('Can you work out the unbeaten record?','26 wins + 12 draws = 38 games. Zero losses.'));
+        html=copy('THE SEASON NO ONE COULD STOP','THE<br><em>INVINCIBLES.</em>','2003–04. An entire Premier League season without a defeat.',prompt('26 wins + 12 draws. How many defeats?','26 + 12 = all 38 games. No games left for a loss: zero defeats. A draw is a tied score.'));
         html+='<div class="stat-art"><span class="kicker">PREMIER LEAGUE · 2003 / 04</span><strong>38<span>GAMES</span></strong><div class="record"><span><b>26</b> WINS</span><span><b>12</b> DRAWS</span><span><b>0</b> LOSSES</span></div><p>Different strengths.<br>One extraordinary team.</p></div>';break;
       case 3:
         html=image('trophy-gallery.jpg','Illustrated gold football trophy in the academy gallery');
         html+=copy('THE TROPHY CABINET','GREATNESS<br><em>TAKES A TEAM.</em>',s[2],'<div class="trophy-dates"><span>2003/04<b>UNBEATEN</b></span><span>2025/26<b>LEAGUE CHAMPIONS</b></span></div>');break;
       case 4:
-        html=copy('ARSÈNE WENGER · THE PROFESSOR','BELIEVE.<br>PREPARE.<br><em>IMPROVE.</em>',s[2],prompt('What would a great coach say to a teammate?','Keep trying. Learn from mistakes. Help each other become better.'));
+        html=copy('ARSÈNE WENGER · THE PROFESSOR','BELIEVE.<br>PREPARE.<br><em>IMPROVE.</em>',s[2],prompt('You’re the coach. What is your next move?','A teammate misses a chance. Encourage them, choose one skill to practise, and try again together.'));
         html+=image('wenger.jpg','Arsène Wenger speaking to student sports journalists in 2012','Gaius Cornelius / CC BY-SA 4.0');break;
       case 5:
         html=copy('ARSENAL WOMEN','HISTORY<br><em>MAKERS.</em>',s[2],'<div class="title-years"><b>2007</b><span>&</span><b>2025</b></div>');
-        html+=image('women-champions.jpg','Arsenal Women celebrating their 2018–19 league championship','FROM THE ARCHIVE · 2019 league celebrations · Katie Chan / CC BY-SA 4.0');break;
+        html+='<button class="women-film photo" data-go="cinema" data-pick-film="women-trailer" aria-label="Open Arsenal Women film in Cinema"><img src="art/moments/women-europe-2025.jpg" alt="Arsenal Women celebrating with the 2025 European trophy"><span class="photo-play"><b aria-hidden="true">▶</b> Meet the history makers<small>Watch Arsenal Women · 1:49</small></span><span class="photo-credit">2025 European champions · Arsenal FC via Getty Images · Photo, not a film still</span></button>';break;
       case 6:
-        html=copy('THE TEAM SHEET','EVERY PLAYER<br><em>MATTERS.</em>',s[2],'<p class="instruction">Touch a role to discover how it helps the team.</p><p id="positionLesson" class="position-lesson" role="status">On the pitch or beside it, everyone can belong.</p>');
-        html='<div class="pitch" aria-label="Interactive football team roles"><div class="pitch-line"></div>'+['Forward','Midfielder','Defender','Goalkeeper','Manager'].map((r,i)=>`<button class="position position-${i}" data-position="${i}" aria-pressed="false"><b>${['09','08','04','01','M'][i]}</b><span>${r}</span></button>`).join('')+'</div>'+html;break;
+        html=copy('THE TEAM SHEET','EVERY PLAYER<br><em>MATTERS.</em>',s[2],'<p class="instruction">Touch a role to discover how it helps the team.</p><p id="positionLesson" class="position-lesson" role="status">Starting, waiting or helping from the sideline: everyone belongs.</p>');
+        html='<div class="pitch" aria-label="Interactive football team roles"><div class="pitch-line"></div>'+['Forward','Midfielder','Defender','Goalkeeper','Manager','Substitute'].map((r,i)=>`<button class="position position-${i}" data-position="${i}" aria-pressed="false"><b>${['09','08','04','01','M','S'][i]}</b><span>${r}</span></button>`).join('')+'</div>'+html;break;
       case 7:
         html=image('cinema-room.jpg','A football stadium screening in the academy cinema');
-        html+=copy('THE SCREENING ROOM','WATCH<br><em>THE MAGIC.</em>',s[2],button('Enter Cinema','cinema')+'<button class="quiet story-matchday" data-go="matchday">Explore this season</button><p class="small">Teacher preview first. Nothing autoplays.</p>');break;
+        html+=copy('THE SCREENING ROOM','WATCH<br><em>THE MAGIC.</em>',s[2],button('Enter Cinema','cinema')+'<button class="quiet story-matchday" data-go="matchday">Explore this season</button><p class="small">Merino’s story. Team highlights. Stadium voices.</p>');break;
       case 8:
         html=copy('THE COLLECTORS’ ISSUE','YOUR PLAYER.<br><em>YOUR STORY.</em>',s[2],button('Explore the player cards','scout'));
         html+='<div class="card-fan" aria-hidden="true">'+[['SALIBA','FRANCE','THE CALM WALL','02'],['LITTLE','SCOTLAND','THE CAPTAIN','10'],['RICE','ENGLAND','THE ENGINE','41']].map((c,i)=>`<div class="collectible card-${i}"><span>ARSENAL ACADEMY</span><b class="shirt-number">${c[3]}</b><h2>${c[0]}</h2><span>${c[1]}</span><strong>${c[2]}</strong></div>`).join('')+'<p>42 PHYSICAL CARDS · 2 PER STUDENT</p></div>';break;
@@ -89,7 +89,7 @@
         html+=copy('DRAFT DAY · THE LIVE DRAW','YOUR TURN<br><em>IS COMING.</em>',s[2],button('Start the Draft','draft'));break;
       case 10:
         html=copy('THE LEADERSHIP EDITION','HOW WILL<br><em>YOU LEAD?</em>','Great captains help others, stay calm and make their team better.');
-        html+='<div class="leadership-cards">'+[['TONY ADAMS','Loyalty & courage','Stand by your teammates and do the right thing.'],['SOL CAMPBELL','Strength & composure','Stay calm under pressure and protect your team.'],['ARSÈNE WENGER','Vision & belief','Help others grow and believe they can improve.']].map(c=>`<details><summary>${foil}<strong>${c[0]}</strong><span>${c[1]}</span><small>Discover a way to lead</small></summary><p>${c[2]}</p></details>`).join('')+'</div>';break;
+        html+='<div class="leadership-cards">'+[['TONY ADAMS','Loyalty & courage','Arsenal captain at 21. Four league titles as captain. Lead today: invite someone in and take responsibility.'],['SOL CAMPBELL','Strength & composure','A defender in the unbeaten 2003/04 team. Lead today: take a breath, communicate and help solve a problem.'],['ARSÈNE WENGER','Vision & belief','Manager of the Invincibles. 22 years helping Arsenal develop. Lead today: share a plan and help someone practise.']].map(c=>`<details><summary>${foil}<strong>${c[0]}</strong><span>${c[1]}</span><small>Discover a way to lead</small></summary><p>${c[2]}</p></details>`).join('')+'</div>';break;
       case 11:
         html=image('adams-statue.jpg','Tony Adams statue with arms outstretched at Emirates Stadium','Tony Adams statue · Ronnie Macdonald / CC BY 2.0');
         html+=copy('THE FINAL REVEAL','THE CAPTAIN’S<br><em>VAULT.</em>',s[2],'<div class="mini-shields" aria-hidden="true">'+foil.repeat(6)+'</div>'+button('Open the Vault','captains'));break;
@@ -130,7 +130,7 @@
     speechSynthesis.speak(u);$('#speechStatus').textContent='Reading with this device’s voice…';
   });
   $('#stopSpeech').addEventListener('click',()=>{stopVoice();$('#speechStatus').textContent='Stopped.';});
-  const positionLessons=['Forwards find space, create chances and finish attacks.','Midfielders connect the team with passes, movement and hard work.','Defenders protect the goal, win the ball and help build attacks.','Goalkeepers make saves and start attacks with smart passes.','Managers plan, encourage and help everyone improve. You can lead and belong without playing on the pitch.'];
+  const positionLessons=['Forwards find space, create chances and finish attacks.','Midfielders connect the team with passes, movement and hard work.','Defenders protect the goal, win the ball and help build attacks.','Goalkeepers make saves and start attacks with smart passes.','Managers plan, encourage and help everyone improve. You can lead and belong without playing on the pitch.','Substitutes watch, encourage and stay ready. Merino came on at 69 minutes against Leicester in February 2025, then scored at 81 and 87. A different role. A huge contribution.'];
   $('#spread').addEventListener('click',e=>{const b=e.target.closest('[data-position]');if(b){all('[data-position]').forEach(p=>p.setAttribute('aria-pressed',String(p===b)));$('#positionLesson').textContent=positionLessons[Number(b.dataset.position)];}});
   // All classroom state lives in memory. No storage, network writes or names.
   function shuffle(items){for(let i=items.length-1;i>0;i--){const range=i+1,limit=2**32-(2**32%range);let n;do{n=crypto.getRandomValues(new Uint32Array(1))[0];}while(n>=limit);const j=n%range;[items[i],items[j]]=[items[j],items[i]];}return items;}
@@ -190,7 +190,6 @@
   renderPlayers();
   const feeds=cinemaFilms;
   let filmCategory='shorts';
-  const reviewed=new Set();
   function renderFilms(){
     const available=feeds.map((f,i)=>({f,i})).filter(({f})=>filmCategory==='all'||f.categories.includes(filmCategory));
     $('#filmList').innerHTML=available.map(({f,i})=>`<button class="film" data-film-art="${f.art}" data-monitor="${i}" aria-pressed="${i===selectedFeed}" aria-label="${escapeText(f.title)}, ${escapeText(f.duration)}. Select film"><img src="${f.image}" alt="" loading="lazy"><span>${escapeText(f.subtitle)}</span><strong>${escapeText(f.title)}</strong><small>${escapeText(f.duration)} · ${escapeText(f.publisher)}</small></button>`).join('');
@@ -201,18 +200,16 @@
   renderFilms();
   function clearMonitor(){
     $('#monitorScreen').innerHTML='<img src="art/cinema-room.jpg" alt="A warmly lit football cinema with red velvet chairs">';
-    $('#monitorTitle').textContent='Choose a story';$('#monitorDescription').textContent='Start with a short film, a match or a story. Teacher preview first. Nothing autoplays here.';$('#filmAccess').hidden=true;$('#filmAccess').textContent='';$('#watchMission').hidden=true;$('#watchMission details').open=false;
-    $('#monitorLink').hidden=true;$('#monitorLink').href='https://www.youtube.com/@Arsenal';$('#screen').checked=false;$('#screen').disabled=true;$('#screenStatus').textContent='Select a story to begin teacher screening.';selectedFeed=-1;all('[data-monitor]').forEach(b=>b.setAttribute('aria-pressed','false'));
+    $('#monitorTitle').textContent='Choose a story';$('#monitorDescription').textContent='Choose a film, take your seat and spot the teamwork. Nothing autoplays here.';$('#filmAccess').hidden=true;$('#filmAccess').textContent='';$('#watchMission').hidden=true;$('#watchMission details').open=false;
+    $('#monitorLink').hidden=true;$('#monitorLink').href='https://www.youtube.com/@Arsenal';selectedFeed=-1;all('[data-monitor]').forEach(b=>b.setAttribute('aria-pressed','false'));
   }
   function selectFeed(i){
     clearMonitor(); selectedFeed=i;const f=feeds[i];
-    $('#monitorTitle').textContent=f.title;$('#monitorDescription').textContent=f.description;$('#monitorLink').href=f.url;$('#monitorLink').hidden=false;
+    $('#monitorTitle').textContent=f.title;$('#monitorDescription').textContent=f.description;$('#monitorLink').href=f.url;$('#monitorLink').textContent='Watch film · '+f.duration;$('#monitorLink').hidden=false;
     $('#monitorScreen').innerHTML=`<img src="${f.image}" alt="${escapeText(f.imageAlt)}"><span class="film-art-note">${escapeText(f.artNote)}</span><div class="cinema-title"><span class="kicker">${escapeText(f.duration)} · ${escapeText(f.publisher)}</span><strong>${f.title}</strong><p>${escapeText(f.subtitle)}</p></div>`;
-    $('#filmAccess').hidden=false;$('#filmAccess').textContent=f.note;$('#watchPrompt').textContent=f.watch;$('#watchMission').hidden=false;$('#screen').disabled=false;$('#screen').checked=reviewed.has(i);screenStatus();all('[data-monitor]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.monitor)===i)));
+    $('#filmAccess').hidden=false;$('#filmAccess').textContent=f.note;$('#watchPrompt').textContent=f.watch;$('#watchMission').hidden=false;all('[data-monitor]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.monitor)===i)));
   }
-  function screenStatus(){if(!feeds[selectedFeed]){$('#screenStatus').textContent='Review this story on its official source before projecting.';return;}$('#screenStatus').textContent=$('#screen').checked?'Teacher marked this selection reviewed for this session.':'Teacher screening incomplete for this selection.';}
   $('#filmList').addEventListener('click',e=>{const b=e.target.closest('[data-monitor]');if(b){selectFeed(Number(b.dataset.monitor));if(matchMedia('(max-width:650px)').matches){$('#monitorTitle').focus({preventScroll:true});$('.cinema-console').scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});}}});
-  $('#screen').addEventListener('change',()=>{if(selectedFeed<0)return;$('#screen').checked?reviewed.add(selectedFeed):reviewed.delete(selectedFeed);screenStatus();});
   $('#monitorStop').addEventListener('click',clearMonitor);
   $('#backToFilms').addEventListener('click',()=>{const selected=$(`#filmList [data-monitor="${selectedFeed}"]`);if(selected)selected.focus({preventScroll:true});$('#filmList').scrollIntoView({block:'start'});});
   document.addEventListener('click',event=>{const trigger=event.target.closest('[data-pick-film]');if(!trigger)return;const i=feeds.findIndex(f=>f.id===trigger.dataset.pickFilm);if(i<0)return;filmCategory=feeds[i].categories[0];selectFeed(i);renderFilms();});

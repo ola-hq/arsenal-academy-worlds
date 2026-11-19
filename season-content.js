@@ -41,6 +41,25 @@ const cinemaFilms=[
     "artNote": "Archive portrait · not a video still"
   },
   {
+    "id": "merino-super-sub",
+    "title": "Merino: The Super Sub",
+    "subtitle": "Leicester 0–2 Arsenal · 15 February 2025",
+    "art": "men",
+    "duration": "2:04",
+    "categories": [
+      "highlights",
+      "stories"
+    ],
+    "publisher": "Arsenal",
+    "url": "https://www.youtube.com/watch?v=_38iolVhDTQ",
+    "description": "A midfielder steps up as an emergency centre-forward. Merino comes off the bench and scores twice late to help his team win. Official match highlights.",
+    "watch": "Watch the passes before Merino’s finishes. How do the substitutes and starting players help each other?",
+    "note": "Official Arsenal channel and playable 2:04 source verified. Sampled match footage includes pitch-side betting advertisements. No captions were available; full commentary and crowd audio have not been independently cleared. External player, ads and school access can vary.",
+    "image": "art/players/mikel-merino.jpg",
+    "imageAlt": "Mikel Merino in an archive portrait",
+    "artNote": "Player portrait · not a video still"
+  },
+  {
     "id": "women-trailer",
     "title": "Only In The Land",
     "subtitle": "Arsenal Women · belief",
@@ -184,7 +203,7 @@ const cinemaFilms=[
     "url": "https://www.youtube.com/watch?v=7AycooCU0-k",
     "description": "An official Arsenal short filmed inside Emirates Stadium, showing the pitch and stands during the supporters’ song. Optional stadium atmosphere; the classroom cheers need no video.",
     "watch": "Notice how the crowd joins in together. How can we cheer positively while keeping everyone comfortable?",
-    "note": "Teacher preview required: official channel and 27-second duration verified; sampled stadium visuals checked. Captions are unavailable and full crowd audio has not been independently cleared. Preview the exact clip, nearby voices and the external player before class. No song lyrics are reproduced here.",
+    "note": "The owner selected this 27-second official stadium clip for class. Visual sampling and source checked; no captions were available and full crowd audio has not been independently cleared. Opens the external player.",
     "image": "art/emirates-interior.jpg",
     "imageAlt": "Licensed archive photograph of the pitch and stands at Emirates Stadium",
     "artNote": "Stadium archive photo · not a video still"

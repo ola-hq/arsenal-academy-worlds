@@ -1,5 +1,11 @@
 # Classroom image and video review
 
+## Latest presenter choices
+
+Editorial-10 is a pending review update, not yet published. The owner explicitly requested removal of the Cinema review checkbox and selected North London Forever for classroom use; earlier checkbox instructions below are historical. Teacher/source details now sit in optional disclosures. No automatic media plays. All 12 journal teacher notes are in the revised host guide.
+
+The official Arsenal 2:04 Merino Leicester highlights source is optional. Channel/playability and five visual samples were checked free in-browser. Pitch-side betting advertising appears. Captions unavailable; full commentary and crowd audio remain unverified. Keep the previously accepted 1:01 A Champion’s Story trailer as the main short route. Women’s photo selects the existing 1:49 Only In The Land trailer; earlier partial review limits remain. Neither link is labelled fully cleared.
+
 Reviewed 19 November 2026 using free browser checks only; no paid credits used. The presentation pick is the exact 1:01 **A Champion’s Story** Merino trailer: https://www.youtube.com/watch?v=KF9XJtA5e3k .
 
 The complete available auto-generated English captions were read and 61 timestamped frames spanning the trailer were inspected, approximately one per second. No profanity was identified in those captions. Shirtless recovery footage around 0:09–0:11 and celebration around 0:43 were disclosed; the owner explicitly answered **“This trailer is okay.”** This exception applies to this trailer only. Affirm that feelings and seeking support are okay when discussing recovery and effort.

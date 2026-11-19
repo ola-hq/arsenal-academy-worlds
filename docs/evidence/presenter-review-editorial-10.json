@@ -1,0 +1,217 @@
+{
+  "release": "editorial-10",
+  "date": "2026-11-19",
+  "status": "Review complete; not published; owner approval pending",
+  "classroomChecks": [
+    {
+      "brokenImages": 0,
+      "copyClipped": [],
+      "height": 1080,
+      "horizontalOverflow": false,
+      "page": "1 / 12",
+      "spreadHeight": 828,
+      "title": "THIS IS\nARSENAL.",
+      "width": 1920
+    },
+    {
+      "brokenImages": 0,
+      "copyClipped": [],
+      "height": 1080,
+      "horizontalOverflow": false,
+      "page": "2 / 12",
+      "spreadHeight": 828,
+      "title": "HOME IS\nNORTH LONDON.",
+      "width": 1920
+    },
+    {
+      "brokenImages": 0,
+      "copyClipped": [],
+      "height": 1080,
+      "horizontalOverflow": false,
+      "page": "3 / 12",
+      "spreadHeight": 828,
+      "title": "THE\nINVINCIBLES.",
+      "width": 1920
+    },
+    {
+      "brokenImages": 0,
+      "copyClipped": [],
+      "height": 1080,
+      "horizontalOverflow": false,
+      "page": "4 / 12",
+      "spreadHeight": 828,
+      "title": "GREATNESS\nTAKES A TEAM.",
+      "width": 1920
+    },
+    {
+      "brokenImages": 0,
+      "copyClipped": [],
+      "height": 1080,
+      "horizontalOverflow": false,
+      "page": "5 / 12",
+      "spreadHeight": 828,
+      "title": "BELIEVE.\nPREPARE.\nIMPROVE.",
+      "width": 1920
+    },
+    {
+      "brokenImages": 0,
+      "copyClipped": [],
+      "height": 1080,
+      "horizontalOverflow": false,
+      "page": "6 / 12",
+      "spreadHeight": 828,
+      "title": "HISTORY\nMAKERS.",
+      "width": 1920
+    },
+    {
+      "brokenImages": 0,
+      "copyClipped": [],
+      "height": 1080,
+      "horizontalOverflow": false,
+      "page": "7 / 12",
+      "spreadHeight": 828,
+      "title": "EVERY PLAYER\nMATTERS.",
+      "width": 1920
+    },
+    {
+      "brokenImages": 0,
+      "copyClipped": [],
+      "height": 1080,
+      "horizontalOverflow": false,
+      "page": "8 / 12",
+      "spreadHeight": 828,
+      "title": "WATCH\nTHE MAGIC.",
+      "width": 1920
+    },
+    {
+      "brokenImages": 0,
+      "copyClipped": [],
+      "height": 1080,
+      "horizontalOverflow": false,
+      "page": "9 / 12",
+      "spreadHeight": 828,
+      "title": "YOUR PLAYER.\nYOUR STORY.",
+      "width": 1920
+    },
+    {
+      "brokenImages": 0,
+      "copyClipped": [],
+      "height": 1080,
+      "horizontalOverflow": false,
+      "page": "10 / 12",
+      "spreadHeight": 828,
+      "title": "YOUR TURN\nIS COMING.",
+      "width": 1920
+    },
+    {
+      "brokenImages": 0,
+      "copyClipped": [],
+      "height": 1080,
+      "horizontalOverflow": false,
+      "page": "11 / 12",
+      "spreadHeight": 828,
+      "title": "HOW WILL\nYOU LEAD?",
+      "width": 1920
+    },
+    {
+      "brokenImages": 0,
+      "copyClipped": [],
+      "height": 1080,
+      "horizontalOverflow": false,
+      "page": "12 / 12",
+      "spreadHeight": 828,
+      "title": "THE CAPTAIN’S\nVAULT.",
+      "width": 1920
+    }
+  ],
+  "desktopChecks": [
+    {
+      "copyClipped": [],
+      "height": 768,
+      "overflow": false,
+      "page": "3 / 12",
+      "width": 1366
+    },
+    {
+      "copyClipped": [],
+      "height": 768,
+      "overflow": false,
+      "page": "5 / 12",
+      "width": 1366
+    },
+    {
+      "copyClipped": [],
+      "height": 768,
+      "overflow": false,
+      "page": "6 / 12",
+      "width": 1366
+    },
+    {
+      "copyClipped": [],
+      "height": 768,
+      "overflow": false,
+      "page": "7 / 12",
+      "width": 1366
+    },
+    {
+      "copyClipped": [],
+      "height": 768,
+      "overflow": false,
+      "page": "11 / 12",
+      "width": 1366
+    }
+  ],
+  "phoneLeadershipCheck": {
+    "clippedCards": 0,
+    "height": 844,
+    "openLeaders": 3,
+    "overflow": false,
+    "spreadHeight": 1160,
+    "width": 390
+  },
+  "womenFilm": {
+    "selection": "Only In The Land",
+    "url": "https://www.youtube.com/watch?v=mHeiihnFKJI",
+    "returnPage": 6,
+    "embeddedClubhousePassed": true
+  },
+  "cinema": {
+    "checkboxRemoved": true,
+    "merinoHighlights": "https://www.youtube.com/watch?v=_38iolVhDTQ",
+    "duration": "2:04",
+    "phoneWidth": 390,
+    "horizontalOverflow": false
+  },
+  "draft": {
+    "count": 21,
+    "uniqueNumbers": 21,
+    "min": 1,
+    "max": 21,
+    "complete": true
+  },
+  "vault": {
+    "stories": [
+      "The One-Club Legend",
+      "The Invincibles Architect",
+      "The Big-Game Goalscorer",
+      "Mr Arsenal",
+      "The Invincible Defender",
+      "The Trophy-Winning Coach"
+    ],
+    "uniqueStories": 6,
+    "complete": true
+  },
+  "script": {
+    "journalNumbers": true,
+    "controls": "Previous/Next/dropdown/spoken-only/phone passed",
+    "teacherNotes": 12,
+    "wordPagesRenderedAndVisuallyInspected": 14,
+    "pausePlaceholderFixed": true
+  },
+  "limits": [
+    "No physical ViewSonic rehearsal",
+    "External school access and ads may differ",
+    "New highlights captions unavailable; five frames sampled, full audio not independently cleared",
+    "2025 event photo rights disclosure remains in credits"
+  ]
+}

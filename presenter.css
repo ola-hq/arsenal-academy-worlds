@@ -1,0 +1,17 @@
+/* Presentation refinements, with external media loaded only after a click. */
+.women-film{padding:0;border:10px solid white;background:#162335;text-align:left;color:white;cursor:pointer}
+.women-film img{width:100%;height:100%;object-fit:cover;display:block}
+.photo-play{position:absolute;inset:auto 0 38px;padding:28px 24px;background:linear-gradient(transparent,#101725ed);font-size:clamp(19px,1.6vw,30px);font-weight:800;line-height:1.3}
+.photo-play b{display:inline-grid;place-items:center;width:46px;height:46px;border-radius:50%;background:#b71935;margin-right:10px}
+.photo-play small{display:block;margin:10px 0 0;font-size:16px;font-weight:400}
+.photo-credit{position:absolute;inset:auto 0 0;padding:8px 12px;background:#101725e8;font-size:12px;line-height:1.4}
+.women-film:hover .photo-play b{background:#e12543}
+.women-film:focus-visible{outline:4px solid #b71935;outline-offset:3px}
+.position-5{background:#a3233c;color:white;border-color:#f2c985}
+.film-source-notes{font-size:15px;line-height:1.5;color:#c4cddb}
+.film-source-notes summary{cursor:pointer;padding:10px 0}
+.film-source-notes .film-access{font-size:15px;margin-top:4px}
+.leadership-cards details>p{text-align:left;line-height:1.45}
+@media(min-width:701px) and (max-height:850px){.layout-portrait .story-copy{padding:24px 38px}.layout-portrait .story-copy h1{font-size:clamp(38px,4.1vw,60px);margin:14px 0}.layout-portrait .story-copy>p{font-size:21px;margin-bottom:14px}.layout-portrait .question summary{font-size:18px}.layout-portrait .question p{font-size:18px;line-height:1.4;margin-top:10px}}
+@media(min-width:701px){.layout-team .story-copy{padding:clamp(25px,3vw,58px)}.layout-team .story-copy h1{font-size:clamp(38px,4vw,76px)}.layout-team .story-copy>p{font-size:clamp(19px,1.5vw,29px);margin-bottom:18px}.layout-team .story-copy>.instruction{font-size:17px}.layout-team .story-copy>.position-lesson{font-size:clamp(17px,1.3vw,25px);line-height:1.4}.layout-team .pitch{gap:8px}.layout-leaders{grid-template-rows:40% 1fr}}
+@media(max-width:700px){.spread{max-height:none}.women-film{position:relative;min-height:350px}.layout-women .women-film img{height:350px;min-height:350px}.photo-play{bottom:48px;padding:40px 18px 18px}.photo-credit{font-size:12px}.layout-team .pitch{min-height:530px;flex-shrink:0}.layout-leaders{height:auto;max-height:none;min-height:950px}.layout-leaders .story-copy{flex-shrink:0}.leadership-cards{display:flex;flex-direction:column;flex-shrink:0}.leadership-cards details{overflow:visible;flex-shrink:0}.leadership-cards summary{min-height:90px}.leadership-cards small{font-size:14px}}

@@ -1,5 +1,11 @@
 # Ready for today — Arsenal Academy
 
+## Latest presenter choices
+
+Editorial-10 is a pending review update, not yet published. The owner explicitly requested removal of the Cinema review checkbox and selected North London Forever for classroom use; earlier checkbox instructions below are historical. Teacher/source details now sit in optional disclosures. No automatic media plays. All 12 journal teacher notes are in the revised host guide.
+
+The official Arsenal 2:04 Merino Leicester highlights source is optional. Channel/playability and five visual samples were checked free in-browser. Pitch-side betting advertising appears. Captions unavailable; full commentary and crowd audio remain unverified. Keep the previously accepted 1:01 A Champion’s Story trailer as the main short route. Women’s photo selects the existing 1:49 Only In The Land trailer; earlier partial review limits remain. Neither link is labelled fully cleared.
+
 The complete read-aloud hosting script is now available at https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html . Cinema includes teacher-led classroom cheers and an optional 0:27 stadium source marked for preview; its crowd audio is not fully cleared.
 
 Open [the current Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-9). Select **Full screen**. Under Options, **Show room labels** makes the clickable places easier to find.

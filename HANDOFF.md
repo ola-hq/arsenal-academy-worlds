@@ -1,5 +1,25 @@
 # Arsenal Academy project handoff
 
+## Presentation refinement awaiting publication approval
+
+Updated 19 November 2026. Development branch `codex/arsenal-presenter-polish`, review label `editorial-10`. The public website remains the approved editorial-9 release. Do not publish this new update to main until the owner approves this specific patch.
+
+The host guide now opens with friendly “best club in the world” fan banter, student club suggestions, soccer experience, World Cup and favorite-player questions. Its headings and progress use the actual journal page numbers and titles; setup and optional Matchday no longer shift those numbers. All 12 original journal teacher notes are explicitly included, with fuller read-aloud stories about belonging, cooperation, Wenger, substitutes and the three leadership examples.
+
+Journal changes: clear 26 wins + 12 draws question; a practical coaching scenario; the existing 2025 European celebration photograph becomes a keyboard-accessible Women film button; Substitute joins the five retained roles; expanded Adams, Campbell and Wenger reveals. The Women image selects the exact 1:49 Only In The Land trailer in Cinema, and Return to journal restores page 6. Reused the already-published Arsenal FC via Getty Images photograph with its existing source/rights disclosure; no open licence is claimed.
+
+Cinema: removed the per-selection “I reviewed this exact selection for my class” checkbox, its stored-in-memory marks and screening status language at the owner's explicit request. Films remain external and only open on a click. Access and review details are available in collapsed source notes. Added the official 2:04 Leicester 0–2 Arsenal highlights as Merino: The Super Sub. The selected North London Forever source remains available. No background audio, student data collection or persistent storage was added.
+
+Historical distinction: Arsenal were the first unbeaten Premier League champions; Preston also went unbeaten in the older English top division in 1888/89. Verified the Premier League archive and the completed 2025/26 table (Arsenal had five defeats that season). Merino example is specifically Leicester, 15 February 2025: entered at 69 minutes, scored at 81 and 87. Do not invent a current late-goal total. Sources are recorded in season-sources.json.
+
+Validation: all 12 pages checked at measured 1920×1080; changed journal pages checked at 1366×768; Women film selection, Substitute and expanded leadership checked at 390×844. Corrected expanded Wenger text clipping at desktop height and leadership card clipping on phone. Full 21-pick Draft and six-story Vault journeys passed. Embedded clubhouse journal → Women film → return to page 6 passed with editorial-10 iframe URL. Script Previous/Next, dropdown, spoken-only mode and journal numbering passed; repaired a builder placeholder bug that corrupted PAUSE labels. All 14 Word pages rendered and visually inspected. No captured site errors in the checked sessions. Evidence: docs/evidence/presenter-review-editorial-10.json and docs/screenshots/presenter-10-*.jpg.
+
+The new match highlights source was playable on verified Arsenal YouTube; five visual samples at approximately 0:00, 0:37, 1:02, 1:27 and 1:52 were inspected. Pitch-side betting advertisements appear in match footage. Captions were unavailable; full commentary/crowd audio was not independently cleared. No paid credits were used. The familiar Merino trailer and owner-selected stadium clip remain the main short route. Other earlier video review limitations still apply; removing the checkbox is not a full safety certification.
+
+Remaining before release: owner approval, Pages deployment, and verification of the published update. Physical classroom display, school network and external-player ads/audio need device rehearsal. Existing editorial-9 public verification remains valid for the live release, not evidence that editorial-10 is already published.
+
+The editable guide is docs/host-script.json; generated HTML and DOCX are alongside it. Rebuild with the bundled Python runtime: `scripts/build-host-script.py --output-dir /absolute/output/path`. Use the supplied Word renderer and inspect all pages after content changes. The builder is now tracked so another agent can reproduce the outputs. Documentation stays in this repository and local outputs; no Drive copy was created.
+
 ## Live photo stories and tighter targets
 
 Development branch: codex/arsenal-photo-popups. Release label: editorial-9. The owner explicitly approved this completed patch with “Publish the photo pop-ups.” Published through successful Pages run 44594956544 (https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44594956544) and verified on the public website. All four dated photos loaded; the corrected women’s banner measures 71.8% left and 10.7% width with a pennant-shaped target; retry/correct feedback, story navigation and wrapping passed. No captured site errors. Public evidence: docs/evidence/editorial-9-public-checks.json and docs/screenshots/event-popup-live-editorial-9.jpg.
