@@ -206,7 +206,8 @@
     "controls": "Previous/Next/dropdown/spoken-only/phone passed",
     "teacherNotes": 12,
     "wordPagesRenderedAndVisuallyInspected": 14,
-    "pausePlaceholderFixed": true
+    "pausePlaceholderFixed": true,
+    "finalReadAloudCorrection": "Favorite-player question is a spoken ASK block, so spoken-only mode keeps it. Final Word render has 14 pages; 13 pages pixel-identical to inspected prior render, revised opening page inspected again."
   },
   "limits": [
     "No physical ViewSonic rehearsal",

@@ -72,7 +72,15 @@
         ],
         [
           "PAUSE",
-          "Take a few quick answers. Then ask “Favorite player—Messi, Ronaldo, or somebody else?” Welcome players from women’s and men’s football. No knowledge quiz or forced answer."
+          "Take a few quick answers."
+        ],
+        [
+          "ASK",
+          "Who is your favorite player—Messi, Ronaldo, or somebody else?"
+        ],
+        [
+          "PAUSE",
+          "Welcome players from women’s and men’s football. Accept their choices; no knowledge quiz or forced answer."
         ],
         [
           "SAY",
