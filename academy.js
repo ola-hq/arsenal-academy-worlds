@@ -2,8 +2,8 @@
 (() => {
   const $ = s => document.querySelector(s);
   const all = s => [...document.querySelectorAll(s)];
-  const rooms = ['slides', 'draft', 'scout', 'cinema', 'captains'];
-  const names = {draft:'Draft Day',scout:'Scouting Academy',cinema:'Arsenal Cinema',captains:'Captain’s Vault'};
+  const rooms = ['slides', 'draft', 'scout', 'cinema', 'captains', 'matchday'];
+  const names = {matchday:'Arsenal Matchday',draft:'Draft Day',scout:'Scouting Academy',cinema:'Arsenal Cinema',captains:'Captain’s Vault'};
   const chapters = ['Welcome to Arsenal','Our North London home','The Invincibles','The trophy cabinet','The visionary','Arsenal Women','Every player matters','Watch the magic','Your player. Your card.','The live draft','Ways to lead','The Captain’s Vault'];
   let slide = 0, activeRoom = 'slides', selectedFeed = -1, speechGeneration = 0;
   document.body.classList.toggle('is-embedded',window.parent!==window);
@@ -25,6 +25,7 @@
     document.body.dataset.room = room;
     $('#roomBar').hidden = room === 'slides';
     $('#location').textContent = names[room] || 'The Arsenal Academy Journal';
+    if(parent!==window)parent.postMessage({type:'arsenal:room',room},location.origin);
     document.querySelector('[data-nav=slides]').href='#slides/'+(slide+1);
     $('#returnStory').textContent = `Return to journal · ${slide+1} / 12`;
     if (room === 'slides') renderSlide();
@@ -79,7 +80,7 @@
         html='<div class="pitch" aria-label="Interactive football team roles"><div class="pitch-line"></div>'+['Forward','Midfielder','Defender','Goalkeeper','Manager'].map((r,i)=>`<button class="position position-${i}" data-position="${i}" aria-pressed="false"><b>${['09','08','04','01','M'][i]}</b><span>${r}</span></button>`).join('')+'</div>'+html;break;
       case 7:
         html=image('cinema-room.jpg','A football stadium screening in the academy cinema');
-        html+=copy('THE SCREENING ROOM','WATCH<br><em>THE MAGIC.</em>',s[2],button('Enter Cinema','cinema')+'<p class="small">Teacher preview first. Nothing autoplays.</p>');break;
+        html+=copy('THE SCREENING ROOM','WATCH<br><em>THE MAGIC.</em>',s[2],button('Enter Cinema','cinema')+'<button class="quiet story-matchday" data-go="matchday">Explore this season</button><p class="small">Teacher preview first. Nothing autoplays.</p>');break;
       case 8:
         html=copy('THE COLLECTORS’ ISSUE','YOUR PLAYER.<br><em>YOUR STORY.</em>',s[2],button('Explore the player cards','scout'));
         html+='<div class="card-fan" aria-hidden="true">'+[['SALIBA','FRANCE','THE CALM WALL','02'],['LITTLE','SCOTLAND','THE CAPTAIN','10'],['RICE','ENGLAND','THE ENGINE','41']].map((c,i)=>`<div class="collectible card-${i}"><span>ARSENAL ACADEMY</span><b class="shirt-number">${c[3]}</b><h2>${c[0]}</h2><span>${c[1]}</span><strong>${c[2]}</strong></div>`).join('')+'<p>42 PHYSICAL CARDS · 2 PER STUDENT</p></div>';break;
@@ -187,28 +188,34 @@
     }
   },true);
   renderPlayers();
-  const feeds=[
-    {title:'Arsenal Women',art:'women',tag:'THE HISTORY MAKERS',description:'All 62 league goals from 2024/25 on Arsenal’s official site. Open the source and select a teacher-reviewed excerpt.',url:'https://www.arsenal.com/news/enjoy-all-our-wsl-goals-from-202425-aEgAh7n2WU6W',reviewable:true},
-    {title:'Arsenal Men: Best Goals',art:'men',tag:'ARSENAL MEN',description:'Official Arsenal goals compilation from 2024/25, featuring Rice, Saka and Calafiori. Teacher preview required before projection.',url:'https://www.youtube.com/watch?v=KqXuiKrrIac',reviewable:true},
-    {title:'Wenger: A lasting legacy',art:'wenger',tag:'THE VISIONARY · 4:30',description:'Premier League’s Hall of Fame film celebrates Wenger’s vision, teams and legacy. One specific video, 4 minutes 30 seconds. Preview the complete footage and audio before showing your class.',url:'https://www.youtube.com/watch?v=xtM3k5NWUwQ',reviewable:true}
-  ];
+  const feeds=cinemaFilms;
+  let filmCategory='shorts';
   const reviewed=new Set();
-  $('#filmList').innerHTML=feeds.map((f,i)=>`<button class="film" data-film-art="${f.art}" data-monitor="${i}" aria-pressed="false"><span>${f.tag}</span><strong>${f.title}</strong><small>${f.url.includes('youtube.com')?'OFFICIAL VIDEO':'OFFICIAL VIDEO PAGE'}</small></button>`).join('');
+  function renderFilms(){
+    const available=feeds.map((f,i)=>({f,i})).filter(({f})=>filmCategory==='all'||f.categories.includes(filmCategory));
+    $('#filmList').innerHTML=available.map(({f,i})=>`<button class="film" data-film-art="${f.art}" data-monitor="${i}" aria-pressed="${i===selectedFeed}" aria-label="${escapeText(f.title)}, ${escapeText(f.duration)}. Select film"><img src="${f.image}" alt="" loading="lazy"><span>${escapeText(f.subtitle)}</span><strong>${escapeText(f.title)}</strong><small>${escapeText(f.duration)} · ${escapeText(f.publisher)}</small></button>`).join('');
+    $('#filmCount').textContent=`${available.length} ${available.length===1?'film':'films'}`;
+    all('[data-film-category]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filmCategory===filmCategory)));
+  }
+  all('[data-film-category]').forEach(b=>b.addEventListener('click',()=>{filmCategory=b.dataset.filmCategory;clearMonitor();renderFilms();}));
+  renderFilms();
   function clearMonitor(){
     $('#monitorScreen').innerHTML='<img src="art/cinema-room.jpg" alt="A warmly lit football cinema with red velvet chairs">';
-    $('#monitorTitle').textContent='Choose a story';$('#monitorDescription').textContent='Official Arsenal videos open in their own player. Nothing plays or contacts YouTube here.';
-    $('#monitorLink').href='https://www.youtube.com/@Arsenal';$('#screen').checked=false;$('#screen').disabled=true;$('#screenStatus').textContent='Select a story to begin teacher screening.';selectedFeed=-1;all('[data-monitor]').forEach(b=>b.setAttribute('aria-pressed','false'));
+    $('#monitorTitle').textContent='Choose a story';$('#monitorDescription').textContent='Start with a short film, a match or a story. Teacher preview first. Nothing autoplays here.';$('#filmAccess').hidden=true;$('#filmAccess').textContent='';$('#watchMission').hidden=true;$('#watchMission details').open=false;
+    $('#monitorLink').hidden=true;$('#monitorLink').href='https://www.youtube.com/@Arsenal';$('#screen').checked=false;$('#screen').disabled=true;$('#screenStatus').textContent='Select a story to begin teacher screening.';selectedFeed=-1;all('[data-monitor]').forEach(b=>b.setAttribute('aria-pressed','false'));
   }
   function selectFeed(i){
     clearMonitor(); selectedFeed=i;const f=feeds[i];
-    $('#monitorTitle').textContent=f.title;$('#monitorDescription').textContent=f.description;$('#monitorLink').href=f.url;
-    $('#monitorScreen').innerHTML=`<img src="art/cinema-room.jpg" alt="The academy football cinema"><div class="cinema-title"><span class="kicker">${f.tag}</span><strong>${f.title}</strong><p>${f.url.includes('youtube.com')?'Watch in the official YouTube player.':'Open this story on the official site.'}</p></div>`;
-    $('#screen').disabled=!f.reviewable;$('#screen').checked=reviewed.has(i);screenStatus();all('[data-monitor]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.monitor)===i)));
+    $('#monitorTitle').textContent=f.title;$('#monitorDescription').textContent=f.description;$('#monitorLink').href=f.url;$('#monitorLink').hidden=false;
+    $('#monitorScreen').innerHTML=`<img src="${f.image}" alt="${escapeText(f.imageAlt)}"><span class="film-art-note">${escapeText(f.artNote)}</span><div class="cinema-title"><span class="kicker">${escapeText(f.duration)} · ${escapeText(f.publisher)}</span><strong>${f.title}</strong><p>${escapeText(f.subtitle)}</p></div>`;
+    $('#filmAccess').hidden=false;$('#filmAccess').textContent=f.note;$('#watchPrompt').textContent=f.watch;$('#watchMission').hidden=false;$('#screen').disabled=false;$('#screen').checked=reviewed.has(i);screenStatus();all('[data-monitor]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.monitor)===i)));
   }
-  function screenStatus(){if(!feeds[selectedFeed]?.reviewable){$('#screenStatus').textContent='Review this story on its official source before projecting.';return;}$('#screenStatus').textContent=$('#screen').checked?'Teacher marked this selection reviewed for this session.':'Teacher screening incomplete for this selection.';}
-  $('#filmList').addEventListener('click',e=>{const b=e.target.closest('[data-monitor]');if(b)selectFeed(Number(b.dataset.monitor));});
+  function screenStatus(){if(!feeds[selectedFeed]){$('#screenStatus').textContent='Review this story on its official source before projecting.';return;}$('#screenStatus').textContent=$('#screen').checked?'Teacher marked this selection reviewed for this session.':'Teacher screening incomplete for this selection.';}
+  $('#filmList').addEventListener('click',e=>{const b=e.target.closest('[data-monitor]');if(b){selectFeed(Number(b.dataset.monitor));if(matchMedia('(max-width:650px)').matches){$('#monitorTitle').focus({preventScroll:true});$('.cinema-console').scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});}}});
   $('#screen').addEventListener('change',()=>{if(selectedFeed<0)return;$('#screen').checked?reviewed.add(selectedFeed):reviewed.delete(selectedFeed);screenStatus();});
   $('#monitorStop').addEventListener('click',clearMonitor);
+  $('#backToFilms').addEventListener('click',()=>{const selected=$(`#filmList [data-monitor="${selectedFeed}"]`);if(selected)selected.focus({preventScroll:true});$('#filmList').scrollIntoView({block:'start'});});
+  document.addEventListener('click',event=>{const trigger=event.target.closest('[data-pick-film]');if(!trigger)return;const i=feeds.findIndex(f=>f.id===trigger.dataset.pickFilm);if(i<0)return;filmCategory=feeds[i].categories[0];selectFeed(i);renderFilms();});
   let deck=[],round=0,waiting=false,badgeHistory=[];
   function resetBadges(){deck=shuffle([0,1,2,3,4,5]);round=0;waiting=false;badgeHistory=[];$('#reveal').hidden=true;renderBadge();}
   function renderBadge(){

@@ -1,6 +1,6 @@
 # Arsenal Academy — current project status
 
-Current implementation: editorial-6b. The full-screen release was approved and deployed; the owner then rejected the audio atmosphere and requested its removal or replacement. The current patch removes the background tracks and controls, retaining full screen and room labels.
+Live release: editorial-6b. Development review: editorial-7. The full-screen release was approved and deployed; the owner then rejected the audio atmosphere and requested its removal or replacement. The current patch removes the background tracks and controls, retaining full screen and room labels.
 
 Public classroom website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-6b
 Development branch: codex/arsenal-editorial-classroom.
@@ -57,3 +57,16 @@ Editorial-6 publication authorization: “Publish full screen and sound.” This
 ## Editorial-6b audio removal
 
 Removed both background tracks, the audio player, sound controls and audio pause integrations after the owner reported that the loops sounded like ocean/guitar rather than the desired football atmosphere. Full-screen/focus mode, room labels, teacher read-aloud, Cinema and all classroom activities are retained. The previous editorial-6 audio notes above describe the superseded release. Current browser and deployment results are in the exported verification report.
+
+## Editorial-7 Matchday and Cinema review
+
+Owner requested a full polish/interaction audit, current-season performance and a broader set of short football films. Work is on codex/arsenal-matchday-cinema, pending publication approval.
+
+- New Matchday entry and illustrated-room hotspot, with a dated Arsenal Men Premier League 2026/27 snapshot: 1st, 27 points, 10 played, 9 wins, 0 draws, 1 loss. Verified against the official combined table in Chrome on 19 November 2026. This is not an automatic feed; the latest-table link and stale-snapshot notice remain visible. Latest league result in the snapshot: Arsenal 1–0 Hull City.
+- Three-question cooperative classroom challenge, encouraging retry, completion message and reset. No names, ranking, tracking or persistence.
+- Eight Cinema selections: three short films, two current club highlights pages and the three existing archive/leadership sources. Filters, labelled timings, exact source links, per-film access notes and watch/discussion missions. Archive photos are explicitly identified as poster artwork, not video stills.
+- New short selections: Merino documentary trailer (1:01), Only In The Land trailer (1:49), Arsenal State of Mind campaign film (1:17). The latter opens the producer’s page rather than a YouTube page whose title contains the supporter nickname the owner wanted to avoid. It includes music and kit promotion.
+- Account/network-restricted Rice/Henry and NBC videos, location-restricted Sky highlights, long adult documentary episodes and unreviewed fan edits are not student Cinema choices. Current club highlights need teacher access checking; the men’s 10:00 page requires adult sign-in. No student account is requested here.
+- Parent room heading now follows embedded navigation; phone Cinema has Back to films. All twelve journal pages remain, with an additional Matchday link on the Cinema spread. Full screen/focus, room labels and audio-free behavior are retained.
+
+Browser checks: Matchday/Cinema rendered at measured embedded widths 1920, 1366 and 390 CSS pixels with no checked overflow or broken local images; all 12 journal pages at desktop width; all 20 player portraits/flags with correct single selection; 13/7 filters; complete 21-number draft; six unique Vault stories; Cinema filters/links/posters, isolated review marks and reload clearing; quiz retry/completion/reset; school logo and all four values; heading synchronization and focus return. Source syntax and local asset checks pass. Actual screenshots and check records are exported in the task outputs. Physical classroom rehearsal and exact film/audio screening remain external checks.

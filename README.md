@@ -41,3 +41,5 @@ See `PROJECT_STATUS.md` for approved decisions, completed work and the remaining
 Current scouting profiles use licensed local player photos and SVG flags, with source credits in credits.html and art/players/sources.json. Newman’s pop-up uses the official school logo and both Three/Four B’s with source links. Review build editorial-6b.
 
 Full screen is available in the clubhouse and all activity rooms. Options provides room labels. Background audio and its controls were removed after owner feedback; read-aloud and Cinema remain available. Display support includes a clean-focus fallback when a browser refuses native full screen.
+
+Editorial-7 review: a dated 2026/27 Matchday room, class challenge, eight-film Cinema catalogue with short/highlights/stories filters, per-film watch missions and access notes. Source record: season-sources.json. Update seasonSnapshot in season-content.js after checking the official combined table; never describe this as an auto-updating feed. Quiz points and explanations derive from the snapshot. All new classroom state stays in memory. Source film suitability remains a teacher check. Publication requires owner approval.

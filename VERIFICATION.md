@@ -42,3 +42,9 @@ A physical ViewSonic, school browser/network and speakers still need an on-devic
 ## Editorial-6b
 
 Owner feedback rejected the audio atmosphere. Removed the background player, tracks, controls and related integration calls. No background audio is created or fetched. Full screen, room labels, read-aloud and Cinema are retained. Earlier audio checks are historical, not current features. Final public browser checks are recorded in the exported release report.
+
+## Editorial-7 review checks
+
+Measured embedded viewports were 1920×1018, 1366×706 and 390×744 (the activity areas below the shared controls). A temporary local review page set iframe dimensions, and DOM measurements confirmed these sizes. Browser screenshots are real rendered captures; classroom-size captures may be scaled by the review page to fit the desktop. New Matchday/Cinema sections had no checked horizontal/text overflow or broken images. All 12 journal pages passed desktop spread bounds; all 20 scouting portraits/flags loaded; full Draft and Vault journeys completed. Quiz, category filters, exact film links, watch missions, per-film review isolation and reload clearing passed. Parent title follows room changes; Newman logo/values and focus return passed. No captured site console errors.
+
+New short-film players showed 1:01 for Merino and 1:49 for Only In The Land. The producer’s State of Mind Vimeo player exposed a 77-second duration and was playable. Playback was paused after source checks. These are availability/timing checks, not a complete suitability certification. Official current-highlight catalogue pages showed 10:00 and 2:00; the men’s source required sign-in. No account creation or restricted-content bypass was attempted. The full film/source record is season-sources.json.
