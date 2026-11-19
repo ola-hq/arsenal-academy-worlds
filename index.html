@@ -5,7 +5,7 @@
 </style><style id="generated-art-layout">
 .world.art-ready{aspect-ratio:1672/941;min-height:0;border:0;border-radius:20px;background:#161b2d;box-shadow:0 18px 55px #0008}
 .world.art-ready .wall,.world.art-ready .floor,.world.art-ready .ceiling,.world.art-ready .window,.world.art-ready .banner,.world.art-ready .shirt,.world.art-ready .rug{display:none}
-.world.art-ready::before{content:"";position:absolute;inset:0;background-image:url('assets/arsenal-academy-clubhouse-v3.webp');background-position:center;background-size:100% 100%;background-repeat:no-repeat}
+.world.art-ready::before{content:"";position:absolute;inset:0;background-image:url('arsenal-academy-clubhouse-v3.webp');background-position:center;background-size:100% 100%;background-repeat:no-repeat}
 .world.art-ready .hotspot{background:transparent;border:0;box-shadow:none;opacity:0;border-radius:12px;transition:opacity .15s,background .15s,outline .15s}
 .world.art-ready .hotspot .object,.world.art-ready .hotspot .tag{display:none}
 .world.art-ready .hotspot:hover,.world.art-ready .hotspot:focus-visible{opacity:1;background:#f8cf7a30;outline:3px solid #ffe29b;outline-offset:-3px;transform:none;filter:none}
@@ -51,7 +51,7 @@
 const modal=document.getElementById('overlay'),frame=document.getElementById('experience'),title=document.getElementById('modalTitle');const labels={slides:'📺 ViewSonic Academy Presentation',scout:'🃏 Player Scouting Academy',captains:'🏆 Captain’s Mystery Vault',cinema:'🎬 Arsenal Cinema'};let previous=null;
 document.querySelectorAll('[data-room]').forEach(b=>b.addEventListener('click',()=>{const room=b.dataset.room;previous=b;title.textContent=labels[room];modal.hidden=false;document.body.style.overflow='hidden';frame.src='legacy.html';frame.onload=()=>{try{const doc=frame.contentDocument;const nav=doc.querySelector('[data-go="'+room+'"]');if(nav)nav.click();else{const map=doc.getElementById('map');doc.querySelectorAll('[data-view]').forEach(s=>s.hidden=s.id!==room);if(map)map.hidden=true;} }catch(e){console.warn('Use classic dashboard if embedded navigation is unavailable',e)}};document.getElementById('close').focus()}));
 function closeRoom(){modal.hidden=true;document.body.style.overflow='';frame.src='about:blank';frame.onload=null;if(previous)previous.focus()}document.getElementById('close').addEventListener('click',closeRoom);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!modal.hidden)closeRoom()});
-const artProbe=new Image();artProbe.onload=()=>document.querySelector('.world').classList.add('art-ready');artProbe.src='assets/arsenal-academy-clubhouse-v3.webp';
+const artProbe=new Image();artProbe.onload=()=>document.querySelector('.world').classList.add('art-ready');artProbe.src='arsenal-academy-clubhouse-v3.webp';
 document.getElementById('knights').addEventListener('click',()=>{document.getElementById('egg').hidden=false;document.getElementById('closeEgg').focus()});document.getElementById('closeEgg').addEventListener('click',()=>{document.getElementById('egg').hidden=true;document.getElementById('knights').focus()});document.addEventListener('keydown',e=>{if(e.key==='Escape')document.getElementById('egg').hidden=true});
 const achievementData={
 men:['2025/26 Premier League Champions','Arsenal’s men lifted the Premier League trophy in 2026, ending a 22-year wait for a league championship.','🏆 Teamwork question: What does it take to keep trying for something for 22 years?'],
