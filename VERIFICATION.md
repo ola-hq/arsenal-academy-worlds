@@ -41,7 +41,7 @@ Actual Chrome rendering was used, not mocked screenshots. Layout measurements we
 
 ## Release check after approval
 
-Merge only the approved review branch into `main`. Wait for Pages success at the merge commit. Open the published clubhouse, confirm `Review build: editorial-2`, and repeat the embedded draft, cinema-source and vault journeys. Verify imagery and controls on the classroom display. Do not call the deployment finished based on Git alone.
+Merge only the approved review branch into `main`. Wait for Pages success at the merge commit. Open the published clubhouse, confirm `Review build: editorial-3`, and repeat the embedded draft, cinema-source and vault journeys. Verify imagery and controls on the classroom display. Do not call the deployment finished based on Git alone.
 
 ## Editorial-2 language revision
 
@@ -51,3 +51,19 @@ Merge only the approved review branch into `main`. Wait for Pages success at the
 - Refreshed all twelve classroom screenshots at 1920×1080 and checked the longer masthead at 390×844 with no horizontal overflow. No local-site console errors were observed.
 - Created the durable project status file recording the owner’s halfway visual assessment, approved vocabulary, completed checks, remaining visual/artwork work, classroom-device rehearsal and publication gate.
 - This is a wording/status pass. It does not close the visual-refinement backlog or approve publication.
+
+## Editorial-3 completed implementation pass
+
+Private interactive review: https://arsenal-academy-classroom-review.ola-hq.chatgpt.site . Owner-only access was read back: current caller owner, one allowed user, no groups. Native deployment succeeded. GitHub main was not used for this publication.
+
+The complete visual pass replaces the clubhouse’s embedded nickname and cannon motifs; removes sword emoji from the school lesson; adds rich trophy-gallery, screening-room and collector’s-desk illustrations; redesigns the stadium panorama, draft room and one-at-a-time captain reveal; and keeps player passports beside the selection grid. Top-level Journal navigation preserves the current page. All four Cinema choices now point to specific official stories/pages, including Wenger’s FA Cup celebrations.
+
+The full embedded draft produced 21 unique numbers, and the rebuilt captain ceremony produced six unique stories with the required two-per-legend distribution. Both completed states and draft clear were exercised. Desktop Scouting displayed all twenty profiles and its seven-player women’s filter and Kim Little passport. All Cinema URLs updated correctly. No local-site console errors were observed.
+
+All twelve pages were re-rendered at 1920×1080 and 1366×768. Geometry checks passed for main text/action containment and page controls. All twelve were checked at 390×844 with no horizontal or checked text-width overflow; phone scrolling is intentional. Current evidence files and screenshots replace the earlier build’s captures. These checks cover the redesigned code, not just the previous wording pass.
+
+The actual classroom display/network and teacher clip suitability remain external checks. The current review site can require normal owner sign-in. Do not represent a sign-in page as a verified rendering of the hosted application. Final public GitHub Pages publication remains pending explicit approval.
+
+## Public release authorization
+
+The owner explicitly instructed “make it live” on November 18, 2026, after the completed editorial-3 implementation and local browser checks. This supersedes the earlier approval-pending status for this release. The intended public destination is the existing GitHub Pages URL, not a sign-in-protected replacement. Pages deployment and public browser checks must complete before claiming release success.

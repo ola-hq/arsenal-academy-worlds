@@ -6,6 +6,8 @@ An independent, static Arsenal classroom experience. No build, package installat
 
 Development branch: `codex/arsenal-editorial-classroom`.
 
+Classroom website: https://ola-hq.github.io/arsenal-academy-worlds/ . The owner approved publishing editorial-3 on November 18, 2026. An optional owner-only private review copy also exists, but is not needed to use the public classroom site.
+
 The illustrated clubhouse opens a twelve-page editorial journal with locally hosted photography, interactive football positions, leadership reveals, teacher notes, device narration and a classroom display mode. Draft Day generates a permutation of classroom numbers 1–21 and reveals one pick at a time. Captain’s Vault reveals six distinct stories, two per legend. All 20 original physical-card profiles remain available.
 
 ## Local preview
@@ -32,6 +34,6 @@ All journal imagery is local. Cinema opens official sources externally; it does 
 
 ## GitHub Pages and publication
 
-The existing live site uses GitHub Pages on `main` at the repository root. Development work must remain on its branch until the owner approves merging. This project has no custom workflow that publishes development branches. The review build includes versioned CSS/JS references and a visible `editorial-2` label so old pages can be identified. Pages can cache HTML for ten minutes. After an approved merge, wait for the Pages deployment to succeed, verify the new version label, then test the deployed experience again. A successful commit is not proof of a successful deployment.
+The existing live site uses GitHub Pages on `main` at the repository root. Development work must remain on its branch until the owner approves merging. This project has no custom workflow that publishes development branches. The review build includes versioned CSS/JS references and a visible `editorial-3` label so old pages can be identified. Pages can cache HTML for ten minutes. After an approved merge, wait for the Pages deployment to succeed, verify the new version label, then test the deployed experience again. A successful commit is not proof of a successful deployment.
 
 See `PROJECT_STATUS.md` for approved decisions, completed work and the remaining design backlog. See `VERIFICATION.md` for the browser checks and limitations. `credits.html` contains photography attribution, licence links and historical sources. Photo files were resized for web delivery; adapted photographic presentations retain their source licences. This fan experience is not affiliated with Arsenal FC.

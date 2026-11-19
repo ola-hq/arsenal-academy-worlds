@@ -6,6 +6,7 @@
   const names = {draft:'Draft Day',scout:'Scouting Academy',cinema:'Arsenal Cinema',captains:'Captain’s Vault'};
   const chapters = ['Welcome to Arsenal','Our North London home','The Invincibles','The trophy cabinet','The visionary','Arsenal Women','Every player matters','Watch the magic','Your player. Your card.','The live draft','Ways to lead','The Captain’s Vault'];
   let slide = 0, activeRoom = 'slides', selectedFeed = -1, speechGeneration = 0;
+  document.body.classList.toggle('is-embedded',window.parent!==window);
   const canSpeak = 'speechSynthesis' in window;
   function stopVoice() { speechGeneration++; if (canSpeak) speechSynthesis.cancel(); $('#speechStatus').textContent = ''; }
   function navigate(room, page = slide) {
@@ -24,6 +25,7 @@
     document.body.dataset.room = room;
     $('#roomBar').hidden = room === 'slides';
     $('#location').textContent = names[room] || 'The Arsenal Academy Journal';
+    document.querySelector('[data-nav=slides]').href='#slides/'+(slide+1);
     $('#returnStory').textContent = `Return to journal · ${slide+1} / 12`;
     if (room === 'slides') renderSlide();
     else { $('#teacherNotes').hidden = true; $('#notesToggle').setAttribute('aria-expanded','false'); $('#location').focus({preventScroll:true}); }
@@ -80,7 +82,7 @@
         html=copy('THE SEASON NO ONE COULD STOP','THE<br><em>INVINCIBLES.</em>','2003–04. An entire Premier League season without a defeat.',prompt('Can you work out the unbeaten record?','26 wins + 12 draws = 38 games. Zero losses.'));
         html+='<div class="stat-art"><span class="kicker">PREMIER LEAGUE · 2003 / 04</span><strong>38<span>GAMES</span></strong><div class="record"><span><b>26</b> WINS</span><span><b>12</b> DRAWS</span><span><b>0</b> LOSSES</span></div><p>Different strengths.<br>One extraordinary team.</p></div>';break;
       case 3:
-        html=image('magazine-trophy.svg','Original gold trophy illustration');
+        html=image('trophy-gallery.jpg','Illustrated gold football trophy in the academy gallery');
         html+=copy('THE TROPHY CABINET','GREATNESS<br><em>TAKES A TEAM.</em>',s[2],'<div class="trophy-dates"><span>2003/04<b>UNBEATEN</b></span><span>2025/26<b>LEAGUE CHAMPIONS</b></span></div>');break;
       case 4:
         html=copy('ARSÈNE WENGER · THE PROFESSOR','BELIEVE.<br>PREPARE.<br><em>IMPROVE.</em>',s[2],prompt('What would a great coach say to a teammate?','Keep trying. Learn from mistakes. Help each other become better.'));
@@ -92,7 +94,7 @@
         html=copy('THE TEAM SHEET','EVERY PLAYER<br><em>MATTERS.</em>',s[2],'<p class="instruction">Touch a position to discover its superpower.</p><p id="positionLesson" class="position-lesson" role="status">A team needs all four roles.</p>');
         html='<div class="pitch" aria-label="Interactive football positions"><div class="pitch-line"></div>'+['Forwards','Midfielders','Defenders','Goalkeeper'].map((r,i)=>`<button class="position position-${i}" data-position="${i}" aria-pressed="false"><b>${['09','08','04','01'][i]}</b><span>${r}</span></button>`).join('')+'</div>'+html;break;
       case 7:
-        html=image('magazine-cinema.svg','Original illustration of a cinema with red seats and a gold screen');
+        html=image('cinema-room.jpg','A football stadium screening in the academy cinema');
         html+=copy('THE SCREENING ROOM','WATCH<br><em>THE MAGIC.</em>',s[2],button('Enter Cinema','cinema')+'<p class="small">Teacher preview first. Nothing autoplays.</p>');break;
       case 8:
         html=copy('THE COLLECTORS’ ISSUE','YOUR PLAYER.<br><em>YOUR STORY.</em>',s[2],button('Explore the player cards','scout'));
@@ -108,6 +110,7 @@
         html+=copy('THE FINAL REVEAL','THE CAPTAIN’S<br><em>VAULT.</em>',s[2],'<div class="mini-shields" aria-hidden="true">'+foil.repeat(6)+'</div>'+button('Open the Vault','captains'));break;
     }
     spread.innerHTML=html+`<div class="spread-folio"><span>${chapters[slide].toUpperCase()}</span><span>${String(slide+1).padStart(2,'0')} / 12</span></div>`;
+    document.querySelector('[data-nav=slides]').href='#slides/'+(slide+1);
     $('#count').textContent=`${slide+1} / 12`;
     $('#notes').textContent=s[3];
     $('#prev').disabled=slide===0;
@@ -149,7 +152,8 @@
   let draftOrder=[],draftRevealed=0;
   function renderDraft(){
     const done=draftOrder.length&&draftRevealed===draftOrder.length;
-    $('#draftPick').textContent=draftRevealed?`PICK ${draftRevealed} OF 21 · STUDENT ${draftOrder[draftRevealed-1]}`:draftOrder.length?'Order ready. Reveal the first pick.':'The draft is waiting!';
+    $('#draftProgress').textContent=`${draftRevealed} / 21 REVEALED`;
+    $('#draftPick').innerHTML=draftRevealed?`<span class="pick-label">PICK ${draftRevealed} OF 21</span><strong class="pick-number">${draftOrder[draftRevealed-1]}</strong><span class="pick-student">STUDENT NUMBER</span>`:draftOrder.length?'<span class="pick-label">THE ORDER IS READY</span><strong class="pick-ready">Who’s first?</strong><span class="pick-student">REVEAL YOUR FIRST PICK</span>':'<span class="pick-label">EVERYONE GETS A TURN</span><strong class="pick-ready">Ready for<br>your moment?</strong><span class="pick-student">SHUFFLE TO BEGIN</span>';
     $('#draftHistory').replaceChildren(...draftOrder.slice(0,draftRevealed).map((n,i)=>{const t=document.createElement('span');t.className='draft-token';t.textContent=`${i+1}. #${n}`;return t;}));
     $('#revealDraft').disabled=!draftOrder.length||!!done;$('#shuffleDraft').disabled=!!draftOrder.length;$('#revealDraft').textContent=done?'All 21 picks revealed':'Reveal next pick';
     $('#draftComplete').hidden=!done;
@@ -171,24 +175,24 @@
   all('.filter').forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.filter;all('.filter').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderPlayers();}));renderPlayers();
   const feeds=[
     {title:'The Invincibles',tag:'01 · THE UNBEATEN SEASON',description:'An official illustrated history of 2003–04. This is an article, not a video.',url:'https://arsenal-fc.shorthandstories.com/the-invincibles-a-season-like-no-other/'},
-    {title:'Arsenal Women',tag:'02 · THE HISTORY MAKERS',description:'All 62 league goals from 2024/25 on Arsenal’s official site. Open the source and select a teacher-reviewed excerpt.',url:'https://www.arsenal.com/news/enjoy-all-our-wsl-goals-from-202425-aEgAh7n2WU6W'},
-    {title:'Arsenal Men: Best Goals',tag:'03 · ARSENAL MEN',description:'Official Arsenal goals compilation from 2024/25, featuring Rice, Saka and Calafiori. Teacher preview required before projection.',url:'https://www.youtube.com/watch?v=KqXuiKrrIac',id:'KqXuiKrrIac'},
-    {title:'Arsène Wenger',tag:'04 · THE VISIONARY',description:'Find Wenger stories on Arsenal’s official channel. Choose and screen the exact clip before class.',url:'https://www.youtube.com/@Arsenal/search?query=Arsene%20Wenger'}
+    {title:'Arsenal Women',tag:'02 · THE HISTORY MAKERS',description:'All 62 league goals from 2024/25 on Arsenal’s official site. Open the source and select a teacher-reviewed excerpt.',url:'https://www.arsenal.com/news/enjoy-all-our-wsl-goals-from-202425-aEgAh7n2WU6W',reviewable:true},
+    {title:'Arsenal Men: Best Goals',tag:'03 · ARSENAL MEN',description:'Official Arsenal goals compilation from 2024/25, featuring Rice, Saka and Calafiori. Teacher preview required before projection.',url:'https://www.youtube.com/watch?v=KqXuiKrrIac',reviewable:true},
+    {title:'Wenger’s FA Cup team',tag:'04 · THE VISIONARY',description:'Official FA Cup trophy celebrations with Wenger and his players after the 2017 final. Teacher preview required before projection.',url:'https://www.arsenal.com/news/see-the-full-emirates-fa-cup-trophy-lift-apcRo6F0pyzR',reviewable:true}
   ];
   const reviewed=new Set();
-  $('#filmList').innerHTML=feeds.map((f,i)=>`<button class="film" data-monitor="${i}" aria-pressed="false"><span>${f.tag}</span><strong>${f.title}</strong><small>${f.id?'OFFICIAL VIDEO':i===0?'ILLUSTRATED STORY':i===1?'OFFICIAL VIDEO PAGE':'OFFICIAL VIDEO SEARCH'}</small></button>`).join('');
+  $('#filmList').innerHTML=feeds.map((f,i)=>`<button class="film" data-monitor="${i}" aria-pressed="false"><span>${f.tag}</span><strong>${f.title}</strong><small>${i===0?'ILLUSTRATED STORY':i===2?'OFFICIAL VIDEO':'OFFICIAL VIDEO PAGE'}</small></button>`).join('');
   function clearMonitor(){
-    $('#monitorScreen').innerHTML='<img src="art/magazine-cinema.svg" alt="Illustrated cinema with red seats and a gold screen">';
+    $('#monitorScreen').innerHTML='<img src="art/cinema-room.jpg" alt="A warmly lit football cinema with red velvet chairs">';
     $('#monitorTitle').textContent='Choose a story';$('#monitorDescription').textContent='Official Arsenal videos open in their own player. Nothing plays or contacts YouTube here.';
     $('#monitorLink').href='https://www.youtube.com/@Arsenal';$('#screen').checked=false;$('#screen').disabled=true;$('#screenStatus').textContent='Select a story to begin teacher screening.';selectedFeed=-1;all('[data-monitor]').forEach(b=>b.setAttribute('aria-pressed','false'));
   }
   function selectFeed(i){
     clearMonitor(); selectedFeed=i;const f=feeds[i];
     $('#monitorTitle').textContent=f.title;$('#monitorDescription').textContent=f.description;$('#monitorLink').href=f.url;
-    $('#monitorScreen').innerHTML=`<div class="cinema-title"><span class="kicker">${f.tag}</span><strong>${f.title}</strong><p>${f.id?'Watch in the official YouTube player.':'Open the official source below.'}</p></div>`;
-    $('#screen').disabled=!f.id;$('#screen').checked=reviewed.has(i);screenStatus();all('[data-monitor]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.monitor)===i)));
+    $('#monitorScreen').innerHTML=`<img src="art/cinema-room.jpg" alt="The academy football cinema"><div class="cinema-title"><span class="kicker">${f.tag}</span><strong>${f.title}</strong><p>${i===2?'Watch in the official YouTube player.':'Open this story on the official site.'}</p></div>`;
+    $('#screen').disabled=!f.reviewable;$('#screen').checked=reviewed.has(i);screenStatus();all('[data-monitor]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.monitor)===i)));
   }
-  function screenStatus(){if(!feeds[selectedFeed]?.id){$('#screenStatus').textContent='Review the exact material on its official source. Search results are not a screened clip.';return;}$('#screenStatus').textContent=$('#screen').checked?'Teacher marked this selection reviewed for this session.':'Teacher screening incomplete for this selection.';}
+  function screenStatus(){if(!feeds[selectedFeed]?.reviewable){$('#screenStatus').textContent='Review this story on its official source before projecting.';return;}$('#screenStatus').textContent=$('#screen').checked?'Teacher marked this selection reviewed for this session.':'Teacher screening incomplete for this selection.';}
   $('#filmList').addEventListener('click',e=>{const b=e.target.closest('[data-monitor]');if(b)selectFeed(Number(b.dataset.monitor));});
   $('#screen').addEventListener('change',()=>{if(selectedFeed<0)return;$('#screen').checked?reviewed.add(selectedFeed):reviewed.delete(selectedFeed);screenStatus();});
   $('#monitorStop').addEventListener('click',clearMonitor);
@@ -196,6 +200,9 @@
   function resetBadges(){deck=shuffle([0,1,2,3,4,5]);round=0;waiting=false;badgeHistory=[];$('#reveal').hidden=true;renderBadge();}
   function renderBadge(){
     const left=deck.length,complete=!left&&!waiting;
+    $('#captains').dataset.stage=waiting?'reveal':complete?'complete':'ready';
+    $('#ceremonyComplete').hidden=!complete;
+    $('#ceremonyHistory').open=complete;
     $('#rowTitle').textContent=complete?'CEREMONY COMPLETE!':`CAPTAIN ${round+1} OF 6`;
     $('#remaining').textContent=`${left} ${left===1?'shield':'shields'} remain`;
     $('#prompt').textContent=waiting?'Read the story, then continue.':complete?'All six stories revealed. Two Adams, two Campbell and two Wenger.':`Captain, choose one of ${left} mystery shields.`;
@@ -210,5 +217,5 @@
   window.addEventListener('pagehide',()=>{stopVoice();clearMonitor();});
   route();
   // Warm local editorial images while the cover is on screen. No third-party requests.
-  ['emirates-exterior.jpg','wenger.jpg','women-champions.jpg','adams-statue.jpg'].forEach(file=>{const img=new Image();img.src='art/'+file;});
+  ['emirates-exterior.jpg','wenger.jpg','women-champions.jpg','adams-statue.jpg','trophy-gallery.jpg','cinema-room.jpg','collectors-desk.jpg'].forEach(file=>{const img=new Image();img.src='art/'+file;});
 })();

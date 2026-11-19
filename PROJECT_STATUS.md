@@ -1,67 +1,51 @@
 # Arsenal Academy — project status
 
-Last updated: November 18, 2026 (Pacific).
-Working branch: `codex/arsenal-editorial-classroom`.
-Current review build: `editorial-2`.
-Publication: not approved; keep major changes off `main`.
+Updated November 18, 2026 (Pacific). Current build: **editorial-3**.
 
-## Current quality assessment
+## Website locations
 
-The owner considers the visuals approximately halfway to the desired quality. The screenshots demonstrate progress, not final acceptance. Preserve the illustrated clubhouse as the visual reference. The ViewSonic experience should become a premium, immersive football magazine with distinct compositions, rich imagery, readable classroom content and purposeful interactions.
+- Updated interactive private review: https://arsenal-academy-classroom-review.ola-hq.chatgpt.site
+- Existing public site: https://ola-hq.github.io/arsenal-academy-worlds/
+- Development branch: `codex/arsenal-editorial-classroom`.
+- Public release: the owner explicitly approved making this version live on November 18, 2026. Publish the current completed pass to GitHub main and verify the public Pages deployment. The private Site is optional and is not required for the classroom URL.
 
-## Approved classroom language
+## Original request — implementation completed for review
 
-- Use Arsenal / Arsenal FC as the proper club name.
-- Use “the North London club,” “our North London home,” and “the red-and-white team” as descriptive alternatives, not invented official nicknames.
-- Journal title: **The Arsenal Academy Journal**.
-- Cinema heading: **Lights down. Leaders rise.** (editorial wording selected from the owner’s leadership-focused suggestions).
-- Avoid Gunners and Gooners in student-facing written copy and narration. Do not introduce the unrelated adult meanings of supporter slang to students.
-- Keep “The Invincibles” for the historic unbeaten 2003–04 team.
-- Emphasize teamwork, belonging, responsibility, courage, composure and helping others.
-- Keep all twelve lesson topics, twenty physical-card player profiles and six distinct captain stories.
+- Investigated Pages deployments, exact deployed HTML, project-relative assets, cache headers and browser errors. The base live HTML matched main and the latest deployment succeeded. HTML caching was ten minutes; presentation layout and repeated flat artwork were separate visual problems.
+- Rebuilt all twelve classroom pages into an editorial journal with local football photography, richer academy artwork, distinct compositions, accessible controls and interactive moments.
+- Replaced the flat trophy/Cinema placeholders, added a collector’s desk composition, a stadium panorama reading band, textured unbeaten record, embossed leadership reveals and focused draft/captain rooms.
+- Redesigned Draft Day around the live student number. Re-tested all 21 unique numbers and the completed/clear states.
+- Redesigned the captain ceremony around one legend at a time. Re-tested six unique stories, two per legend, completion and reset.
+- Improved top-level Journal navigation so it returns to the page you left. Contents, previous/next, keyboard navigation and embedded clubhouse return remain working.
+- Preserved all twelve lesson topics, all twenty player profiles and all six captain stories. Scouting keeps the chosen passport beside the cards on desktop and uses stacked layouts on phones.
+- Cinema has four specific official sources. Replaced the open-ended Wenger search with a specific official FA Cup celebrations video page. Owner-disabled embeds open official players instead of displaying a broken player.
+- Classroom privacy remains unchanged: no student names/photos/records, no analytics/browser storage or third-party video requests before choosing an external link. Draft, profiles, screening marks and ceremony results stay in page memory.
 
-## Completed and checked
+## Approved classroom language and imagery — implemented
 
-- Investigated the live Pages deployment; the base live HTML matched main. Deployment succeeded; ten-minute caching and the old presentation layout explained different parts of the visibility concern.
-- Created and pushed a separate development branch. Main has not been changed.
-- Rebuilt twelve magazine pages with local, credited photography, an interactive team sheet and leadership reveals.
-- Exercised all 21 unique draft picks, draft clear/reset, all six unique captain stories, vault reset and activity return-to-page navigation.
-- Retained and checked twenty player profiles, including both team filters.
-- Replaced owner-blocked video embeds with explicit official-source links. Observed the official men’s compilation playing on YouTube.
-- Checked all twelve pages at 1920×1080, 1366×768 and 390×844; corrected the phone cover overflow.
-- Kept classroom numbers/results only in memory, without names, records, analytics or browser storage.
-- Applied approved written language throughout the interface, fallback clubhouse label, page metadata and narration source in editorial-2.
+- The Arsenal Academy Journal.
+- “Lights down. Leaders rise.”
+- “Our North London home,” Arsenal / Arsenal FC and red-and-white football descriptions.
+- Avoided nicknames removed from interface, metadata and narration source.
+- Clubhouse bitmap ribbon now says “TEAMWORK • NORTH LONDON • 1886.” Cannon motifs in that original illustration were replaced with footballs or an adapted letter-A emblem. Entrance positions were preserved and checked.
+- Sword emoji removed from the Newman Knights lesson. Its respectful/responsible/safe content remains.
+- Official documentary photographs and external club videos can still contain original club crests. Generated classroom illustrations are identified as illustrations and do not claim official affiliation.
 
-## Remaining work, in priority order
+## Verification completed
 
-### 1. Visual refinement — active next pass
+- All twelve pages rendered and measured at 1920×1080 and 1366×768: loaded imagery, visible page controls, no checked text/action clipping or horizontal overflow.
+- All twelve at 390×844: no horizontal/text overflow; vertical scrolling is intentional.
+- Embedded Draft and Vault full journeys; Journal return to the original page; twenty player profiles and filters; all four Cinema sources; no site console errors observed in tested flows.
+- Actual screenshots refreshed. Script syntax and local document paths checked.
+- Separate owner-only review site published through Sites; it does not change the GitHub Pages site. Owner sign-in may be required before viewing.
 
-- Audit each page against the clubhouse reference; record page-specific gaps rather than declaring the set finished.
-- Refine the weakest compositions and improve the balance of football imagery, editorial typography and interactive elements. Reduce repetitive split-page treatments where they feel generic.
-- Give Cinema, Draft Day and the captain ceremony the same visual quality as the best journal pages.
-- Retain classroom legibility and clear controls while improving visual richness.
-- Acceptance: actual updated screenshots at desktop and classroom-display sizes, with content and interaction checks after meaningful layout changes.
+## Remaining external checks and decisions
 
-### 2. Artwork language and imagery cleanup — still open
+1. Owner review of the revised visual experience. The previous version was judged halfway there; this is the completed second implementation pass, not assumed owner acceptance.
+2. Actual ViewSonic hardware, school-network and sound-output rehearsal. That hardware is not accessible from this computer. Classroom view works; native full screen/voices depend on the device. Teacher notes remain available.
+3. Teacher review of exact footage, audio, captions, ads and autoplay. Site availability is not a suitability review. No clips are automatically marked screened.
+4. Public release is now approved. Wait for Pages success and verify the released embedded journeys before reporting completion. The final deployment result is recorded in the task’s exported verification report.
 
-- The existing clubhouse bitmap contains “THE GUNNERS” within the artwork. Text replacement in HTML does not remove those baked-in pixels.
-- Revise that embedded wording while preserving the clubhouse’s composition and visual quality.
-- Review cannon and sword imagery against the owner’s classroom preference. The club crest and current room art include such imagery; the project must not be described as entirely free of it.
-- Acceptance: inspect the actual edited artwork and its alignment with every interactive hotspot. Do not cover or silently break the classroom entrances.
+## Continuation
 
-### 3. Classroom-device rehearsal — pending access
-
-- Test on the real ViewSonic display, classroom browser, school network and sound output.
-- Device narration is optional; written teacher notes remain the fallback. Native full screen was declined in the test browser; classroom view and its visible fallback work.
-- Teacher must select and screen exact footage, captions, audio, ads and autoplay. The Wenger entry remains a clearly labelled official-channel search, not a preselected screened clip.
-- Confirm the physical-card distribution flow and six-captain ceremony with the actual classroom setup; manage student identities and stock offline.
-
-### 4. Final review and approved release — not authorized yet
-
-- Present the refined experience and screenshots for owner review.
-- Obtain explicit approval before merging major changes into main or publishing.
-- After approval, verify Pages at the merge commit, check the visible review label and repeat the live embedded draft/Cinema/vault journeys.
-
-## Working rule
-
-Update this file after each meaningful pass. Keep completed work, unresolved issues, verified evidence and release approval separate. Trust to continue development does not replace the owner’s explicit no-publication-without-approval instruction.
+Use this file and `VERIFICATION.md` to preserve scope. Update the existing private Site, not a new duplicate: its manifest is in the task workspace at `work/arsenal-private-review/.openai/hosting.json`. Keep the private Site owner-only. The owner’s explicit “make it live” approval authorizes the current public release; use fresh review for future unrelated major changes.
