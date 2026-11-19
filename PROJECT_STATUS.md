@@ -1,9 +1,9 @@
 # Arsenal Academy — current project status
 
-Live release: editorial-6b. Development review: editorial-7. The full-screen release was approved and deployed; the owner then rejected the audio atmosphere and requested its removal or replacement. The current patch removes the background tracks and controls, retaining full screen and room labels.
+Current release: editorial-7. The owner explicitly approved the completed Matchday, class challenge, Cinema additions and navigation polish with “Publish this update.” Successful deployment and public browser results are recorded in the task’s exported release report.
 
-Public classroom website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-6b
-Development branch: codex/arsenal-editorial-classroom.
+Public classroom website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-7
+Development branch: codex/arsenal-matchday-cinema.
 
 ## Completed original scope
 
@@ -60,7 +60,7 @@ Removed both background tracks, the audio player, sound controls and audio pause
 
 ## Editorial-7 Matchday and Cinema review
 
-Owner requested a full polish/interaction audit, current-season performance and a broader set of short football films. Work is on codex/arsenal-matchday-cinema, pending publication approval.
+Owner requested a full polish/interaction audit, current-season performance and a broader set of short football films. Work is on codex/arsenal-matchday-cinema. Publication was explicitly approved with “Publish this update.”
 
 - New Matchday entry and illustrated-room hotspot, with a dated Arsenal Men Premier League 2026/27 snapshot: 1st, 27 points, 10 played, 9 wins, 0 draws, 1 loss. Verified against the official combined table in Chrome on 19 November 2026. This is not an automatic feed; the latest-table link and stale-snapshot notice remain visible. Latest league result in the snapshot: Arsenal 1–0 Hull City.
 - Three-question cooperative classroom challenge, encouraging retry, completion message and reset. No names, ranking, tracking or persistence.
