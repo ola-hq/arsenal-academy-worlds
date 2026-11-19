@@ -2,9 +2,9 @@
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.
 
-## Photo story preview
+## Approved photo stories
 
-The requested Hall of Champions photo pop-ups and tighter illustrated object targets are ready on codex/arsenal-photo-popups (editorial-9 preview), pending owner publication approval. Public release remains editorial-8. See the pending section of HANDOFF.md for verification and photo-source details.
+The requested Hall of Champions photo pop-ups and tighter illustrated object targets are ready on codex/arsenal-photo-popups (editorial-9), approved with “Publish the photo pop-ups.” See the release section of HANDOFF.md for verification and photo-source details.
 
 ## Live hosting script and Cinema cheers
 
