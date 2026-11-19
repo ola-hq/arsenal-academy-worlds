@@ -1,0 +1,20 @@
+{
+  "stadium": {
+    "duration": 32,
+    "rate": 22050,
+    "channels": 2,
+    "peak": 0.58,
+    "rms": 0.1011166530509841,
+    "boundaryDifference": 8.709750810387641e-08,
+    "bytes": 2822444
+  },
+  "calm": {
+    "duration": 32,
+    "rate": 22050,
+    "channels": 2,
+    "peak": 0.58,
+    "rms": 0.19148346084235704,
+    "boundaryDifference": 1.4755619646189333e-08,
+    "bytes": 2822444
+  }
+}

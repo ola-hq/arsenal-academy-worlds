@@ -1,8 +1,8 @@
 # Arsenal Academy — current project status
 
-Updated November 18, 2026 (Pacific). Current implementation: editorial-5. The owner explicitly approved this patch with “Publish these fixes” on November 18, 2026.
+Updated November 18, 2026 (Pacific). Current implementation: editorial-6. The owner explicitly approved this update with “Publish full screen and sound.”
 
-Public classroom website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-5
+Public classroom website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-6
 Development branch: codex/arsenal-editorial-classroom.
 
 ## Completed original scope
@@ -43,3 +43,13 @@ The owner requested country/image corrections and trusted the remaining scoped p
 External classroom hardware/sound and exact video screening remain as previously recorded.
 
 The owner explicitly approved the completed editorial-5 patch with “Publish these fixes.” Final public deployment and browser verification are recorded in the exported release report.
+
+## Editorial-6 full-screen and sound review
+
+The owner requested full-screen immersion, optional stadium/music background sound and a final polish pass. Implementation and local browser checks are complete. The owner explicitly approved publication with “Publish full screen and sound.” The successful deployment and post-release public checks are recorded in the task’s exported verification report.
+
+Shared top-level native fullscreen/focus mode; optional original stadium and calm instrumental loops, default off at 15%; session-only volume/mode; automatic Cinema/read-aloud/hidden-page pause; room-label option; compact phone and pop-up controls. Native Chrome full-screen entry/room transition/Escape exit were verified using native UI. Browser playback, mode/volume, automatic pauses and resume were verified. All twelve pages passed desktop normal/clean and classroom-size clean layout checks; key embedded layouts and phone controls passed. Source educational content, student privacy and previous activities are retained. Review evidence: the task outputs fullscreen-sound-review.html and fullscreen-sound-verification.md.
+
+Remaining external checks are the physical ViewSonic, school network/speakers, comfortable audio level and teacher screening of exact Cinema footage.
+
+Editorial-6 publication authorization: “Publish full screen and sound.” This applies to the reviewed full-screen/focus controls, optional original stadium and calm audio, automatic pauses, room labels and associated display polish.
