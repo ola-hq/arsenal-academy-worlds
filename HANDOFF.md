@@ -1,8 +1,8 @@
 # Arsenal Academy project handoff
 
-## Approved photo stories and tighter targets
+## Live photo stories and tighter targets
 
-Development branch: codex/arsenal-photo-popups. Release label: editorial-9. The owner explicitly approved this completed patch with “Publish the photo pop-ups.” Publication is authorized; verify Pages deployment and the public site before reporting completion.
+Development branch: codex/arsenal-photo-popups. Release label: editorial-9. The owner explicitly approved this completed patch with “Publish the photo pop-ups.” Published through successful Pages run 44594956544 (https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44594956544) and verified on the public website. All four dated photos loaded; the corrected women’s banner measures 71.8% left and 10.7% width with a pennant-shaped target; retry/correct feedback, story navigation and wrapping passed. No captured site errors. Public evidence: docs/evidence/editorial-9-public-checks.json and docs/screenshots/event-popup-live-editorial-9.jpg.
 
 Owner requested tighter outlines around the clubhouse buttons and richer pop-ups using photographs from the represented events. Replaced the four small text-only banner dialogs with a photo-led Hall of Champions: four dated photographs, event captions and source credits, clear statistics, a retry-friendly team question, four story tabs and Next story navigation. Existing historical lessons are retained. The 2007/2025 European story uses the actual 2025 final ceremony photo; it does not claim a 2007 photograph.
 
@@ -23,12 +23,14 @@ All 14 script cue cards, navigation/dropdown, text enlargement and spoken-only t
 Official stadium source: https://www.youtube.com/watch?v=7AycooCU0-k . Channel and 0:27 duration verified. Available sampled frames show the stadium/pitch/stands/roof/sky. Player reports captions unavailable; no complete independent audio listen. Keep teacher preview required; do not describe it as fully cleared. No paid credits, lyrics reproduction, remote embeds or audio downloads. The script works with the existing live site and its own classroom cheers without this new clip.
 
 
-Updated 19 November 2026. Start here when continuing the project. The classroom site is live and public at https://ola-hq.github.io/arsenal-academy-worlds/ . Application release editorial-8 is approved, deployed and public-browser-verified, as described above.
+Updated 19 November 2026. Start here when continuing the project. The classroom site is live and public at https://ola-hq.github.io/arsenal-academy-worlds/ . Application release editorial-9 is approved, deployed and public-browser-verified, as described above.
 
 ## Access and source of truth
 
+Editorial-9 implementation: 06fca0fd5378d578ae56fef230bc03c1e5968436. Publication approval: c3b33bff0b2d644f774c47769e7b618c383b83c8. Later documentation commits record the live checks without changing the application release.
+
 - Repository: https://github.com/ola-hq/arsenal-academy-worlds . GitHub Pages serves `main` at the repository root.
-- Working development branch: `codex/arsenal-photo-popups` (pending patch); the previous editorial-8 release branch was `codex/arsenal-host-script-chants`.
+- Working development branch: `codex/arsenal-photo-popups` (current release); the previous editorial-8 release branch was `codex/arsenal-host-script-chants`.
 - Editorial-8 feature commit: `8cd3b9ec2ec7c5c60dda562a5aeacfb43aa5e8dd`; publication approval commit: `2e1c52e92a3c6766e2e1cbe5438642714586ab68`; activity URL cache correction: `b78111fe454c3ce258abe0336da2f6a6c78bbbaa`. Later documentation-only commits retain editorial-8.
 - Previous editorial-7 feature commit: `91e8fee5dc03341493e4ec5896fc4d5522d52eac`; approval record: `1ac8b45c2bacfb38677f89e9e82e713b58bd7b20`. Those hashes describe the earlier editorial-7 release.
 - Successful release deployment: https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44569694478 . Fresh access audit on 19 November: the canonical public URL rendered the illustrated clubhouse, footer showed editorial-7, no sign-in appeared and captured site error log was empty.

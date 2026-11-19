@@ -2,9 +2,9 @@
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.
 
-## Approved photo stories
+## Live photo stories
 
-The requested Hall of Champions photo pop-ups and tighter illustrated object targets are ready on codex/arsenal-photo-popups (editorial-9), approved with “Publish the photo pop-ups.” See the release section of HANDOFF.md for verification and photo-source details.
+The requested Hall of Champions photo pop-ups and tighter illustrated object targets are published from codex/arsenal-photo-popups (editorial-9), approved with “Publish the photo pop-ups.” See the release section of HANDOFF.md for verification and photo-source details.
 
 ## Live hosting script and Cinema cheers
 
@@ -12,7 +12,7 @@ Teacher script: [read-along guide](docs/host-script.html) and [editable Word cop
 
 ## Current live version
 
-Development branch: `codex/arsenal-host-script-chants`. Current application release: **editorial-8**, approved, deployed and browser-verified. **Start with [HANDOFF.md](HANDOFF.md)** to continue this project; it indexes decisions, testing, content review and remaining checks.
+Development branch: `codex/arsenal-photo-popups`. Current application release: **editorial-9**, approved, deployed and browser-verified. **Start with [HANDOFF.md](HANDOFF.md)** to continue this project; it indexes decisions, testing, content review and remaining checks.
 
 Public website for presenting and sharing: https://ola-hq.github.io/arsenal-academy-worlds/ . No login is needed. The old private review copy is not the classroom website. Editorial-3 was the initial redesign; later releases are recorded in PROJECT_STATUS.md.
 
@@ -42,7 +42,7 @@ All journal imagery is local. Cinema opens official sources externally; it does 
 
 ## GitHub Pages and publication
 
-The existing live site uses GitHub Pages on `main` at the repository root. Major application changes stay on a development branch until the owner approves publication. This project has no custom workflow that publishes development branches. Versioned CSS/JS references and a visible `editorial-8` label help identify old pages. The deployment investigation observed ten-minute HTML caching and found no service worker. After an approved merge, wait for the Pages deployment to succeed, verify the new version label, then test the deployed experience again. A successful commit is not proof of a successful deployment.
+The existing live site uses GitHub Pages on `main` at the repository root. Major application changes stay on a development branch until the owner approves publication. This project has no custom workflow that publishes development branches. Versioned CSS/JS references and a visible `editorial-9` label help identify old pages. The deployment investigation observed ten-minute HTML caching and found no service worker. After an approved merge, wait for the Pages deployment to succeed, verify the new version label, then test the deployed experience again. A successful commit is not proof of a successful deployment.
 
 See `PROJECT_STATUS.md` for approved decisions, completed work and the remaining design backlog. See `VERIFICATION.md` for the browser checks and limitations. `credits.html` contains photography attribution, licence links and historical sources. Photo files were resized for web delivery; adapted photographic presentations retain their source licences. This fan experience is not affiliated with Arsenal FC.
 

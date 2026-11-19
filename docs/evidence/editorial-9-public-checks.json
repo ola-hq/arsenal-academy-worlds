@@ -1,0 +1,52 @@
+{
+  "checked": "2026-11-19",
+  "url": "https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-9",
+  "commit": "c3b33bff0b2d644f774c47769e7b618c383b83c8",
+  "deployment": "https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44594956544",
+  "release": "editorial-9",
+  "stories": [
+    {
+      "caption": "NORTH LONDON · 31 MAY 2026 · TITLE PARADE",
+      "id": "men",
+      "photoWidth": 1500,
+      "question": "What helps a team keep improving?",
+      "selectedTabs": 1,
+      "title": "Worth the wait."
+    },
+    {
+      "caption": "ISLINGTON · 2004 · THE UNBEATEN SEASON",
+      "id": "invincibles",
+      "photoWidth": 944,
+      "question": "How did they stay unbeaten?",
+      "selectedTabs": 1,
+      "title": "38 games. Zero defeats."
+    },
+    {
+      "caption": "LISBON · 24 MAY 2025 · EUROPEAN CHAMPIONS",
+      "id": "europe",
+      "photoWidth": 988,
+      "question": "Who helps make a winning goal possible?",
+      "selectedTabs": 1,
+      "title": "Champions. Again."
+    },
+    {
+      "caption": "11 MAY 2019 · 2018/19 LEAGUE TROPHY DAY",
+      "id": "women",
+      "photoWidth": 1500,
+      "question": "When do teams build good habits?",
+      "selectedTabs": 1,
+      "title": "A history of champions."
+    }
+  ],
+  "allFourPhotosLoaded": true,
+  "retryAndCorrectFeedbackVerified": true,
+  "nextStoryAndWrapVerified": true,
+  "canonicalWomenTarget": {
+    "leftPercent": 71.8,
+    "widthPercent": 10.7,
+    "shape": "pennant polygon"
+  },
+  "capturedErrors": [],
+  "privacy": "No student data or persistent question scores added",
+  "photoRights": "Photo sources and original rights remain recorded; publication approval does not establish third-party image reuse permission."
+}
