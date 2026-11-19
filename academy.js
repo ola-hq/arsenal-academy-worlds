@@ -8,8 +8,7 @@
   let slide = 0, activeRoom = 'slides', selectedFeed = -1, speechGeneration = 0;
   document.body.classList.toggle('is-embedded',window.parent!==window);
   const canSpeak = 'speechSynthesis' in window;
-  const soundOwner = window.parent !== window ? window.parent.AcademyExperience : window.AcademyExperience;
-  function stopVoice() { speechGeneration++; if (canSpeak) speechSynthesis.cancel(); soundOwner?.pause('narration',false); $('#speechStatus').textContent = ''; }
+  function stopVoice() { speechGeneration++; if (canSpeak) speechSynthesis.cancel(); $('#speechStatus').textContent = ''; }
   function navigate(room, page = slide) {
     if (!rooms.includes(room)) return;
     const hash = room === 'slides' ? `#slides/${page + 1}` : `#${room}`;
@@ -20,7 +19,7 @@
     const room = rooms.includes(requested) ? requested : 'slides';
     if (room === 'slides' && page) slide = Math.max(0, Math.min(story.length - 1, (Number.parseInt(page,10) || 1) - 1));
     if (activeRoom === 'cinema' && room !== 'cinema') clearMonitor();
-    stopVoice(); activeRoom = room; soundOwner?.pause('cinema',room==='cinema');
+    stopVoice(); activeRoom = room;
     all('[data-view]').forEach(s => s.hidden = s.id !== room);
     all('[data-nav]').forEach(a => {if(a.dataset.nav===room) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');});
     document.body.dataset.room = room;
@@ -39,12 +38,12 @@
   window.addEventListener('hashchange', route);
   $('#returnStory').addEventListener('click',()=>navigate('slides'));
   const closeClubhouse = () => {
-    stopVoice(); clearMonitor(); soundOwner?.pause('cinema',false);
+    stopVoice(); clearMonitor();
     if (window.parent !== window) window.parent.postMessage({type:'arsenal:close'}, location.origin);
     else location.href='index.html';
   };
   $('#clubhouse').addEventListener('click', e=>{e.preventDefault();closeClubhouse();});
-  window.addEventListener('pagehide',()=>{stopVoice();soundOwner?.pause('cinema',false);});
+  window.addEventListener('pagehide',()=>{stopVoice();});
   const image = (file, alt, caption='', cls='')=>`<figure class="photo ${cls}"><img src="art/${file}" alt="${alt}">${caption?`<figcaption>${caption}</figcaption>`:''}</figure>`;
   const copy = (kicker, title, body, action='')=>`<div class="story-copy"><span class="kicker">${kicker}</span><h1 id="slideTitle" tabindex="-1">${title}</h1><p>${body}</p>${action}</div>`;
   const button=(text,room)=>`<button class="primary" data-go="${room}">${text}</button>`;
@@ -125,9 +124,9 @@
   $('#speakSlide').disabled=$('#stopSpeech').disabled=!canSpeak;
   $('#speakSlide').addEventListener('click',()=>{
     if(!canSpeak)return;stopVoice();const generation=speechGeneration;const u=new SpeechSynthesisUtterance(story[slide].slice(1).join('. '));u.lang='en-US';u.rate=.9;
-    u.onend=()=>{if(generation===speechGeneration){soundOwner?.pause('narration',false);$('#speechStatus').textContent='Finished reading.';}};
-    u.onerror=()=>{if(generation===speechGeneration){soundOwner?.pause('narration',false);$('#speechStatus').textContent='Voice unavailable on this device. Read the teacher notes aloud.';}};
-    soundOwner?.pause('narration',true);speechSynthesis.speak(u);$('#speechStatus').textContent='Reading with this device’s voice…';
+    u.onend=()=>{if(generation===speechGeneration){$('#speechStatus').textContent='Finished reading.';}};
+    u.onerror=()=>{if(generation===speechGeneration){$('#speechStatus').textContent='Voice unavailable on this device. Read the teacher notes aloud.';}};
+    speechSynthesis.speak(u);$('#speechStatus').textContent='Reading with this device’s voice…';
   });
   $('#stopSpeech').addEventListener('click',()=>{stopVoice();$('#speechStatus').textContent='Stopped.';});
   const positionLessons=['Forwards find space, create chances and finish attacks.','Midfielders connect the team with passes, movement and hard work.','Defenders protect the goal, win the ball and help build attacks.','Goalkeepers make saves and start attacks with smart passes.','Managers plan, encourage and help everyone improve. You can lead and belong without playing on the pitch.'];

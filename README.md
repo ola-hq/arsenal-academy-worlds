@@ -38,6 +38,6 @@ The existing live site uses GitHub Pages on `main` at the repository root. Devel
 
 See `PROJECT_STATUS.md` for approved decisions, completed work and the remaining design backlog. See `VERIFICATION.md` for the browser checks and limitations. `credits.html` contains photography attribution, licence links and historical sources. Photo files were resized for web delivery; adapted photographic presentations retain their source licences. This fan experience is not affiliated with Arsenal FC.
 
-Current scouting profiles use licensed local player photos and SVG flags, with source credits in credits.html and art/players/sources.json. Newman’s pop-up uses the official school logo and both Three/Four B’s with source links. Review build editorial-6.
+Current scouting profiles use licensed local player photos and SVG flags, with source credits in credits.html and art/players/sources.json. Newman’s pop-up uses the official school logo and both Three/Four B’s with source links. Review build editorial-6b.
 
-Full screen is available in the clubhouse and all activity rooms. Optional Stadium ambience and Calm music start off; Options controls their volume and room labels. Audio pauses for Cinema/read-aloud and uses original local files. Display support includes a clean-focus fallback when a browser refuses native full screen.
+Full screen is available in the clubhouse and all activity rooms. Options provides room labels. Background audio and its controls were removed after owner feedback; read-aloud and Cinema remain available. Display support includes a clean-focus fallback when a browser refuses native full screen.

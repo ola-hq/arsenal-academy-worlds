@@ -1,8 +1,8 @@
 # Arsenal Academy — current project status
 
-Updated November 18, 2026 (Pacific). Current implementation: editorial-6. The owner explicitly approved this update with “Publish full screen and sound.”
+Current implementation: editorial-6b. The full-screen release was approved and deployed; the owner then rejected the audio atmosphere and requested its removal or replacement. The current patch removes the background tracks and controls, retaining full screen and room labels.
 
-Public classroom website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-6
+Public classroom website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-6b
 Development branch: codex/arsenal-editorial-classroom.
 
 ## Completed original scope
@@ -53,3 +53,7 @@ Shared top-level native fullscreen/focus mode; optional original stadium and cal
 Remaining external checks are the physical ViewSonic, school network/speakers, comfortable audio level and teacher screening of exact Cinema footage.
 
 Editorial-6 publication authorization: “Publish full screen and sound.” This applies to the reviewed full-screen/focus controls, optional original stadium and calm audio, automatic pauses, room labels and associated display polish.
+
+## Editorial-6b audio removal
+
+Removed both background tracks, the audio player, sound controls and audio pause integrations after the owner reported that the loops sounded like ocean/guitar rather than the desired football atmosphere. Full-screen/focus mode, room labels, teacher read-aloud, Cinema and all classroom activities are retained. The previous editorial-6 audio notes above describe the superseded release. Current browser and deployment results are in the exported verification report.

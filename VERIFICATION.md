@@ -16,7 +16,7 @@ Physical ViewSonic, school network and speakers are unavailable from this comput
 
 All 20 local player selections updated name, portrait and country. The image and flag had nonzero natural dimensions in every selection; exactly one card was selected; no horizontal overflow. Country names remain visible independently of flags. Photo ordering was checked against content.js and all 20 author/licence records are present. Flags were checked for active scripting. Scouting and Newman were visually checked at classroom, desktop and phone widths. On phones, selecting a card brings the passport into view and Back to player cards returns focus to the selected card. Newman includes both the Three B’s and the PBIS fourth B after the owner answered “both.” Its logo and both source URLs are local/explicit links; Escape restores the launch-button focus. The public release must be verified after successful deployment; exported screenshots and report record that final result.
 
-## Editorial-6
+## Editorial-6 (audio superseded by editorial-6b)
 
 
 
@@ -38,3 +38,7 @@ The original draft, player profiles, Vault stories, source links and student pri
 ## Remaining external checks
 
 A physical ViewSonic, school browser/network and speakers still need an on-device rehearsal. Native fullscreen support varies by device, with the clean-view fallback available. Playback behavior was verified; comfortable speaker volume and subjective sound quality need a classroom listen. Exact Cinema footage, ads, captions and audio still need teacher screening. These are the remaining external checks, not unimplemented application features.
+
+## Editorial-6b
+
+Owner feedback rejected the audio atmosphere. Removed the background player, tracks, controls and related integration calls. No background audio is created or fetched. Full screen, room labels, read-aloud and Cinema are retained. Earlier audio checks are historical, not current features. Final public browser checks are recorded in the exported release report.
