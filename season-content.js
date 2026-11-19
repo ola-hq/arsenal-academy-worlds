@@ -75,7 +75,8 @@ const cinemaFilms=[
     "note": "A kit advertisement with music and product promotion. The producer’s page can start its video automatically; preview lyrics and footage before projection.",
     "image": "art/emirates-exterior.jpg",
     "imageAlt": "Emirates Stadium exterior beneath a London sky",
-    "artNote": "Stadium archive photo · not a video still"
+    "artNote": "Stadium archive photo · not a video still",
+    "browserVerification": "Producer page rendered its Vimeo film; duration 77 seconds, playable and paused after the check. The producer page avoids the supporter nickname in the YouTube upload title."
   },
   {
     "id": "men-hull",
@@ -169,5 +170,23 @@ const cinemaFilms=[
     "image": "art/wenger.jpg",
     "imageAlt": "Arsène Wenger in a licensed archive portrait",
     "artNote": "Archive portrait · not a video still"
+  },
+  {
+    "id": "stadium-voices",
+    "title": "North London Forever",
+    "subtitle": "Emirates Stadium · supporters together",
+    "art": "stadium",
+    "duration": "0:27",
+    "categories": [
+      "chants"
+    ],
+    "publisher": "Arsenal",
+    "url": "https://www.youtube.com/watch?v=7AycooCU0-k",
+    "description": "An official Arsenal short filmed inside Emirates Stadium, showing the pitch and stands during the supporters’ song. Optional stadium atmosphere; the classroom cheers need no video.",
+    "watch": "Notice how the crowd joins in together. How can we cheer positively while keeping everyone comfortable?",
+    "note": "Teacher preview required: official channel and 27-second duration verified; sampled stadium visuals checked. Captions are unavailable and full crowd audio has not been independently cleared. Preview the exact clip, nearby voices and the external player before class. No song lyrics are reproduced here.",
+    "image": "art/emirates-interior.jpg",
+    "imageAlt": "Licensed archive photograph of the pitch and stands at Emirates Stadium",
+    "artNote": "Stadium archive photo · not a video still"
   }
 ];

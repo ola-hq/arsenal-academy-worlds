@@ -12,3 +12,11 @@
 .mobile-cinema-back{display:none;order:-1}@media(max-width:650px){.mobile-cinema-back{display:inline-flex;width:100%}}
 
 .world.art-ready .matchday{min-width:44px;min-height:44px}@media(max-width:650px){.world.art-ready .matchday{left:25%;width:12%}}
+
+/* Teacher-led Cinema cheers: no audio or external requests. */
+.class-cheers{border:1px solid #6b5c45;border-radius:12px;margin:0 0 24px;background:#182132;color:#fff4db;padding:0 20px}
+.class-cheers summary{font-size:1.1rem;font-weight:800;cursor:pointer;padding:18px 0;min-height:54px}
+.class-cheers summary:focus-visible{outline:3px solid #e6bc70;outline-offset:4px}
+.cheer-intro{font-size:1rem;line-height:1.6;max-width:70ch}.cheer-intro p{margin:0 0 10px}
+.cheer-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:8px 0 22px}.cheer-grid article{background:#101522;border-radius:8px;padding:20px;min-width:0}.cheer-grid h3{font-size:1.5rem;line-height:1.2;margin:10px 0 18px;color:#fff4db}.cheer-grid p{font-size:1.15rem;line-height:1.65;margin:12px 0}.cheer-grid small{display:block;font-size:.9rem;line-height:1.55;color:#d9d9df}
+@media(max-width:650px){.class-cheers{padding:0 14px}.cheer-grid{grid-template-columns:1fr}.cheer-grid article{padding:16px}}

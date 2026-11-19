@@ -2,6 +2,10 @@
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.
 
+## Pending script and Cinema addition
+
+Teacher script: [read-along guide](docs/host-script.html) and [editable Word copy](docs/host-script.docx). It follows all 12 journal pages and works with the current public site. Two classroom cheers and an optional official 27-second stadium source are prepared on codex/arsenal-host-script-chants (preview editorial-8), pending publication approval. See the pending section in HANDOFF.md.
+
 ## Current live version
 
 Development branch: `codex/arsenal-matchday-cinema`. Current application release: **editorial-7**, approved, deployed and browser-verified. **Start with [HANDOFF.md](HANDOFF.md)** to continue this project; it indexes decisions, testing, content review and remaining checks.

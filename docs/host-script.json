@@ -1,0 +1,151 @@
+{
+  "title": "Arsenal Academy host script",
+  "release": "Matched to editorial-7",
+  "timing": "Plan 40–55 minutes with 21 students choosing cards. Short route: 30–40 minutes by taking one response per page, skipping Matchday and using three scouting profiles. Timing is an estimate; card choosing sets the pace.",
+  "use": "Read SAY aloud. CLICK and PAUSE are directions for you. Keep this script on a second device or print it while the academy is projected. Script controls do not advance the website automatically.",
+  "sections": [
+    {"id":"setup","label":"Before students arrive","visual":"Teacher setup","time":"3 minutes before class","blocks":[
+      ["DO","Open the public Academy. Turn on Full screen; Options → Show room labels can help. Open this script on a separate device or print it. Use the website’s Next page or Contents controls to follow the page cues."],
+      ["DO","Set out 42 physical cards for 21 students. Know each student’s classroom number 1–21. Keep a paper checklist to confirm two cards per student. Decide who the six captains are before the ceremony; the Vault randomizes stories, not students."],
+      ["DO","Pre-open A Champion’s Story, the 1:01 Merino trailer, on your presentation device. Check school access, volume and what appears before playback. Return to the Academy after it ends. The prior review covered available captions and 61 frames; it was not a complete audio listen. The owner accepted this trailer’s brief shirtless footage."],
+      ["DO","Today’s script works without a stadium recording. The chant words supplied here are classroom cheers. A real stadium candidate is listed separately for preview, not treated as fully cleared."],
+      ["DO","Use a comfortable group voice. Children may join by speaking, gentle clapping, a hand motion or listening. Keep feet and hands in personal space."],
+      ["NOTE","Optional Matchday: read the date on the board. Its figures are a manually maintained snapshot, not live scores. For a later presentation, verify the official table before describing them as current."],
+      ["NOTE","Pronunciation help: Arsène Wenger ≈ ar-SEN VENG-er; Mikel Merino ≈ MEE-kel meh-REE-noh; Saliba ≈ suh-LEE-buh. Names deserve care; model learning them together."]
+    ]},
+    {"id":"page1","label":"01 Welcome to Arsenal","visual":"Journal 1 / 12 · THIS IS ARSENAL","time":"2 minutes","blocks":[
+      ["CLICK","From the clubhouse, choose ViewSonic Journal. Stay on page 1."],
+      ["SAY","Welcome to Arsenal Academy! Today you are football explorers, player scouts and card collectors. I have temporarily promoted myself to stadium announcer. My contract lasts until the bell."],
+      ["SAY","Arsenal is a football club from London, England. It began in 1886. In England, what we often call soccer is called football. Same game. Different word. Absolutely no need to argue with your television."],
+      ["ASK","Who has played soccer, watched a game, or cheered for someone trying something hard? Give me a hand signal."],
+      ["SAY","Excellent. You already know something about being a teammate. Our job today is to notice skill, discover people and make sure everyone belongs."],
+      ["DO","Teach a reusable attention cue: you say ‘Team check!’; students answer ‘Ready!’ and settle. Practise once at a comfortable volume."],
+      ["CLICK","Next page → 2 / 12."]
+    ]},
+    {"id":"page2","label":"02 Our North London home","visual":"Journal 2 / 12 · HOME IS NORTH LONDON","time":"1–2 minutes","blocks":[
+      ["SAY","This is Emirates Stadium, Arsenal’s home. Imagine all those seats filled with people sharing one very strong opinion about where a ball should go."],
+      ["ASK","What makes a place feel like home? A building? The people? Someone remembering to save you a seat?"],
+      ["PAUSE","Take two answers. Open ‘What makes a place feel like home?’"],
+      ["SAY","A team is stronger when people feel welcome. You can love football, be brand-new to it, or mostly be here for the cards. You belong in our academy."],
+      ["DO","Do one gentle stadium wave: raise hands across the room, with seated or standing participation optional. Keep it to one pass."],
+      ["SAY","Beautiful. Our stadium wave has excellent classroom management."],
+      ["CLICK","Next page → 3 / 12."]
+    ]},
+    {"id":"page3","label":"03 The Invincibles","visual":"Journal 3 / 12 · THE INVINCIBLES","time":"2 minutes","blocks":[
+      ["SAY","In the 2003–04 Premier League season, Arsenal played 38 league games and lost zero. Zero! I have lost a pencil between taking attendance and putting the attendance sheet down."],
+      ["ASK","They won 26 games and drew 12. A draw means a tied score. What is 26 plus 12?"],
+      ["PAUSE","Let the class solve it; open ‘Can you work out the unbeaten record?’"],
+      ["SAY","Thirty-eight. Every league match accounted for. That team became known as the Invincibles."],
+      ["SAY","Notice that they had draws. They did not win every game. Their achievement took teamwork across a whole season. We can be proud of effort and progress even when a day is difficult."],
+      ["DO","Invite a quiet ‘wow’ or a silent celebration. No test or elimination game."],
+      ["CLICK","Next page → 4 / 12."]
+    ]},
+    {"id":"page4","label":"04 The trophy cabinet","visual":"Journal 4 / 12 · GREATNESS TAKES A TEAM","time":"1 minute","blocks":[
+      ["SAY","Welcome to the trophy cabinet. Please admire the shiny objects with your eyes. My imaginary museum insurance is extremely imaginary."],
+      ["SAY","Football clubs can win league competitions and cup competitions. A league rewards results across a season. Cups have rounds that teams try to progress through."],
+      ["ASK","When one player scores, who else might have helped?"],
+      ["PAUSE","Accept passing, defending, saves, coaching, encouragement and other reasonable answers."],
+      ["SAY","Exactly. The final touch gets the replay, but many people help make that moment possible. Think of a group project: the person holding the poster is not the only person who worked."],
+      ["CLICK","Next page → 5 / 12."]
+    ]},
+    {"id":"page5","label":"05 The visionary","visual":"Journal 5 / 12 · BELIEVE PREPARE IMPROVE","time":"1–2 minutes","blocks":[
+      ["SAY","Meet Arsène Wenger. He managed Arsenal for 22 years and led the Invincibles. A manager helps people prepare, make decisions and improve together."],
+      ["ASK","A teammate makes a mistake. Which helps more: making them feel small, or helping them find their next step? What could we actually say?"],
+      ["PAUSE","Take two helpful phrases. Open ‘What would a great coach say to a teammate?’"],
+      ["SAY","I like that coaching. ‘Try again. I can help.’ That works on the pitch, in math and during the mysterious disappearance of the glue-stick cap."],
+      ["SAY","Remember this when we choose roles: you can lead without being the player who scores."],
+      ["CLICK","Next page → 6 / 12."]
+    ]},
+    {"id":"page6","label":"06 Arsenal Women","visual":"Journal 6 / 12 · HISTORY MAKERS","time":"1–2 minutes","blocks":[
+      ["SAY","Arsenal Women have made remarkable history too. They won Europe’s top club competition in 2007 and again in 2025. In the 2025 final, they beat Barcelona one–nil. Nil is football talk for zero."],
+      ["SAY","Stina Blackstenius scored that winning goal. We will meet her in scouting. Keep that name in your scout notebook—which, for today, may be your extremely powerful brain."],
+      ["ASK","Does one winning goal tell us everything about how a team won? What else might have mattered?"],
+      ["PAUSE","Take a response about saves, defending, passing, preparation or support."],
+      ["SAY","Exactly. Everyone’s work matters. And a photo can have its own date: this picture is an archive celebration from 2019; the 2025 final is the story we are discussing."],
+      ["CLICK","Next page → 7 / 12."]
+    ]},
+    {"id":"page7","label":"07 Every player matters","visual":"Journal 7 / 12 · EVERY PLAYER MATTERS","time":"3 minutes","blocks":[
+      ["SAY","Time for the team sheet. You do not have to be the fastest runner to help a team. Let’s discover five ways to contribute."],
+      ["CLICK","Touch Forward."],
+      ["SAY","Forwards find space and try to finish chances. Their question is: how can I help us score?"],
+      ["CLICK","Touch Midfielder."],
+      ["SAY","Midfielders connect the team. Passing, moving, helping. Excellent people to know when you need things to get from here to there."],
+      ["CLICK","Touch Defender, then Goalkeeper."],
+      ["SAY","Defenders protect the goal and help build attacks. Goalkeepers make saves and can begin the next attack. These are thinking jobs as well as moving jobs."],
+      ["CLICK","Touch Manager."],
+      ["SAY","Managers plan, encourage and help others improve. You can belong and lead without playing on the pitch. That role is absolutely part of our team."],
+      ["ASK","Which role interests you today, and why? Tell a partner. Listening is a team skill too."],
+      ["PAUSE","Give 20 seconds. Take one answer; no role is ranked above another."],
+      ["CLICK","Next page → 8 / 12."]
+    ]},
+    {"id":"page8","label":"08 Cinema and class cheers","visual":"Journal 8 / 12 · WATCH THE MAGIC → Cinema","time":"4–5 minutes","blocks":[
+      ["SAY","We have reached the cinema. Imaginary popcorn is available at imaginary prices. Please do not eat the player cards."],
+      ["CLICK","Enter Cinema → Short films → A Champion’s Story → Open official source. Use the pre-opened exact 1:01 Merino trailer if easier."],
+      ["SAY","Lights down. Leaders rise. This is Mikel Merino’s story of working back from injury. As you watch, find one moment of effort, preparation or support. Feeling upset is okay; getting help is part of recovering."],
+      ["DO","Play the 1:01 trailer, then return to the Academy before unrelated recommendations become part of the lesson. If it will not play, use the no-video line below."],
+      ["ASK","What did you notice? What could you say to a teammate having a hard day?"],
+      ["PAUSE","Take two short answers."],
+      ["SAY","Now we are the supporters. We cheer for our team without putting anyone else down. Stadium energy, classroom volume. You can use your voice, a gentle clap or a hand motion."],
+      ["CHANT","Call: ‘Arsenal!’ Class echoes: ‘Arsenal!’ Repeat three times with two gentle claps between calls. Finish with an open hand and silence."],
+      ["CHANT","Call: ‘Who belongs?’ Class: ‘Everyone!’ Call: ‘How do we lead?’ Class: ‘Help someone!’ Repeat once. These are our classroom words, not a recording of a stadium chant."],
+      ["IF NEEDED","No-video line: ‘Merino’s story reminds us that recovering takes time, help and effort. Let’s be the teammates who encourage someone’s next step.’ Then do the cheers and continue."],
+      ["CLICK","Return to journal → page 8. Choose Next page for scouting, or take the optional Matchday stop on the next script card."]
+    ]},
+    {"id":"matchday","label":"Optional Matchday challenge","visual":"Journal 8 / 12 → Explore this season","time":"3 minutes or skip","blocks":[
+      ["CLICK","On journal page 8, choose Explore this season."],
+      ["SAY","Welcome to the sports desk. Let’s read the date first. This board is a snapshot, like a photograph of the league table. It does not change every second."],
+      ["DO","Read the displayed date, position, points and games played. Do not describe old figures as today’s standings. Use the official table link before class if updating the claim."],
+      ["SAY","A win earns three points. A draw earns one. A loss earns zero. The board can change after matches, which is why our sports desk checks its dates. Even the sports desk has homework."],
+      ["CLICK","Scroll to Three questions. One team."],
+      ["SAY","We have three questions and one team. Talk together before we choose. If we miss one, we get another chance. That is called learning, and we are unusually good at practising it."],
+      ["DO","Read each question and answer choices exactly as displayed. Let partners discuss; select the class answer. Use the feedback for a retry. Celebrate reaching 3 / 3 together."],
+      ["CLICK","Return to journal → page 8 → Next page → 9 / 12."]
+    ]},
+    {"id":"page9","label":"09 Scouting Academy","visual":"Journal 9 / 12 · YOUR PLAYER YOUR STORY → Scouting","time":"4–5 minutes","blocks":[
+      ["SAY","Welcome, scouts. Your mission is to find a player who interests you. You might notice a skill, a position, a country or a design. My scouting report currently says ‘enthusiastic and probably needs a snack.’ Let’s get more specific."],
+      ["CLICK","Explore the player cards. Choose William Saliba, then Kim Little, then Mikel Merino. Use the Men / Women filters if helpful; the All filter restores everyone."],
+      ["SAY","Saliba is a defender from France, known here as the Calm Wall. Kim Little is a midfielder from Scotland, with experience and precise passing. Merino is a midfielder from Spain—the player we just met in the film."],
+      ["ASK","Which quality would help our class today: calm, good communication, persistence, or something else? Tell us why."],
+      ["CLICK","If time allows, choose Stina Blackstenius and connect her profile with the 2025 final from journal page 6."],
+      ["SAY","These digital profiles help us explore. Clicking a player does not reserve a physical card. The cards on our actual table are the choices available for the draft."],
+      ["PAUSE","Give students 20 seconds to think of two or three possible choices. The same player can interest several people; everyone has different reasons."],
+      ["CLICK","Return to journal → page 9 → Next page → 10 / 12. Stay inside the Academy; player video-search links are not needed."]
+    ]},
+    {"id":"page10","label":"10 The live draft","visual":"Journal 10 / 12 · YOUR TURN IS COMING → Draft Day","time":"12–18 minutes","blocks":[
+      ["SAY","It is Draft Day! Twenty-one students. Forty-two physical cards. Two cards each. Please remain seated until your classroom number is called. The excitement may stand up inside your brain."],
+      ["SAY","The computer makes one random order of numbers 1 through 21. Your place in the order says nothing about your ability or importance. Everyone gets a turn."],
+      ["CLICK","Start the Draft → Shuffle the draft once. Then choose Reveal next pick."],
+      ["SAY","With our first selection, Arsenal Academy welcomes… classroom number [read the large number]! Come choose your two cards."],
+      ["DO","Confirm the number, help the student choose two physical cards and mark your paper checklist. Let the student return before revealing the next number. Use a brief equal cheer for each student."],
+      ["REPEAT","‘Our next scout is number [number]!’ ‘Number [number], your moment is here!’ ‘Welcome, number [number]—let’s find your team.’ Rotate these lines as you reveal each remaining pick."],
+      ["IF NEEDED","Slow choice: ‘Pick the one that catches your eye. If you need help, tell me a color, country or role you like.’ Disappointment: ‘It is okay to feel disappointed. Let’s find another player or design you can enjoy.’"],
+      ["IF NEEDED","Volume reset: ‘Team check!’ Wait for ‘Ready!’ ‘We can be excited and still hear whose turn it is.’"],
+      ["DO","Do not use Clear draft or reload during the draw; progress lives only in this open session. At 21 / 21, verify every student has two cards. If interrupted, use your paper record to finish the remaining turns."],
+      ["SAY","Draft complete! Hold your cards carefully. Give the whole team one cheer, including the people who helped others choose."],
+      ["CLICK","Return to journal → page 10 → Next page → 11 / 12."]
+    ]},
+    {"id":"page11","label":"11 Ways to lead","visual":"Journal 11 / 12 · HOW WILL YOU LEAD","time":"2 minutes","blocks":[
+      ["SAY","We have our cards. Now we need something you cannot keep in a plastic sleeve: leadership."],
+      ["CLICK","Open Tony Adams, Sol Campbell and Arsène Wenger in turn."],
+      ["SAY","Tony Adams represents loyalty and courage: stand by your teammates and do the right thing. Sol Campbell represents strength and composure. Composure means staying steady when things feel difficult. Arsène Wenger represents vision and belief: help people see what they can become."],
+      ["ASK","Which is leadership: being the loudest, or helping someone join in? What could leadership look like in our class today?"],
+      ["PAUSE","Take two concrete examples. Accept asking for help, listening, sharing encouragement and welcoming someone."],
+      ["SAY","You do not need a badge to start. A captain badge is a reminder to help, not a license to become the boss of everybody’s pencils."],
+      ["CLICK","Next page → 12 / 12."]
+    ]},
+    {"id":"page12","label":"12 The Captains Vault","visual":"Journal 12 / 12 · THE CAPTAIN’S VAULT → Ceremony","time":"5–7 minutes","blocks":[
+      ["SAY","Our final stop is the Captain’s Vault. Six mystery shields hold six different stories about three legends. Two Tony Adams, two Sol Campbell and two Arsène Wenger. This is a surprise story draw; the six captains have already been chosen."],
+      ["CLICK","Open the Vault. Invite the first designated captain to choose one mystery shield, or point while you click."],
+      ["SAY","Captain, choose your shield. Our dramatic drumroll is ten gentle fingertip taps… and stop. Let’s discover your story."],
+      ["DO","Read the revealed name, story title and short story exactly as shown. Then read its leadership lesson. Use the matching response below."],
+      ["REPLY","Tony Adams: ‘How could we stand by a teammate today?’ Sol Campbell: ‘How could we stay calm and help someone?’ Arsène Wenger: ‘What can we prepare or practise together?’"],
+      ["PAUSE","Let the captain offer one idea, choose a class suggestion or pass. Model ‘I can help someone join our group’ if needed. Participation does not require public speaking."],
+      ["CLICK","Next captain. Repeat until all six stories are revealed. After the sixth, choose Finish ceremony. Do not use Restart / reshuffle mid-ceremony."],
+      ["SAY","Congratulations, captains—and congratulations to the whole academy. The badges are for six people; belonging is for all of us."],
+      ["SAY","Before we finish, look at one of your cards and complete this thought: ‘Today I noticed…’ It could be a player, a skill or something kind someone did."],
+      ["PAUSE","Take two responses. Finish with: ‘Who belongs?’ Class: ‘Everyone!’ ‘How do we lead?’ Class: ‘Help someone!’"],
+      ["CLICK","Return to journal → page 12 → Back to clubhouse. Optional Newman Knights bonus: open Newman Knights and connect one displayed school value with something students did today."],
+      ["SAY","Arsenal Academy session complete. Cards safe, teammates appreciated—and stadium announcer officially off duty."]
+    ]}
+  ]
+}

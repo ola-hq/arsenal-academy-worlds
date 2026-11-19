@@ -1,0 +1,71 @@
+{
+  "checked": "2026-11-19",
+  "status": "development review only; not published",
+  "branch": "codex/arsenal-host-script-chants",
+  "application_preview": "editorial-8",
+  "script": {
+    "cards": 14,
+    "journal_pages": 12,
+    "optional_matchday": true,
+    "docx_pages": 14,
+    "all_docx_pages_visually_checked": true,
+    "controls": [
+      "all 14 Next cues",
+      "Previous cue",
+      "native dropdown jump to Cinema",
+      "larger spoken text",
+      "spoken-only toggle and restore",
+      "reload preserves cue hash"
+    ],
+    "phone_width": 390,
+    "phone_horizontal_overflow": false,
+    "website_auto_advance": false,
+    "captured_errors": []
+  },
+  "cinema": {
+    "categories": {
+      "shorts": 3,
+      "highlights": 4,
+      "stories": 3,
+      "chants": 1,
+      "all": 9
+    },
+    "viewports": [
+      {
+        "width": 1920,
+        "height": 1018
+      },
+      {
+        "width": 1366,
+        "height": 706
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "checked_horizontal_overflow": false,
+    "broken_cinema_images": 0,
+    "new_clip_review_initially_unchecked": true,
+    "review_clears_after_reload": true,
+    "background_audio_elements": 0,
+    "captured_site_errors": [],
+    "other_film_review_stays_unchecked": true
+  },
+  "stadium_clip": {
+    "url": "https://www.youtube.com/watch?v=7AycooCU0-k",
+    "publisher": "Verified Arsenal channel",
+    "duration": "0:27",
+    "captions_available": false,
+    "visual_samples": "opening and approximately 5, 10, 14, 20 seconds",
+    "complete_audio_listen": false,
+    "classroom_clearance": "teacher preview required",
+    "paid_credits": 0
+  },
+  "limits": [
+    "No physical classroom or school-network rehearsal",
+    "Stadium crowd audio not fully cleared",
+    "No application changes published to main",
+    "Browser print dialog not exercised; editable Word pages rendered and inspected"
+  ]
+}
