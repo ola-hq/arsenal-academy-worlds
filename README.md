@@ -2,9 +2,9 @@
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.
 
-## Pending script and Cinema addition
+## Approved script and Cinema addition
 
-Teacher script: [read-along guide](docs/host-script.html) and [editable Word copy](docs/host-script.docx). It follows all 12 journal pages and works with the current public site. Two classroom cheers and an optional official 27-second stadium source are prepared on codex/arsenal-host-script-chants (preview editorial-8), pending publication approval. See the pending section in HANDOFF.md.
+Teacher script: [read-along guide](docs/host-script.html) and [editable Word copy](docs/host-script.docx). It follows all 12 journal pages and works with the current public site. Two classroom cheers and an optional official 27-second stadium source are prepared on codex/arsenal-host-script-chants (release editorial-8). The owner approved publication with “Publish the cheers and stadium link.” See the release section in HANDOFF.md for verification scope.
 
 ## Current live version
 
