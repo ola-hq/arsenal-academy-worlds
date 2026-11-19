@@ -1,0 +1,69 @@
+{
+  "release": "editorial-10",
+  "approval": "Publish this presentation update",
+  "deploymentRun": 44620594047,
+  "publicUrl": "https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-10",
+  "checks": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 20965,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "legacy.html",
+      "status": 200,
+      "bytes": 14185,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "academy.js",
+      "status": 200,
+      "bytes": 26170,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "presenter.css",
+      "status": 200,
+      "bytes": 2598,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "season-content.js",
+      "status": 200,
+      "bytes": 9730,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "clubhouse.js",
+      "status": 200,
+      "bytes": 2569,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "content.js",
+      "status": 200,
+      "bytes": 6356,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/host-script.html",
+      "status": 200,
+      "bytes": 36384,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/host-script.docx",
+      "status": 200,
+      "bytes": 47146,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/moments/women-europe-2025.jpg",
+      "status": 200,
+      "bytes": 200664,
+      "matchesReviewedSource": true
+    }
+  ],
+  "verificationScope": "Direct HTTP checks compare the public files to the actual browser-tested review source. Live browser access was unavailable after interruption; these are not public visual checks."
+}

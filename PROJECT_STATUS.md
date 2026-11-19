@@ -1,5 +1,15 @@
 # Arsenal Academy — current project status
 
+## Live presentation update editorial 10
+
+Published 19 November 2026 after the owner answered “Publish this presentation update.” Release approval commit d4bd0bd923628f481d69380c7b14ced8a358f652. GitHub Pages run 44620594047 completed successfully: https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44620594047 .
+
+Public website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-10 . Host guide: https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html . Editable Word guide is alongside it as host-script.docx. Direct public HTTP checks returned 200 and exact reviewed-source hash matches for index, activity HTML, Academy/clubhouse/content/film scripts, presenter CSS, both guide formats and the Women event photograph. Evidence: docs/evidence/editorial-10-public-checks.json.
+
+Actual visual and interaction checks were completed on the review website before publication: all 12 classroom pages, changed desktop pages, phone roles/leadership/Cinema/script, the complete 21-pick Draft, all six Vault stories and the embedded Women film/return path. Screenshots in docs/screenshots/presenter-10-*.jpg show that tested review version, whose deployed files now match. After an interruption the browser connection became unavailable, so a fresh public visual check could not be performed. Do not describe HTTP checks as a live-browser visual check. Physical classroom device and external-video access/audio still need rehearsal.
+
+This published release supersedes earlier “awaiting approval” entries below. Cinema’s checkbox was intentionally removed at the owner’s request; do not restore it as a regression fix. New Merino highlights are optional: source/playability and five visual samples checked, betting signs observed, captions unavailable and full crowd audio not independently cleared. The owner approved publication with these limits disclosed. North London Forever remains their selected stadium clip. Handoff, source records and guide builder are committed on the development and live branches.
+
 ## Publication approved for presentation update
 
 On 19 November 2026 the owner answered “Publish this presentation update” to the scoped approval covering the revised host script, aligned journal cues, Substitute/Merino story, Women film button, expanded leadership and Cinema without the review checkbox. The approval question disclosed that the new optional Merino highlights have unverified full crowd audio and visible stadium betting signs. This authorizes editorial-10 publication to the existing public GitHub Pages website. Implementation through baba90e; deployment and public verification follow. Earlier “awaiting approval” entries below are review history.

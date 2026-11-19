@@ -1,6 +1,6 @@
 # Arsenal Academy Worlds
 
-Presentation refinement editorial-10 is ready for review on `codex/arsenal-presenter-polish`; publication approval is pending. The public website remains editorial-9. See HANDOFF.md and docs/host-script.html.
+Presentation update editorial-10 is approved and live at https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-10 . Read the updated host guide at docs/host-script.html. See HANDOFF.md for deployment evidence and verification limits.
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.
 
