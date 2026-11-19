@@ -1,5 +1,9 @@
 # Arsenal Academy — current project status
 
+## Publication approved for presentation update
+
+On 19 November 2026 the owner answered “Publish this presentation update” to the scoped approval covering the revised host script, aligned journal cues, Substitute/Merino story, Women film button, expanded leadership and Cinema without the review checkbox. The approval question disclosed that the new optional Merino highlights have unverified full crowd audio and visible stadium betting signs. This authorizes editorial-10 publication to the existing public GitHub Pages website. Implementation through baba90e; deployment and public verification follow. Earlier “awaiting approval” entries below are review history.
+
 ## Presentation refinement awaiting publication approval
 
 Updated 19 November 2026. Development branch `codex/arsenal-presenter-polish`, review label `editorial-10`. The public website remains the approved editorial-9 release. Do not publish this new update to main until the owner approves this specific patch.
