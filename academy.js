@@ -91,8 +91,8 @@
         html=copy('ARSENAL WOMEN','HISTORY<br><em>MAKERS.</em>',s[2],'<div class="title-years"><b>2007</b><span>&</span><b>2025</b></div>');
         html+=image('women-champions.jpg','Arsenal Women celebrating their 2018–19 league championship','FROM THE ARCHIVE · 2019 league celebrations · Katie Chan / CC BY-SA 4.0');break;
       case 6:
-        html=copy('THE TEAM SHEET','EVERY PLAYER<br><em>MATTERS.</em>',s[2],'<p class="instruction">Touch a position to discover its superpower.</p><p id="positionLesson" class="position-lesson" role="status">A team needs all four roles.</p>');
-        html='<div class="pitch" aria-label="Interactive football positions"><div class="pitch-line"></div>'+['Forwards','Midfielders','Defenders','Goalkeeper'].map((r,i)=>`<button class="position position-${i}" data-position="${i}" aria-pressed="false"><b>${['09','08','04','01'][i]}</b><span>${r}</span></button>`).join('')+'</div>'+html;break;
+        html=copy('THE TEAM SHEET','EVERY PLAYER<br><em>MATTERS.</em>',s[2],'<p class="instruction">Touch a role to discover how it helps the team.</p><p id="positionLesson" class="position-lesson" role="status">On the pitch or beside it, everyone can belong.</p>');
+        html='<div class="pitch" aria-label="Interactive football team roles"><div class="pitch-line"></div>'+['Forward','Midfielder','Defender','Goalkeeper','Manager'].map((r,i)=>`<button class="position position-${i}" data-position="${i}" aria-pressed="false"><b>${['09','08','04','01','M'][i]}</b><span>${r}</span></button>`).join('')+'</div>'+html;break;
       case 7:
         html=image('cinema-room.jpg','A football stadium screening in the academy cinema');
         html+=copy('THE SCREENING ROOM','WATCH<br><em>THE MAGIC.</em>',s[2],button('Enter Cinema','cinema')+'<p class="small">Teacher preview first. Nothing autoplays.</p>');break;
@@ -145,7 +145,7 @@
     speechSynthesis.speak(u);$('#speechStatus').textContent='Reading with this device’s voice…';
   });
   $('#stopSpeech').addEventListener('click',()=>{stopVoice();$('#speechStatus').textContent='Stopped.';});
-  const positionLessons=['Forwards find space, create chances and finish attacks.','Midfielders connect the team with passes, movement and hard work.','Defenders protect the goal, win the ball and help build attacks.','Goalkeepers make saves and start attacks with smart passes.'];
+  const positionLessons=['Forwards find space, create chances and finish attacks.','Midfielders connect the team with passes, movement and hard work.','Defenders protect the goal, win the ball and help build attacks.','Goalkeepers make saves and start attacks with smart passes.','Managers plan, encourage and help everyone improve. You can lead and belong without playing on the pitch.'];
   $('#spread').addEventListener('click',e=>{const b=e.target.closest('[data-position]');if(b){all('[data-position]').forEach(p=>p.setAttribute('aria-pressed',String(p===b)));$('#positionLesson').textContent=positionLessons[Number(b.dataset.position)];}});
   // All classroom state lives in memory. No storage, network writes or names.
   function shuffle(items){for(let i=items.length-1;i>0;i--){const range=i+1,limit=2**32-(2**32%range);let n;do{n=crypto.getRandomValues(new Uint32Array(1))[0];}while(n>=limit);const j=n%range;[items[i],items[j]]=[items[j],items[i]];}return items;}
@@ -174,13 +174,12 @@
   }
   all('.filter').forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.filter;all('.filter').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderPlayers();}));renderPlayers();
   const feeds=[
-    {title:'The Invincibles',tag:'01 · THE UNBEATEN SEASON',description:'An official illustrated history of 2003–04. This is an article, not a video.',url:'https://arsenal-fc.shorthandstories.com/the-invincibles-a-season-like-no-other/'},
-    {title:'Arsenal Women',tag:'02 · THE HISTORY MAKERS',description:'All 62 league goals from 2024/25 on Arsenal’s official site. Open the source and select a teacher-reviewed excerpt.',url:'https://www.arsenal.com/news/enjoy-all-our-wsl-goals-from-202425-aEgAh7n2WU6W',reviewable:true},
-    {title:'Arsenal Men: Best Goals',tag:'03 · ARSENAL MEN',description:'Official Arsenal goals compilation from 2024/25, featuring Rice, Saka and Calafiori. Teacher preview required before projection.',url:'https://www.youtube.com/watch?v=KqXuiKrrIac',reviewable:true},
-    {title:'Wenger’s FA Cup team',tag:'04 · THE VISIONARY',description:'Official FA Cup trophy celebrations with Wenger and his players after the 2017 final. Teacher preview required before projection.',url:'https://www.arsenal.com/news/see-the-full-emirates-fa-cup-trophy-lift-apcRo6F0pyzR',reviewable:true}
+    {title:'Arsenal Women',art:'women',tag:'THE HISTORY MAKERS',description:'All 62 league goals from 2024/25 on Arsenal’s official site. Open the source and select a teacher-reviewed excerpt.',url:'https://www.arsenal.com/news/enjoy-all-our-wsl-goals-from-202425-aEgAh7n2WU6W',reviewable:true},
+    {title:'Arsenal Men: Best Goals',art:'men',tag:'ARSENAL MEN',description:'Official Arsenal goals compilation from 2024/25, featuring Rice, Saka and Calafiori. Teacher preview required before projection.',url:'https://www.youtube.com/watch?v=KqXuiKrrIac',reviewable:true},
+    {title:'Wenger: A lasting legacy',art:'wenger',tag:'THE VISIONARY · 4:30',description:'Premier League’s Hall of Fame film celebrates Wenger’s vision, teams and legacy. One specific video, 4 minutes 30 seconds. Preview the complete footage and audio before showing your class.',url:'https://www.youtube.com/watch?v=xtM3k5NWUwQ',reviewable:true}
   ];
   const reviewed=new Set();
-  $('#filmList').innerHTML=feeds.map((f,i)=>`<button class="film" data-monitor="${i}" aria-pressed="false"><span>${f.tag}</span><strong>${f.title}</strong><small>${i===0?'ILLUSTRATED STORY':i===2?'OFFICIAL VIDEO':'OFFICIAL VIDEO PAGE'}</small></button>`).join('');
+  $('#filmList').innerHTML=feeds.map((f,i)=>`<button class="film" data-film-art="${f.art}" data-monitor="${i}" aria-pressed="false"><span>${f.tag}</span><strong>${f.title}</strong><small>${f.url.includes('youtube.com')?'OFFICIAL VIDEO':'OFFICIAL VIDEO PAGE'}</small></button>`).join('');
   function clearMonitor(){
     $('#monitorScreen').innerHTML='<img src="art/cinema-room.jpg" alt="A warmly lit football cinema with red velvet chairs">';
     $('#monitorTitle').textContent='Choose a story';$('#monitorDescription').textContent='Official Arsenal videos open in their own player. Nothing plays or contacts YouTube here.';
@@ -189,7 +188,7 @@
   function selectFeed(i){
     clearMonitor(); selectedFeed=i;const f=feeds[i];
     $('#monitorTitle').textContent=f.title;$('#monitorDescription').textContent=f.description;$('#monitorLink').href=f.url;
-    $('#monitorScreen').innerHTML=`<img src="art/cinema-room.jpg" alt="The academy football cinema"><div class="cinema-title"><span class="kicker">${f.tag}</span><strong>${f.title}</strong><p>${i===2?'Watch in the official YouTube player.':'Open this story on the official site.'}</p></div>`;
+    $('#monitorScreen').innerHTML=`<img src="art/cinema-room.jpg" alt="The academy football cinema"><div class="cinema-title"><span class="kicker">${f.tag}</span><strong>${f.title}</strong><p>${f.url.includes('youtube.com')?'Watch in the official YouTube player.':'Open this story on the official site.'}</p></div>`;
     $('#screen').disabled=!f.reviewable;$('#screen').checked=reviewed.has(i);screenStatus();all('[data-monitor]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.monitor)===i)));
   }
   function screenStatus(){if(!feeds[selectedFeed]?.reviewable){$('#screenStatus').textContent='Review this story on its official source before projecting.';return;}$('#screenStatus').textContent=$('#screen').checked?'Teacher marked this selection reviewed for this session.':'Teacher screening incomplete for this selection.';}

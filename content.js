@@ -5,7 +5,7 @@ const story=[
 ['🏆','THE INVINCIBLES','2003–04: 38 Premier League games. 26 wins, 12 draws. ZERO losses.','Nobody beat Arsenal in the league that season. That’s why they were called the Invincibles.'],
 ['🏆','THE TROPHY CABINET','Arsenal have a proud history of league titles, FA Cups, and unforgettable victories.','Which trophies do you think a football club can win? Let’s explore their history.'],['👑','A LEGENDARY MANAGER','Arsène Wenger led the Invincibles and won three Premier League titles.','Wenger helped his team become great through preparation and teamwork.'],
 ['🏅','EUROPEAN CHAMPIONS TWICE','Arsenal Women won Europe in 2007 and again in 2025, beating Barcelona 1–0.','Their 2007 title was called the UEFA Women’s Cup. Their 2025 title was the Champions League!'],
-['🧤','EVERY PLAYER MATTERS','Goalkeepers. Defenders. Midfielders. Forwards. Every role makes a team.','You don’t need to score goals to be a star. Every position is important.'],
+['🧤','EVERY PLAYER MATTERS','Goalkeepers. Defenders. Midfielders. Forwards. Managers. Everyone helps the team.','You can play, plan, encourage or help others improve. You don’t have to be on the pitch to belong or lead.'],
 ['🎬','WATCH THE MAGIC','See the skills. Cheer for the goals. Find someone who inspires you.','Now we watch some highlights. Keep an eye out for a player you like!'],
 ['🃏','DRAFT DAY!','42 physical cards. 21 students. Choose a player who speaks to you.','You might like their skills, position, country, or the design of the card.'],
 ['🎲','DRAFT ORDER','Every student gets a fair chance. We will reveal our selection order one at a time.','Everyone gets to choose a card. The order is random, and every player matters.'],

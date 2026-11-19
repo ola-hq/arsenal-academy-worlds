@@ -1,51 +1,30 @@
-# Arsenal Academy — project status
+# Arsenal Academy — current project status
 
-Updated November 18, 2026 (Pacific). Current build: **editorial-3**.
+Updated November 18, 2026 (Pacific). Current implementation: editorial-4. The owner explicitly approved publishing these specific changes on November 18, 2026.
 
-## Website locations
+Public classroom website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-4
+Development branch: codex/arsenal-editorial-classroom.
 
-- Updated interactive private review: https://arsenal-academy-classroom-review.ola-hq.chatgpt.site
-- Existing public site: https://ola-hq.github.io/arsenal-academy-worlds/
-- Development branch: `codex/arsenal-editorial-classroom`.
-- Public release: the owner explicitly approved making this version live on November 18, 2026. Publish the current completed pass to GitHub main and verify the public Pages deployment. The private Site is optional and is not required for the classroom URL.
+## Completed original scope
 
-## Original request — implementation completed for review
+The editorial-3 release was approved, published to main and verified on the public website: twelve illustrated journal pages; repaired Draft Day, navigation and six-story Vault; twenty retained profiles; classroom artwork and language cleanup; no student records or persistent classroom data. Pages run 44459442868 succeeded. Full Draft and Vault journeys were repeated publicly. All twelve pages were checked at 1920×1080, 1366×768 and 390×844.
 
-- Investigated Pages deployments, exact deployed HTML, project-relative assets, cache headers and browser errors. The base live HTML matched main and the latest deployment succeeded. HTML caching was ten minutes; presentation layout and repeated flat artwork were separate visual problems.
-- Rebuilt all twelve classroom pages into an editorial journal with local football photography, richer academy artwork, distinct compositions, accessible controls and interactive moments.
-- Replaced the flat trophy/Cinema placeholders, added a collector’s desk composition, a stadium panorama reading band, textured unbeaten record, embossed leadership reveals and focused draft/captain rooms.
-- Redesigned Draft Day around the live student number. Re-tested all 21 unique numbers and the completed/clear states.
-- Redesigned the captain ceremony around one legend at a time. Re-tested six unique stories, two per legend, completion and reset.
-- Improved top-level Journal navigation so it returns to the page you left. Contents, previous/next, keyboard navigation and embedded clubhouse return remain working.
-- Preserved all twelve lesson topics, all twenty player profiles and all six captain stories. Scouting keeps the chosen passport beside the cards on desktop and uses stacked layouts on phones.
-- Cinema has four specific official sources. Replaced the open-ended Wenger search with a specific official FA Cup celebrations video page. Owner-disabled embeds open official players instead of displaying a broken player.
-- Classroom privacy remains unchanged: no student names/photos/records, no analytics/browser storage or third-party video requests before choosing an external link. Draft, profiles, screening marks and ceremony results stay in page memory.
+## Latest classroom feedback — editorial-4
 
-## Approved classroom language and imagery — implemented
+- Every player matters now includes Forward, Midfielder, Defender, Goalkeeper and Manager. All five are interactive. Manager explains planning, encouragement and belonging without playing on the pitch; teacher narration includes the same message. No staff category was added.
+- Removed the flagged Invincibles illustrated story from Cinema, including its external link. The historical Invincibles lesson remains in the journal.
+- Replaced the Wenger trophy-page link with one specific Premier League Hall of Fame video about his legacy, labelled with its verified 4:30 duration. It is a focused profile rather than a playlist or search. Teacher screening remains incomplete until the teacher marks the exact selection.
+- Arsenal Women and Arsenal Men selections remain unchanged. Poster artwork is assigned by story rather than card order so removing a selection cannot mismatch imagery.
+- Existing privacy behavior and session-only screening marks retained. No new external requests occur before a source is opened.
 
-- The Arsenal Academy Journal.
-- “Lights down. Leaders rise.”
-- “Our North London home,” Arsenal / Arsenal FC and red-and-white football descriptions.
-- Avoided nicknames removed from interface, metadata and narration source.
-- Clubhouse bitmap ribbon now says “TEAMWORK • NORTH LONDON • 1886.” Cannon motifs in that original illustration were replaced with footballs or an adapted letter-A emblem. Entrance positions were preserved and checked.
-- Sword emoji removed from the Newman Knights lesson. Its respectful/responsible/safe content remains.
-- Official documentary photographs and external club videos can still contain original club crests. Generated classroom illustrations are identified as illustrations and do not claim official affiliation.
+## Checks
 
-## Verification completed
+All five roles were exercised at 1366×768 and 390×844; Manager was visually inspected at 1920×1080. Checked lesson containment and horizontal overflow passed. Cinema selection, links, screening state and artwork are checked in the browser. JavaScript syntax and whitespace checks passed. Public deployment and browser release results are recorded in the task’s exported verification report; do not infer publication from a commit alone.
 
-- All twelve pages rendered and measured at 1920×1080 and 1366×768: loaded imagery, visible page controls, no checked text/action clipping or horizontal overflow.
-- All twelve at 390×844: no horizontal/text overflow; vertical scrolling is intentional.
-- Embedded Draft and Vault full journeys; Journal return to the original page; twenty player profiles and filters; all four Cinema sources; no site console errors observed in tested flows.
-- Actual screenshots refreshed. Script syntax and local document paths checked.
-- Separate owner-only review site published through Sites; it does not change the GitHub Pages site. Owner sign-in may be required before viewing.
+## Remaining external checks
 
-## Remaining external checks and decisions
+Physical ViewSonic, network, speakers and native device voice rehearsal. Teacher screening of exact videos, audio, captions, ads and recommendations. The 4:30 Wenger video is longer than the suggested two-to-three-minute target; its duration is displayed rather than described as shorter. No replacement Invincibles video has been added: that selection was removed as requested. Further visual feedback can be incorporated as the owner explores the live version.
 
-1. Owner review of the revised visual experience. The previous version was judged halfway there; this is the completed second implementation pass, not assumed owner acceptance.
-2. Actual ViewSonic hardware, school-network and sound-output rehearsal. That hardware is not accessible from this computer. Classroom view works; native full screen/voices depend on the device. Teacher notes remain available.
-3. Teacher review of exact footage, audio, captions, ads and autoplay. Site availability is not a suitability review. No clips are automatically marked screened.
-4. Public release is now approved. Wait for Pages success and verify the released embedded journeys before reporting completion. The final deployment result is recorded in the task’s exported verification report.
+The private preview is optional and unrelated to the no-login public classroom URL. Do not divert the classroom to a sign-in screen. Future unrelated major changes require fresh approval; these are the owner-requested bounded classroom edits.
 
-## Continuation
-
-Use this file and `VERIFICATION.md` to preserve scope. Update the existing private Site, not a new duplicate: its manifest is in the task workspace at `work/arsenal-private-review/.openai/hosting.json`. Keep the private Site owner-only. The owner’s explicit “make it live” approval authorizes the current public release; use fresh review for future unrelated major changes.
+The owner answered “Publish these changes” after reviewing the patch summary. This explicitly authorizes publication of editorial-4 to the existing public website. Final deployment and live-browser results are recorded in the exported task report.
