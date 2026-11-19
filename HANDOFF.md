@@ -1,21 +1,22 @@
 # Arsenal Academy project handoff
 
-## Approved host script and Cinema cheers
+## Live host script and Cinema cheers
 
-Development branch codex/arsenal-host-script-chants contains the requested teacher script (docs/host-script.html, docs/host-script.docx and editable content in docs/host-script.json), two teacher-led classroom cheers and one official 27-second Emirates Stadium source under Stadium voices. Release label: editorial-8. The owner explicitly approved this completed patch with “Publish the cheers and stadium link.” Publication is authorized; successful deployment and public checks must be verified before reporting it live.
+Development branch codex/arsenal-host-script-chants contains the requested teacher script (docs/host-script.html, docs/host-script.docx and editable content in docs/host-script.json), two teacher-led classroom cheers and one official 27-second Emirates Stadium source under Stadium voices. Release label: editorial-8. The owner explicitly approved this completed patch with “Publish the cheers and stadium link.” Published successfully through Pages run 44587600696 (https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44587600696), then checked in the public browser. The clubhouse opens legacy.html?v=editorial-8#cinema; cheers expand, the stadium source URL and teacher-preview note are correct, the review box starts unchecked, local images load and no site errors were captured. The public hosting script opens and Next cue works. Evidence: docs/evidence/editorial-8-public-checks.json and docs/screenshots/cinema-cheers-live-editorial-8.jpg.
 
 All 14 script cue cards, navigation/dropdown, text enlargement and spoken-only toggle were browser-checked. All 14 Word pages were rendered and visually inspected. Cinema was checked at measured 1920×1018, 1366×706 and 390×844; no checked horizontal overflow or broken images, 3/4/3/1/9 collection counts, correct source URL, initially unchecked and reload-cleared review state, no background audio and no captured errors. Script phone width 390 had no horizontal overflow. Evidence: docs/evidence/host-script-chants-review.json and docs/screenshots.
 
 Official stadium source: https://www.youtube.com/watch?v=7AycooCU0-k . Channel and 0:27 duration verified. Available sampled frames show the stadium/pitch/stands/roof/sky. Player reports captions unavailable; no complete independent audio listen. Keep teacher preview required; do not describe it as fully cleared. No paid credits, lyrics reproduction, remote embeds or audio downloads. The script works with the existing live site and its own classroom cheers without this new clip.
 
 
-Updated 19 November 2026. Start here when continuing the project. The classroom site is live and public at https://ola-hq.github.io/arsenal-academy-worlds/ . Application release editorial-7 was approved, deployed and browser-verified. The editorial-8 host-script/Cinema patch has publication approval, as described above.
+Updated 19 November 2026. Start here when continuing the project. The classroom site is live and public at https://ola-hq.github.io/arsenal-academy-worlds/ . Application release editorial-8 is approved, deployed and public-browser-verified, as described above.
 
 ## Access and source of truth
 
 - Repository: https://github.com/ola-hq/arsenal-academy-worlds . GitHub Pages serves `main` at the repository root.
-- Working development branch: `codex/arsenal-matchday-cinema`.
-- Feature commit: `91e8fee5dc03341493e4ec5896fc4d5522d52eac`; approval record: `1ac8b45c2bacfb38677f89e9e82e713b58bd7b20`. Later documentation-only commits retain the editorial-7 application label.
+- Working development branch: `codex/arsenal-host-script-chants`.
+- Editorial-8 feature commit: `8cd3b9ec2ec7c5c60dda562a5aeacfb43aa5e8dd`; publication approval commit: `2e1c52e92a3c6766e2e1cbe5438642714586ab68`; activity URL cache correction: `b78111fe454c3ce258abe0336da2f6a6c78bbbaa`. Later documentation-only commits retain editorial-8.
+- Previous editorial-7 feature commit: `91e8fee5dc03341493e4ec5896fc4d5522d52eac`; approval record: `1ac8b45c2bacfb38677f89e9e82e713b58bd7b20`. Those hashes describe the earlier editorial-7 release.
 - Successful release deployment: https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44569694478 . Fresh access audit on 19 November: the canonical public URL rendered the illustrated clubhouse, footer showed editorial-7, no sign-in appeared and captured site error log was empty.
 - Local repository: `work/arsenal-academy-worlds` within this task workspace. Reports, packages and screenshots are in `outputs` two directories above the repository. Private screening working files are in sibling `work/content-screening`; they are not website assets.
 - A new agent needs repository access and its own connected credentials. Credentials are not stored here. Chat history and local output files do not automatically accompany a fresh clone; key decisions and current QA records are tracked in this repository.
@@ -49,7 +50,7 @@ These records cover implementation, decisions, approvals and verification. They 
 
 ## Implemented and verified
 
-Twelve editorial journal pages; twenty local player portraits and twelve flags; 13 men / 7 women filters; complete 21-number Draft without duplicates; six distinct Vault stories; five team roles; Newman logo/four values; full screen/focus and room labels; Matchday snapshot and quiz retry/completion/reset; eight Cinema links with filters, missions and independent session-only review marks; parent room headings, focus return and phone navigation.
+Twelve editorial journal pages; twenty local player portraits and twelve flags; 13 men / 7 women filters; complete 21-number Draft without duplicates; six distinct Vault stories; five team roles; Newman logo/four values; full screen/focus and room labels; Matchday snapshot and quiz retry/completion/reset; nine Cinema links with filters, missions and independent session-only review marks; parent room headings, focus return and phone navigation.
 
 Measured activity layouts: 1920×1018, 1366×706 and 390×744 below shared controls. Earlier journal checks also covered 1920×1080, 1366×768 and 390×844. Classroom screenshots are real browser renders, sometimes scaled to fit the review window. Public checks followed successful deployment. Current evidence is retained in docs/evidence.
 

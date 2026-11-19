@@ -2,13 +2,13 @@
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.
 
-## Approved script and Cinema addition
+## Live hosting script and Cinema cheers
 
-Teacher script: [read-along guide](docs/host-script.html) and [editable Word copy](docs/host-script.docx). It follows all 12 journal pages and works with the current public site. Two classroom cheers and an optional official 27-second stadium source are prepared on codex/arsenal-host-script-chants (release editorial-8). The owner approved publication with “Publish the cheers and stadium link.” See the release section in HANDOFF.md for verification scope.
+Teacher script: [read-along guide](docs/host-script.html) and [editable Word copy](docs/host-script.docx). It follows all 12 journal pages and works with the current public site. Two classroom cheers and an optional official 27-second stadium source are published as editorial-8 from codex/arsenal-host-script-chants. The owner approved publication with “Publish the cheers and stadium link.” See the release section in HANDOFF.md for verification scope.
 
 ## Current live version
 
-Development branch: `codex/arsenal-matchday-cinema`. Current application release: **editorial-7**, approved, deployed and browser-verified. **Start with [HANDOFF.md](HANDOFF.md)** to continue this project; it indexes decisions, testing, content review and remaining checks.
+Development branch: `codex/arsenal-host-script-chants`. Current application release: **editorial-8**, approved, deployed and browser-verified. **Start with [HANDOFF.md](HANDOFF.md)** to continue this project; it indexes decisions, testing, content review and remaining checks.
 
 Public website for presenting and sharing: https://ola-hq.github.io/arsenal-academy-worlds/ . No login is needed. The old private review copy is not the classroom website. Editorial-3 was the initial redesign; later releases are recorded in PROJECT_STATUS.md.
 
@@ -38,7 +38,7 @@ All journal imagery is local. Cinema opens official sources externally; it does 
 
 ## GitHub Pages and publication
 
-The existing live site uses GitHub Pages on `main` at the repository root. Major application changes stay on a development branch until the owner approves publication. This project has no custom workflow that publishes development branches. Versioned CSS/JS references and a visible `editorial-7` label help identify old pages. The deployment investigation observed ten-minute HTML caching and found no service worker. After an approved merge, wait for the Pages deployment to succeed, verify the new version label, then test the deployed experience again. A successful commit is not proof of a successful deployment.
+The existing live site uses GitHub Pages on `main` at the repository root. Major application changes stay on a development branch until the owner approves publication. This project has no custom workflow that publishes development branches. Versioned CSS/JS references and a visible `editorial-8` label help identify old pages. The deployment investigation observed ten-minute HTML caching and found no service worker. After an approved merge, wait for the Pages deployment to succeed, verify the new version label, then test the deployed experience again. A successful commit is not proof of a successful deployment.
 
 See `PROJECT_STATUS.md` for approved decisions, completed work and the remaining design backlog. See `VERIFICATION.md` for the browser checks and limitations. `credits.html` contains photography attribution, licence links and historical sources. Photo files were resized for web delivery; adapted photographic presentations retain their source licences. This fan experience is not affiliated with Arsenal FC.
 
@@ -46,7 +46,7 @@ Current scouting profiles use licensed local player photos and SVG flags, with s
 
 Full screen is available in the clubhouse and all activity rooms. Options provides room labels. Background audio and its controls were removed after owner feedback; read-aloud and Cinema remain available. Display support includes a clean-focus fallback when a browser refuses native full screen.
 
-Editorial-7 review: a dated 2026/27 Matchday room, class challenge, eight-film Cinema catalogue with short/highlights/stories filters, per-film watch missions and access notes. Source record: season-sources.json. Update seasonSnapshot in season-content.js after checking the official combined table; never describe this as an auto-updating feed. Quiz points and explanations derive from the snapshot. All new classroom state stays in memory. Source film suitability remains a teacher check. Publication requires owner approval.
+Editorial-7 review: a dated 2026/27 Matchday room, class challenge, nine-film Cinema catalogue with short/highlights/stories filters, per-film watch missions and access notes. Source record: season-sources.json. Update seasonSnapshot in season-content.js after checking the official combined table; never describe this as an auto-updating feed. Quiz points and explanations derive from the snapshot. All new classroom state stays in memory. Source film suitability remains a teacher check. Publication requires owner approval.
 
 Editorial-7 publication approval received: “Publish this update.” The completed Matchday/Cinema review was approved for the existing public classroom website. Consult the exported release report for deployment and public verification results.
 

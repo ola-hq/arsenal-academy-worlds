@@ -1,6 +1,8 @@
 # Ready for today — Arsenal Academy
 
-Open [the current Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-7). Select **Full screen**. Under Options, **Show room labels** makes the clickable places easier to find.
+The complete read-aloud hosting script is now available at https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html . Cinema includes teacher-led classroom cheers and an optional 0:27 stadium source marked for preview; its crowd audio is not fully cleared.
+
+Open [the current Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-8). Select **Full screen**. Under Options, **Show room labels** makes the clickable places easier to find.
 
 ## Use this film today
 

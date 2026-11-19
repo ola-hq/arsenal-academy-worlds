@@ -1,0 +1,20 @@
+{
+  "checked": "2026-11-19",
+  "url": "https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-8",
+  "deployment": "https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44587600696",
+  "commit": "b78111fe454c3ce258abe0336da2f6a6c78bbbaa",
+  "iframeURL": "legacy.html?v=editorial-8#cinema",
+  "checks": {
+    "backgroundAudio": 0,
+    "brokenCinemaImages": 0,
+    "cheersOpen": true,
+    "filmCount": "1 film",
+    "previewNote": "Teacher preview required: official channel and 27-second duration verified; sampled stadium visuals checked. Captions are unavailable and full crowd audio has not been independently cleared. Preview the exact clip, nearby voices and the external player before class. No song lyrics are reproduced here.",
+    "release": "Independent educational fan experience · Not affiliated with Arsenal FC · No student names or records entered or saved · Image credits & sources · Review build: editorial-8",
+    "reviewChecked": false,
+    "source": "https://www.youtube.com/watch?v=7AycooCU0-k"
+  },
+  "hostScript": "https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html",
+  "hostScriptNextCueVerified": true,
+  "capturedSiteErrors": []
+}
