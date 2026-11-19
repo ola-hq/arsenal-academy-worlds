@@ -1,7 +1,7 @@
 // Classroom content retained from the original experience.
 const story=[
 ['🔴⚪','WELCOME TO ARSENAL','A football club from London, England. Founded in 1886.','Who here likes soccer? Today you get to discover my favorite team!'],
-['🏟️','WELCOME TO NORTH LONDON','The Emirates Stadium is Arsenal’s home. Thousands of supporters cheer for the Gunners.','Imagine a whole stadium cheering for the same team!'],
+['🏟️','WELCOME TO NORTH LONDON','The Emirates Stadium is Arsenal’s home. Thousands of supporters cheer for Arsenal.','Imagine a whole stadium cheering for the same team!'],
 ['🏆','THE INVINCIBLES','2003–04: 38 Premier League games. 26 wins, 12 draws. ZERO losses.','Nobody beat Arsenal in the league that season. That’s why they were called the Invincibles.'],
 ['🏆','THE TROPHY CABINET','Arsenal have a proud history of league titles, FA Cups, and unforgettable victories.','Which trophies do you think a football club can win? Let’s explore their history.'],['👑','A LEGENDARY MANAGER','Arsène Wenger led the Invincibles and won three Premier League titles.','Wenger helped his team become great through preparation and teamwork.'],
 ['🏅','EUROPEAN CHAMPIONS TWICE','Arsenal Women won Europe in 2007 and again in 2025, beating Barcelona 1–0.','Their 2007 title was called the UEFA Women’s Cup. Their 2025 title was the Champions League!'],

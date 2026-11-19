@@ -23,7 +23,7 @@
     all('[data-nav]').forEach(a => {if(a.dataset.nav===room) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');});
     document.body.dataset.room = room;
     $('#roomBar').hidden = room === 'slides';
-    $('#location').textContent = names[room] || 'The Gunners Journal';
+    $('#location').textContent = names[room] || 'The Arsenal Academy Journal';
     $('#returnStory').textContent = `Return to journal · ${slide+1} / 12`;
     if (room === 'slides') renderSlide();
     else { $('#teacherNotes').hidden = true; $('#notesToggle').setAttribute('aria-expanded','false'); $('#location').focus({preventScroll:true}); }
@@ -75,7 +75,7 @@
       case 1:
         html=copy('A PLACE TO BELONG','HOME IS<br><em>NORTH LONDON.</em>',s[2],prompt('What makes a place feel like home?','People who welcome you. Teammates who support you. A place where everyone belongs.'));
         html+=image('emirates-exterior.jpg','Emirates Stadium exterior beneath a blue London sky','Emirates Stadium, 2009 · Ed g2s / CC BY-SA 3.0');
-        html+='<div class="location-strip"><span>LONDON, ENGLAND</span><strong>N5</strong><span>THE HOME OF THE GUNNERS</span></div>'; break;
+        html+='<div class="location-strip"><span>LONDON, ENGLAND</span><strong>N5</strong><span>OUR NORTH LONDON HOME</span></div>'; break;
       case 2:
         html=copy('THE SEASON NO ONE COULD STOP','THE<br><em>INVINCIBLES.</em>','2003–04. An entire Premier League season without a defeat.',prompt('Can you work out the unbeaten record?','26 wins + 12 draws = 38 games. Zero losses.'));
         html+='<div class="stat-art"><span class="kicker">PREMIER LEAGUE · 2003 / 04</span><strong>38<span>GAMES</span></strong><div class="record"><span><b>26</b> WINS</span><span><b>12</b> DRAWS</span><span><b>0</b> LOSSES</span></div><p>Different strengths.<br>One extraordinary team.</p></div>';break;

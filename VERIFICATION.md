@@ -41,4 +41,13 @@ Actual Chrome rendering was used, not mocked screenshots. Layout measurements we
 
 ## Release check after approval
 
-Merge only the approved review branch into `main`. Wait for Pages success at the merge commit. Open the published clubhouse, confirm `Review build: editorial-1`, and repeat the embedded draft, cinema-source and vault journeys. Verify imagery and controls on the classroom display. Do not call the deployment finished based on Git alone.
+Merge only the approved review branch into `main`. Wait for Pages success at the merge commit. Open the published clubhouse, confirm `Review build: editorial-2`, and repeat the embedded draft, cinema-source and vault journeys. Verify imagery and controls on the classroom display. Do not call the deployment finished based on Git alone.
+
+## Editorial-2 language revision
+
+- Applied the approved title “The Arsenal Academy Journal,” Cinema heading “Lights down. Leaders rise.” and geographic label “Our North London home.”
+- Removed the avoided nicknames from active HTML/JavaScript copy, page metadata, fallback clubhouse banner and narration source. Artwork pixels are excluded from this textual check and remain an explicit open task in `PROJECT_STATUS.md`.
+- Visually checked embedded journal entry, the revised North London page, the Cinema heading and return-to-journal navigation at 1366×768.
+- Refreshed all twelve classroom screenshots at 1920×1080 and checked the longer masthead at 390×844 with no horizontal overflow. No local-site console errors were observed.
+- Created the durable project status file recording the owner’s halfway visual assessment, approved vocabulary, completed checks, remaining visual/artwork work, classroom-device rehearsal and publication gate.
+- This is a wording/status pass. It does not close the visual-refinement backlog or approve publication.
