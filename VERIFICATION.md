@@ -1,5 +1,11 @@
 # Arsenal Academy — verification record
 
+## Current record index — 19 November 2026
+
+Application release editorial-7 is live. HANDOFF.md indexes the current state. Machine-readable current-release browser results are retained in docs/evidence; selected actual public/classroom/phone screenshots are in docs/screenshots. CONTENT_REVIEW.md separately records the latest free caption/frame checks and their limits. Historical availability checks below are not full content clearances.
+
+A fresh access audit opened the canonical public URL without sign-in, confirmed the illustrated clubhouse and editorial-7 footer, and captured no site console errors. GitHub main and successful Pages run 44569694478 were independently confirmed. This audit did not repeat the complete earlier interaction suite or test physical classroom hardware.
+
 The completed editorial-3 redesign was publicly deployed with owner approval at commit dc144e756df31f241365ec18f2a9f7771035b93d. Pages run: https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44459442868 . Public Draft produced 21 unique numbers; Vault produced all six stories with two per legend; Cinema and navigation worked. Every journal page was checked locally at classroom, desktop and phone dimensions. The earlier deployment matched main; ten-minute HTML caching, repeated artwork and presentation layout were separate issues. No service worker or broken project asset path was found.
 
 ## Editorial-4 classroom edits

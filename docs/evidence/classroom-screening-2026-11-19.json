@@ -1,0 +1,39 @@
+{
+  "merino": {
+    "available": true,
+    "kind": "auto-generated English",
+    "frames": 61,
+    "shirtlessSeconds": [
+      "about 9–11",
+      "about 43"
+    ],
+    "userAccepted": true
+  },
+  "women": {
+    "transcriptAvailable": false,
+    "sampledFrames": 22,
+    "uniqueSampleTimes": 21
+  },
+  "state": {
+    "producerTranscriptAvailable": true,
+    "sampledFrames": 16
+  },
+  "wenger": {
+    "transcriptExport": "timed out; no usable transcript obtained",
+    "sampledFrames": 19
+  },
+  "menGoals": {
+    "transcriptAvailable": false,
+    "sampledFrames": 10
+  },
+  "checked": "2026-11-19",
+  "method": "Free browser caption/transcript retrieval and timestamped visual sampling. No paid video-analysis tools used. No independent complete audio listening was performed.",
+  "website_images_inspected": 30,
+  "image_note": "The Arsenal Women archive celebration photo contains a bottle spraying liquid; its contents were not verified. No drinking is shown. Player portraits are in sports kit or training clothing.",
+  "scope": "The full Merino auto-generated English captions were read and 61 frames spanning the 61-second trailer were visually inspected, approximately one sample per second. Other visual scans were sparser and are not full-scene or full-audio clearances.",
+  "presentation_pick": "merino-trailer",
+  "user_accepted_merino_brief_shirtless_scenes": true,
+  "live_website_unchanged": true,
+  "other_clips_fully_cleared": false,
+  "club_site_sources": "All three source pages opened and rendered player controls in the in-app browser; full playback/caption review was not completed. Earlier Chrome access requirements may differ."
+}

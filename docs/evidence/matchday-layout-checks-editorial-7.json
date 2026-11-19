@@ -1,0 +1,56 @@
+[
+  {
+    "requested": "1920,1018",
+    "room": "cinema",
+    "brokenImages": [],
+    "height": 1018,
+    "overflow": [],
+    "scrollWidth": 1920,
+    "width": 1920
+  },
+  {
+    "requested": "1366,706",
+    "room": "cinema",
+    "brokenImages": [],
+    "height": 706,
+    "overflow": [],
+    "scrollWidth": 1366,
+    "width": 1366
+  },
+  {
+    "requested": "390,744",
+    "room": "cinema",
+    "brokenImages": [],
+    "height": 744,
+    "overflow": [],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "requested": "1920,1018",
+    "room": "matchday",
+    "brokenImages": [],
+    "height": 1018,
+    "overflow": [],
+    "scrollWidth": 1920,
+    "width": 1920
+  },
+  {
+    "requested": "1366,706",
+    "room": "matchday",
+    "brokenImages": [],
+    "height": 706,
+    "overflow": [],
+    "scrollWidth": 1366,
+    "width": 1366
+  },
+  {
+    "requested": "390,744",
+    "room": "matchday",
+    "brokenImages": [],
+    "height": 744,
+    "overflow": [],
+    "scrollWidth": 390,
+    "width": 390
+  }
+]

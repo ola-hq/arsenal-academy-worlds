@@ -5,6 +5,12 @@ Current release: editorial-7. The owner explicitly approved the completed Matchd
 Public classroom website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-7
 Development branch: codex/arsenal-matchday-cinema.
 
+## Current handoff and content review — 19 November 2026
+
+Start with HANDOFF.md. Current-release browser records and selected actual screenshots now live in docs/evidence and docs/screenshots, alongside the teacher plan in docs/present-today.md. CONTENT_REVIEW.md records free screening of 30 images and the video sources, including the owner-approved brief shirtless scenes in A Champion’s Story. Other films are not fully cleared; no independent complete audio listen was performed. This documentation refresh changes no application behavior.
+
+The canonical public website was opened again during the access audit: clubhouse rendered, editorial-7 footer visible, no sign-in and no captured site console errors. Existing main SHA and the successful Pages release were confirmed through GitHub. Historical sound and access notes below are release-specific; current background audio is removed, and external club-player access varied between Chrome and the in-app browser.
+
 ## Completed original scope
 
 The editorial-3 release was approved, published to main and verified on the public website: twelve illustrated journal pages; repaired Draft Day, navigation and six-story Vault; twenty retained profiles; classroom artwork and language cleanup; no student records or persistent classroom data. Pages run 44459442868 succeeded. Full Draft and Vault journeys were repeated publicly. All twelve pages were checked at 1920×1080, 1366×768 and 390×844.

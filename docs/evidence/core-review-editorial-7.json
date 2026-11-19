@@ -1,0 +1,55 @@
+{
+  "draft": {
+    "count": 21,
+    "picks": [
+      "1. #2",
+      "2. #16",
+      "3. #10",
+      "4. #4",
+      "5. #21",
+      "6. #20",
+      "7. #17",
+      "8. #8",
+      "9. #18",
+      "10. #6",
+      "11. #5",
+      "12. #13",
+      "13. #14",
+      "14. #1",
+      "15. #9",
+      "16. #3",
+      "17. #12",
+      "18. #15",
+      "19. #11",
+      "20. #19",
+      "21. #7"
+    ],
+    "unique": 21
+  },
+  "vault": [
+    {
+      "name": "Captain 1: Arsène Wenger",
+      "title": "The Invincibles Architect"
+    },
+    {
+      "name": "Captain 2: Tony Adams",
+      "title": "Mr Arsenal"
+    },
+    {
+      "name": "Captain 3: Arsène Wenger",
+      "title": "The Trophy-Winning Coach"
+    },
+    {
+      "name": "Captain 4: Sol Campbell",
+      "title": "The Big-Game Goalscorer"
+    },
+    {
+      "name": "Captain 5: Tony Adams",
+      "title": "The One-Club Legend"
+    },
+    {
+      "name": "Captain 6: Sol Campbell",
+      "title": "The Invincible Defender"
+    }
+  ]
+}

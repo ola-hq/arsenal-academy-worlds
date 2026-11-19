@@ -1,0 +1,106 @@
+{
+  "categories": [
+    {
+      "category": "shorts",
+      "count": 3
+    },
+    {
+      "category": "highlights",
+      "count": 4
+    },
+    {
+      "category": "stories",
+      "count": 3
+    },
+    {
+      "category": "all",
+      "count": 8
+    }
+  ],
+  "films": [
+    {
+      "title": "A Champion’s Story",
+      "href": "https://www.youtube.com/watch?v=KF9XJtA5e3k",
+      "mission": true,
+      "image": {
+        "src": "art/players/mikel-merino.jpg",
+        "width": 500
+      }
+    },
+    {
+      "title": "Only In The Land",
+      "href": "https://www.youtube.com/watch?v=mHeiihnFKJI",
+      "mission": true,
+      "image": {
+        "src": "art/women-champions.jpg",
+        "width": 1600
+      }
+    },
+    {
+      "title": "The Arsenal State of Mind",
+      "href": "https://nexusstudios.com/work/fx-goby-arsenal-state-of-mind/",
+      "mission": true,
+      "image": {
+        "src": "art/emirates-exterior.jpg",
+        "width": 1600
+      }
+    },
+    {
+      "title": "Arsenal 1–0 Hull City",
+      "href": "https://www.arsenal.com/media/video/playlist/90238",
+      "mission": true,
+      "image": {
+        "src": "art/emirates-interior.jpg",
+        "width": 1024
+      }
+    },
+    {
+      "title": "Arsenal Women 1–1 London City",
+      "href": "https://www.arsenal.com/media/video/playlist/90563",
+      "mission": true,
+      "image": {
+        "src": "art/women-champions.jpg",
+        "width": 1600
+      }
+    },
+    {
+      "title": "Arsenal Men: Best Goals",
+      "href": "https://www.youtube.com/watch?v=KqXuiKrrIac",
+      "mission": true,
+      "image": {
+        "src": "art/emirates-interior.jpg",
+        "width": 1024
+      }
+    },
+    {
+      "title": "Arsenal Women: The Goals",
+      "href": "https://www.arsenal.com/news/enjoy-all-our-wsl-goals-from-202425-aEgAh7n2WU6W",
+      "mission": true,
+      "image": {
+        "src": "art/women-champions.jpg",
+        "width": 1600
+      }
+    },
+    {
+      "title": "Wenger: A Lasting Legacy",
+      "href": "https://www.youtube.com/watch?v=xtM3k5NWUwQ",
+      "mission": true,
+      "image": {
+        "src": "art/wenger.jpg",
+        "width": 1067
+      }
+    }
+  ],
+  "reviewFlags": {
+    "otherUnreviewed7": true,
+    "sameReviewed7": true,
+    "clearHidden7": true,
+    "reloadCleared7": true
+  },
+  "finalProducerSourceCheck": {
+    "duration": 77,
+    "playable": true,
+    "pausedAfterReview": true,
+    "posterOverlapOnPhone": []
+  }
+}

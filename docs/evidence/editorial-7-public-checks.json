@@ -1,0 +1,21 @@
+{
+  "liveVersion": "editorial-7",
+  "position": "1st",
+  "points": 27,
+  "played": 10,
+  "snapshotChecked": "2026-11-19",
+  "challengeWrongProgress": "0 / 3 discovered",
+  "challengeCompleted": "3 / 3 discovered",
+  "parentRoomTitle": "Arsenal Cinema",
+  "allFilms": 8,
+  "producerLink": "https://nexusstudios.com/work/fx-goby-arsenal-state-of-mind/",
+  "teacherReviewStartsUnchecked": true,
+  "draft": "1 / 21 REVEALED",
+  "scouting": {
+    "flag": 200,
+    "name": "Kim Little",
+    "portrait": 330
+  },
+  "backgroundAudioElements": 0,
+  "consoleErrors": []
+}

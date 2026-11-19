@@ -1,0 +1,27 @@
+{
+  "review_commit": "91e8fee5dc03341493e4ec5896fc4d5522d52eac",
+  "development_branch": "codex/arsenal-matchday-cinema",
+  "published": true,
+  "live_release": "editorial-7",
+  "season_checked": "2026-11-19",
+  "season_source": "https://www.premierleague.com/en/tables/premier-league/2026-27",
+  "challenge": {
+    "wrong_answer_progress": 0,
+    "correct_answers_progress": 3,
+    "reset_progress": 0,
+    "jump_to_challenge_focus": true
+  },
+  "source_checks": {
+    "merino_seconds": 61,
+    "only_in_the_land_seconds": 109,
+    "state_of_mind_seconds": 77,
+    "full_footage_audio_teacher_screening_complete": false
+  },
+  "local_asset_references_missing": [],
+  "site_console_errors": [],
+  "background_audio_present": false,
+  "release_commit": "1ac8b45c2bacfb38677f89e9e82e713b58bd7b20",
+  "pages_run": 44569694478,
+  "pages_result": "success",
+  "public_checks_file": "editorial-7-public-checks.json"
+}
