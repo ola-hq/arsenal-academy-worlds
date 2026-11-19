@@ -162,17 +162,47 @@
   $('#shuffleDraft').addEventListener('click',()=>{draftOrder=shuffle(Array.from({length:21},(_,i)=>i+1));draftRevealed=0;renderDraft();});
   $('#revealDraft').addEventListener('click',()=>{if(draftRevealed<draftOrder.length){draftRevealed++;renderDraft();}});
   $('#resetDraft').addEventListener('click',()=>{draftOrder=[];draftRevealed=0;renderDraft();});renderDraft();
-  let filter='all',chosen=-1;
-  const eng='<svg class="flag" viewBox="0 0 60 40" role="img" aria-label="England flag"><rect width="60" height="40" fill="white"/><path d="M25 0h10v40H25zM0 15h60v10H0z" fill="#ce1124"/></svg>';
-  function renderPlayers(){
-    $('#players').replaceChildren(...players.flatMap((a,i)=>{
-      if(filter!=='all'&&a[1]!==filter)return[];
-      const b=document.createElement('button');b.className='player';b.type='button';b.setAttribute('aria-pressed',String(chosen===i));
-      b.innerHTML=`<span class="country">${a[2]==='ENG'?eng:a[2]==='SCO'?'SCOTLAND':a[2]}</span><strong>${a[0]}</strong><span>${a[4]}</span><small>${a[5]}</small>`;
-      b.addEventListener('click',()=>{chosen=i;$('#playerName').textContent=a[0];$('#playerInfo').textContent=`${a[3]} · ${a[4]} · ${a[5]}`;$('#playerStory').textContent=a[6];$('#playerAward').textContent=a[7];$('#playerPortrait').textContent=a[2]==='ENG'||a[2]==='SCO'?'⚽':a[2];const l=$('#playerVideo');l.href='https://www.youtube.com/@Arsenal/search?query='+encodeURIComponent(a[0]+' highlights');l.hidden=false;renderPlayers();$('#playerName').scrollIntoView({block:'center',behavior:'smooth'});});return b;
-    }));
+  let filter='all',chosen=0;
+  const countries={France:'fr',Spain:'es',Brazil:'br',Netherlands:'nl',Italy:'it',Norway:'no',England:'gb-eng',Germany:'de',Sweden:'se',Belgium:'be',Scotland:'gb-sct',Australia:'au'};
+  const escapeText=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  function countryMark(country){return `<span class="country"><img src="art/flags/${countries[country]}.svg" alt="" width="40" height="30"><span>${escapeText(country)}</span></span>`;}
+  function selectPlayer(i,moveToProfile=false){
+    chosen=i;const a=players[i],media=playerMedia[i];
+    $('#playerName').textContent=a[0];$('#playerInfo').innerHTML=countryMark(a[3])+`<span class="passport-position">${escapeText(a[4])}</span>`;
+    $('#playerPower').textContent=a[5];$('#playerStory').textContent=a[6];$('#playerAward').textContent=a[7];
+    $('#playerPortrait').innerHTML=`<img src="${media.src}" alt="${escapeText(a[0])}" width="480" height="600"><figcaption>PLAYER PORTRAIT · DIGITAL ACADEMY PROFILE</figcaption>`;
+    const credit=$('#playerPhotoCredit');credit.href=`credits.html#photo-${media.slug}`;credit.textContent='Photo credit & source';
+    const l=$('#playerVideo');l.href='https://www.youtube.com/@Arsenal/search?query='+encodeURIComponent(a[0]+' highlights');l.hidden=false;
+    all('[data-player]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.player)===chosen)));
+    $('#scoutSelection').textContent=`Viewing ${a[0]} · ${a[3]}. This explores a player; it does not reserve a physical card.`;
+    if(moveToProfile&&matchMedia('(max-width:900px)').matches){$('#playerName').focus({preventScroll:true});$('#playerPassport').scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});}
   }
-  all('.filter').forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.filter;all('.filter').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderPlayers();}));renderPlayers();
+  function renderPlayers(){
+    const visible=players.map((a,i)=>i).filter(i=>filter==='all'||players[i][1]===filter);
+    if(!visible.includes(chosen))chosen=visible[0];
+    $('#players').replaceChildren(...visible.map(i=>{
+      const a=players[i],media=playerMedia[i],b=document.createElement('button');b.className='player';b.type='button';b.dataset.player=i;
+      b.setAttribute('aria-pressed',String(chosen===i));b.setAttribute('aria-label',`${a[0]}, ${a[3]}, ${a[4]}. View player profile`);
+      b.innerHTML=`<span class="player-photo"><img src="${media.src}" alt="" width="240" height="300" loading="lazy"><span class="viewing-tag">VIEWING</span></span><span class="player-card-copy">${countryMark(a[3])}<strong>${escapeText(a[0])}</strong><span>${escapeText(a[4])}</span><small>${escapeText(a[5])}</small></span>`;
+      return b;
+    }));
+    $('#playerCount').textContent=`${visible.length} ${visible.length===1?'player':'players'} to explore`;
+    selectPlayer(chosen);
+  }
+  $('#players').addEventListener('click',e=>{const b=e.target.closest('[data-player]');if(b)selectPlayer(Number(b.dataset.player),true);});
+  all('.filter').forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.filter;all('.filter').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderPlayers();}));
+  $('#backToPlayers').addEventListener('click',()=>{$('#players').scrollIntoView({block:'start'});$(`[data-player="${chosen}"]`).focus({preventScroll:true});});
+  $('#scout').addEventListener('error',e=>{
+    const img=e.target;if(img.tagName!=='IMG')return;
+    const frame=img.closest('.player-photo,.player-portrait');img.hidden=true;
+    if(frame&&!frame.querySelector('.portrait-fallback')){
+      const fallback=document.createElement('span');fallback.className='portrait-fallback';
+      const index=frame.closest('[data-player]')?Number(frame.closest('[data-player]').dataset.player):chosen;
+      fallback.textContent=players[index][0].split(' ').map(part=>part[0]).slice(0,2).join('');
+      const note=document.createElement('small');note.textContent='Photo unavailable';fallback.append(note);frame.append(fallback);
+    }
+  },true);
+  renderPlayers();
   const feeds=[
     {title:'Arsenal Women',art:'women',tag:'THE HISTORY MAKERS',description:'All 62 league goals from 2024/25 on Arsenal’s official site. Open the source and select a teacher-reviewed excerpt.',url:'https://www.arsenal.com/news/enjoy-all-our-wsl-goals-from-202425-aEgAh7n2WU6W',reviewable:true},
     {title:'Arsenal Men: Best Goals',art:'men',tag:'ARSENAL MEN',description:'Official Arsenal goals compilation from 2024/25, featuring Rice, Saka and Calafiori. Teacher preview required before projection.',url:'https://www.youtube.com/watch?v=KqXuiKrrIac',reviewable:true},

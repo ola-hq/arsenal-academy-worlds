@@ -1,8 +1,8 @@
 # Arsenal Academy — current project status
 
-Updated November 18, 2026 (Pacific). Current implementation: editorial-4. The owner explicitly approved publishing these specific changes on November 18, 2026.
+Updated November 18, 2026 (Pacific). Current implementation: editorial-5. The owner explicitly approved this patch with “Publish these fixes” on November 18, 2026.
 
-Public classroom website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-4
+Public classroom website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-5
 Development branch: codex/arsenal-editorial-classroom.
 
 ## Completed original scope
@@ -28,3 +28,18 @@ Physical ViewSonic, network, speakers and native device voice rehearsal. Teacher
 The private preview is optional and unrelated to the no-login public classroom URL. Do not divert the classroom to a sign-in screen. Future unrelated major changes require fresh approval; these are the owner-requested bounded classroom edits.
 
 The owner answered “Publish these changes” after reviewing the patch summary. This explicitly authorizes publication of editorial-4 to the existing public website. Final deployment and live-browser results are recorded in the exported task report.
+
+## Editorial-5 scouting and Newman corrections
+
+The owner requested country/image corrections and trusted the remaining scoped polish, then asked to finish this out. Reproduced the public scouting bug: selection inserted flags/football into the portrait slot, with no player-photo assets. England and Scotland were inconsistent across grid and passport.
+
+- Added 20 locally served documentary player photographs, with individual author/source/CC licence credits. Both grid cards and the selected passport show the matching player. These are original digital profiles, not scans or inventory of the physical cards.
+- Added 12 local SVG country flags with written country labels, including England and Scotland. Preserved the supplied 20-player set, biographies and nationalities.
+- Added an explicit Viewing indicator, clear selected-profile status, filter-consistent selection, a phone return-to-cards action and a nonblank failure message if an image ever fails. Card selection no longer rebuilds the entire grid on every tap.
+- Newman uses the real school logo and official source links, plus both the Three B’s and PBIS’s Be College Ready at the owner’s explicit request to include both. Activity examples are adapted and labelled. No student photos, feeds or school-site scripts are imported.
+- Added a visible Newman Knights entry in the clubhouse, a top close button, heading focus, Escape close and focus return.
+- Actual Chrome checks: all 20 portraits/countries selected; correct single selected state; 20/all, 13/men and 7/women filtering; classroom 1920×1080, desktop 1366×768, phone 390×844; no checked text/horizontal overflow; Newman logo and both sources; keyboard close and focus return. Final public release result is recorded in the task’s exported report.
+
+External classroom hardware/sound and exact video screening remain as previously recorded.
+
+The owner explicitly approved the completed editorial-5 patch with “Publish these fixes.” Final public deployment and browser verification are recorded in the exported release report.

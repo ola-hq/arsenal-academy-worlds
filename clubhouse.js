@@ -5,7 +5,7 @@ let previous=null,activeDialog=null;
 function setBackgroundInert(dialog, enabled){[...document.body.children].forEach(el=>{if(el!==dialog&&el.tagName!=='SCRIPT')el.inert=enabled;});}
 function openDialog(dialog,trigger,focus){previous=trigger;activeDialog=dialog;dialog.hidden=false;setBackgroundInert(dialog,true);document.body.style.overflow='hidden';focus.focus();}
 function closeDialog(){if(!activeDialog)return;const dialog=activeDialog;dialog.hidden=true;activeDialog=null;setBackgroundInert(dialog,false);document.body.style.overflow='';if(dialog===modal)frame.src='about:blank';previous?.focus();}
-document.querySelectorAll('[data-room]').forEach(b=>b.addEventListener('click',()=>{const room=b.dataset.room;title.textContent=labels[room];frame.src='legacy.html?v=editorial-4#'+(room==='slides'?'slides/1':room);openDialog(modal,b,document.getElementById('close'));}));
+document.querySelectorAll('[data-room]').forEach(b=>b.addEventListener('click',()=>{const room=b.dataset.room;title.textContent=labels[room];frame.src='legacy.html?v=editorial-5#'+(room==='slides'?'slides/1':room);openDialog(modal,b,document.getElementById('close'));}));
 document.getElementById('close').addEventListener('click',closeDialog);
 window.addEventListener('message',e=>{if(e.origin===location.origin&&e.source===frame.contentWindow&&e.data?.type==='arsenal:close')closeDialog();});
 document.addEventListener('keydown',e=>{
@@ -14,7 +14,8 @@ document.addEventListener('keydown',e=>{
 });
 const artProbe=new Image();artProbe.onload=()=>document.querySelector('.world').classList.add('art-ready');artProbe.src='art/clubhouse-classroom-v4.jpg';
 const egg=document.getElementById('egg');
-document.getElementById('knights').addEventListener('click',e=>openDialog(egg,e.currentTarget,document.getElementById('closeEgg')));
+document.querySelectorAll('[data-knights]').forEach(b=>b.addEventListener('click',e=>openDialog(egg,e.currentTarget,document.getElementById('knightsTitle'))));
+document.getElementById('closeEggTop').addEventListener('click',closeDialog);
 document.getElementById('closeEgg').addEventListener('click',closeDialog);
 const achievementData={
  men:['2025/26 Premier League Champions','Arsenal’s men lifted the Premier League trophy in 2026, ending a 22-year wait for a league championship.','Teamwork question: What does it take to keep trying for something for 22 years?'],
