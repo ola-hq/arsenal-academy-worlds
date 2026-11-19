@@ -2,6 +2,10 @@
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.
 
+## Photo story preview
+
+The requested Hall of Champions photo pop-ups and tighter illustrated object targets are ready on codex/arsenal-photo-popups (editorial-9 preview), pending owner publication approval. Public release remains editorial-8. See the pending section of HANDOFF.md for verification and photo-source details.
+
 ## Live hosting script and Cinema cheers
 
 Teacher script: [read-along guide](docs/host-script.html) and [editable Word copy](docs/host-script.docx). It follows all 12 journal pages and works with the current public site. Two classroom cheers and an optional official 27-second stadium source are published as editorial-8 from codex/arsenal-host-script-chants. The owner approved publication with “Publish the cheers and stadium link.” See the release section in HANDOFF.md for verification scope.

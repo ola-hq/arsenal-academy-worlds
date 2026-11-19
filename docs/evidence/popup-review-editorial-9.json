@@ -1,0 +1,480 @@
+{
+  "checked": "2026-11-19",
+  "status": "development review; not published",
+  "storyChecks": [
+    {
+      "horizontalOverflow": false,
+      "id": "men",
+      "initialFeedbackHidden": true,
+      "oneSelectedTab": true,
+      "photo": 1500,
+      "source": "https://commons.wikimedia.org/wiki/File:Arsenal_Parade_31052026_(37).jpg",
+      "title": "Worth the wait.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "withinViewport": true,
+      "retry": "Think about what a team can do after a difficult day. Try the other idea.",
+      "correctMarked": true,
+      "focusReturned": "men"
+    },
+    {
+      "horizontalOverflow": false,
+      "id": "invincibles",
+      "initialFeedbackHidden": true,
+      "oneSelectedTab": true,
+      "photo": 944,
+      "source": "https://commons.wikimedia.org/wiki/File:Arsenal_open_top_bus_parade_2004.jpg",
+      "title": "38 games. Zero defeats.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "withinViewport": true,
+      "retry": "Look at the 12 draws. A tied game is not a defeat. Try again.",
+      "correctMarked": true,
+      "focusReturned": "invincibles"
+    },
+    {
+      "horizontalOverflow": false,
+      "id": "europe",
+      "initialFeedbackHidden": true,
+      "oneSelectedTab": true,
+      "photo": 988,
+      "source": "https://www.uefa.com/womenschampionsleague/news/029a-1df953e859d5-5ff509a80e7c-1000--arsenal-return-to-european-summit/",
+      "title": "Champions. Again.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "withinViewport": true,
+      "retry": "Think about the passes, saves and support before the goal. Who else helped?",
+      "correctMarked": true,
+      "focusReturned": "europe"
+    },
+    {
+      "horizontalOverflow": false,
+      "id": "women",
+      "initialFeedbackHidden": true,
+      "oneSelectedTab": true,
+      "photo": 1500,
+      "source": "https://commons.wikimedia.org/wiki/File:Arsenal_WFC_v_Manchester_City_WFC,_11_May_2019_(02).jpg",
+      "title": "A history of champions.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "withinViewport": true,
+      "retry": "The trophy is the celebration. Think about the work that happens before it.",
+      "correctMarked": true,
+      "focusReturned": "women"
+    },
+    {
+      "horizontalOverflow": false,
+      "id": "men",
+      "initialFeedbackHidden": true,
+      "oneSelectedTab": true,
+      "photo": 1500,
+      "source": "https://commons.wikimedia.org/wiki/File:Arsenal_Parade_31052026_(37).jpg",
+      "title": "Worth the wait.",
+      "viewport": [
+        1366,
+        768
+      ],
+      "withinViewport": true,
+      "retry": "Think about what a team can do after a difficult day. Try the other idea.",
+      "correctMarked": true,
+      "focusReturned": "men"
+    },
+    {
+      "horizontalOverflow": false,
+      "id": "invincibles",
+      "initialFeedbackHidden": true,
+      "oneSelectedTab": true,
+      "photo": 944,
+      "source": "https://commons.wikimedia.org/wiki/File:Arsenal_open_top_bus_parade_2004.jpg",
+      "title": "38 games. Zero defeats.",
+      "viewport": [
+        1366,
+        768
+      ],
+      "withinViewport": true,
+      "retry": "Look at the 12 draws. A tied game is not a defeat. Try again.",
+      "correctMarked": true,
+      "focusReturned": "invincibles"
+    },
+    {
+      "horizontalOverflow": false,
+      "id": "europe",
+      "initialFeedbackHidden": true,
+      "oneSelectedTab": true,
+      "photo": 988,
+      "source": "https://www.uefa.com/womenschampionsleague/news/029a-1df953e859d5-5ff509a80e7c-1000--arsenal-return-to-european-summit/",
+      "title": "Champions. Again.",
+      "viewport": [
+        1366,
+        768
+      ],
+      "withinViewport": true,
+      "retry": "Think about the passes, saves and support before the goal. Who else helped?",
+      "correctMarked": true,
+      "focusReturned": "europe"
+    },
+    {
+      "horizontalOverflow": false,
+      "id": "women",
+      "initialFeedbackHidden": true,
+      "oneSelectedTab": true,
+      "photo": 1500,
+      "source": "https://commons.wikimedia.org/wiki/File:Arsenal_WFC_v_Manchester_City_WFC,_11_May_2019_(02).jpg",
+      "title": "A history of champions.",
+      "viewport": [
+        1366,
+        768
+      ],
+      "withinViewport": true,
+      "retry": "The trophy is the celebration. Think about the work that happens before it.",
+      "correctMarked": true,
+      "focusReturned": "women"
+    },
+    {
+      "horizontalOverflow": false,
+      "id": "men",
+      "initialFeedbackHidden": true,
+      "oneSelectedTab": true,
+      "photo": 1500,
+      "source": "https://commons.wikimedia.org/wiki/File:Arsenal_Parade_31052026_(37).jpg",
+      "title": "Worth the wait.",
+      "viewport": [
+        390,
+        844
+      ],
+      "withinViewport": true,
+      "retry": "Think about what a team can do after a difficult day. Try the other idea.",
+      "correctMarked": true,
+      "focusReturned": "men"
+    },
+    {
+      "horizontalOverflow": false,
+      "id": "invincibles",
+      "initialFeedbackHidden": true,
+      "oneSelectedTab": true,
+      "photo": 944,
+      "source": "https://commons.wikimedia.org/wiki/File:Arsenal_open_top_bus_parade_2004.jpg",
+      "title": "38 games. Zero defeats.",
+      "viewport": [
+        390,
+        844
+      ],
+      "withinViewport": true,
+      "retry": "Look at the 12 draws. A tied game is not a defeat. Try again.",
+      "correctMarked": true,
+      "focusReturned": "invincibles"
+    },
+    {
+      "horizontalOverflow": false,
+      "id": "europe",
+      "initialFeedbackHidden": true,
+      "oneSelectedTab": true,
+      "photo": 988,
+      "source": "https://www.uefa.com/womenschampionsleague/news/029a-1df953e859d5-5ff509a80e7c-1000--arsenal-return-to-european-summit/",
+      "title": "Champions. Again.",
+      "viewport": [
+        390,
+        844
+      ],
+      "withinViewport": true,
+      "retry": "Think about the passes, saves and support before the goal. Who else helped?",
+      "correctMarked": true,
+      "focusReturned": "europe"
+    },
+    {
+      "horizontalOverflow": false,
+      "id": "women",
+      "initialFeedbackHidden": true,
+      "oneSelectedTab": true,
+      "photo": 1500,
+      "source": "https://commons.wikimedia.org/wiki/File:Arsenal_WFC_v_Manchester_City_WFC,_11_May_2019_(02).jpg",
+      "title": "A history of champions.",
+      "viewport": [
+        390,
+        844
+      ],
+      "withinViewport": true,
+      "retry": "The trophy is the celebration. Think about the work that happens before it.",
+      "correctMarked": true,
+      "focusReturned": "women"
+    }
+  ],
+  "targetChecks": [
+    {
+      "overlaps": [],
+      "targets": [
+        {
+          "h": 0.28999652958528543,
+          "name": "Discover Arsenal men’s 2026 Premier League title",
+          "w": 0.11099853515625,
+          "x": 0.180999755859375,
+          "y": 0
+        },
+        {
+          "h": 0.2579927988894673,
+          "name": "Discover the Invincibles 2003 to 2004 season",
+          "w": 0.100994873046875,
+          "x": 0.30799560546875,
+          "y": 0.013990109318063508
+        },
+        {
+          "h": 0.27099600902307824,
+          "name": "Discover Arsenal Women European titles in 2007 and 2025",
+          "w": 0.103997802734375,
+          "x": 0.601995849609375,
+          "y": 0.00499956619816068
+        },
+        {
+          "h": 0.28999652958528543,
+          "name": "Discover Arsenal Women fifteen league titles",
+          "w": 0.10699462890625,
+          "x": 0.717999267578125,
+          "y": 0
+        },
+        {
+          "h": 0.28499696338712477,
+          "name": "Open ViewSonic presentation",
+          "w": 0.2719970703125,
+          "x": 0.367999267578125,
+          "y": 0.40099557522123896
+        },
+        {
+          "h": 0.28999652958528543,
+          "name": "Open Arsenal Matchday season and class challenge",
+          "w": 0.114996337890625,
+          "x": 0.25,
+          "y": 0.33999219156689225
+        },
+        {
+          "h": 0.21499219156689223,
+          "name": "Open scouting player cards",
+          "w": 0.25,
+          "x": 0.089996337890625,
+          "y": 0.7099926253687315
+        },
+        {
+          "h": 0.3049952281797675,
+          "name": "Open captain mystery badge draw",
+          "w": 0.1699951171875,
+          "x": 0.041998291015625,
+          "y": 0.31999392677424954
+        },
+        {
+          "h": 0.2749978309908034,
+          "name": "Open teacher preview cinema",
+          "w": 0.172998046875,
+          "x": 0.804998779296875,
+          "y": 0.3349926253687316
+        },
+        {
+          "h": 0.3649900225576957,
+          "name": "Discover Newman Knights Easter egg",
+          "w": 0.14599609375,
+          "x": 0.837994384765625,
+          "y": 0.609990456359535
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "overlaps": [],
+      "targets": [
+        {
+          "h": 0.2899880158013878,
+          "name": "Discover Arsenal men’s 2026 Premier League title",
+          "w": 0.1109945377031708,
+          "x": 0.1809968691713296,
+          "y": 0
+        },
+        {
+          "h": 0.2579857669147346,
+          "name": "Discover the Invincibles 2003 to 2004 season",
+          "w": 0.10099420463629095,
+          "x": 0.30799527045030645,
+          "y": 0.013996360354495554
+        },
+        {
+          "h": 0.27099084170501114,
+          "name": "Discover Arsenal Women European titles in 2007 and 2025",
+          "w": 0.1039918065547562,
+          "x": 0.6019934052757794,
+          "y": 0.0049860184349524335
+        },
+        {
+          "h": 0.2899880158013878,
+          "name": "Discover Arsenal Women fifteen league titles",
+          "w": 0.10699773514521715,
+          "x": 0.717992272848388,
+          "y": 0
+        },
+        {
+          "h": 0.28498720205950673,
+          "name": "Open ViewSonic presentation",
+          "w": 0.2719990674127365,
+          "x": 0.3679972688515854,
+          "y": 0.4009972036869905
+        },
+        {
+          "h": 0.2899880158013878,
+          "name": "Open Arsenal Matchday season and class challenge",
+          "w": 0.11499966693312016,
+          "x": 0.25,
+          "y": 0.33999615322019855
+        },
+        {
+          "h": 0.2149906049801003,
+          "name": "Open scouting player cards",
+          "w": 0.25,
+          "x": 0.08999467092992273,
+          "y": 0.7099971888916835
+        },
+        {
+          "h": 0.30499045702703104,
+          "name": "Open captain mystery badge draw",
+          "w": 0.16999733546496135,
+          "x": 0.04199973354649614,
+          "y": 0.31999289825267424
+        },
+        {
+          "h": 0.2749855745757446,
+          "name": "Open teacher preview cinema",
+          "w": 0.17299493738342658,
+          "x": 0.8049976685318412,
+          "y": 0.3349953394783175
+        },
+        {
+          "h": 0.3649854266226753,
+          "name": "Discover Newman Knights Easter egg",
+          "w": 0.14599986677324803,
+          "x": 0.8379962696509459,
+          "y": 0.6099957093609907
+        }
+      ],
+      "viewport": [
+        1366,
+        768
+      ]
+    },
+    {
+      "overlaps": [],
+      "targets": [
+        {
+          "h": 0.2899781246524044,
+          "name": "Discover Arsenal men’s 2026 Premier League title",
+          "w": 0.11099054733635208,
+          "x": 0.1809986853911483,
+          "y": 0
+        },
+        {
+          "h": 0.2579807941863483,
+          "name": "Discover the Invincibles 2003 to 2004 season",
+          "w": 0.10099534670200112,
+          "x": 0.30799407382676375,
+          "y": 0.013977976344963108
+        },
+        {
+          "h": 0.27099477216269324,
+          "name": "Discover Arsenal Women European titles in 2007 and 2025",
+          "w": 0.10397930012728752,
+          "x": 0.6019865200425683,
+          "y": 0.004968299284416596
+        },
+        {
+          "h": 0.2899781246524044,
+          "name": "Discover Arsenal Women fifteen league titles",
+          "w": 0.10698412035974376,
+          "x": 0.7179851010996807,
+          "y": 0
+        },
+        {
+          "h": 0.28497274850765636,
+          "name": "Open ViewSonic presentation",
+          "w": 0.2719988314587985,
+          "x": 0.3679861444400392,
+          "y": 0.400986244484817
+        },
+        {
+          "h": 0.2999888769419006,
+          "name": "Open Arsenal Matchday season and class challenge",
+          "w": 0.1175218579805104,
+          "x": 0.24998434989462265,
+          "y": 0.31997330466056134
+        },
+        {
+          "h": 0.2149716362018464,
+          "name": "Open scouting player cards",
+          "w": 0.24998434989462265,
+          "x": 0.0899985393234981,
+          "y": 0.7099847984872641
+        },
+        {
+          "h": 0.3049942530866486,
+          "name": "Open captain mystery badge draw",
+          "w": 0.16998101120547546,
+          "x": 0.04198401602570791,
+          "y": 0.31997330466056134
+        },
+        {
+          "h": 0.2749990730784917,
+          "name": "Open teacher preview cinema",
+          "w": 0.17298583143793167,
+          "x": 0.8049996869978925,
+          "y": 0.33498943309480556
+        },
+        {
+          "h": 0.3649846131029624,
+          "name": "Discover Newman Knights Easter egg",
+          "w": 0.14598418296016527,
+          "x": 0.8379901091334016,
+          "y": 0.6099885061732973
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  ],
+  "portalChecks": [
+    {
+      "name": "Open ViewSonic presentation",
+      "title": "The Arsenal Academy Journal",
+      "src": "legacy.html?v=editorial-9#slides/1"
+    },
+    {
+      "name": "Open scouting player cards",
+      "title": "Player Scouting Academy",
+      "src": "legacy.html?v=editorial-9#scout"
+    },
+    {
+      "name": "Open captain mystery badge draw",
+      "title": "Captain’s Mystery Vault",
+      "src": "legacy.html?v=editorial-9#captains"
+    },
+    {
+      "name": "Open teacher preview cinema",
+      "title": "Arsenal Cinema",
+      "src": "legacy.html?v=editorial-9#cinema"
+    }
+  ],
+  "storyCycle": [
+    "Worth the wait.",
+    "38 games. Zero defeats.",
+    "Champions. Again.",
+    "A history of champions."
+  ],
+  "imagesVisuallyInspected": true,
+  "nativeFullscreen": "Blocked in in-app browser; focus fallback observed. No physical ViewSonic test.",
+  "capturedErrors": []
+}

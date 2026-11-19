@@ -1,0 +1,49 @@
+/* Object positions follow the fixed 1672 × 941 clubhouse photograph. */
+.world.art-ready .matchday{left:25%;width:11.5%}
+.world.art-ready .screen{left:36.8%;top:40.1%;width:27.2%;height:28.5%}
+.world.art-ready .scout{left:9%;top:71%;width:25%;height:21.5%}
+.world.art-ready .vault{left:4.2%;top:32%;width:17%;height:30.5%}
+.world.art-ready .cinema{left:80.5%;top:33.5%;width:17.3%;height:27.5%}
+.world.art-ready .knights{left:83.8%;right:auto;top:61%;width:14.6%;height:36.5%}
+.world.art-ready .achievement{top:0;height:29%;border-radius:0;clip-path:polygon(0 0,100% 0,100% 79%,50% 100%,0 79%)}
+.world.art-ready .ach-men{left:18.1%;width:11.1%}
+.world.art-ready .ach-invincibles{left:30.8%;top:1.4%;width:10.1%;height:25.8%}
+.world.art-ready .ach-europe{left:60.2%;top:.5%;width:10.4%;height:27.1%}
+.world.art-ready .ach-women{left:71.8%;width:10.7%}
+.world.art-ready .achievement:hover,.world.art-ready .achievement:focus-visible{outline:0;background:#ffe3a42b}
+.hit-outline{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;fill:none;stroke:#ffe3a4;stroke-width:2;vector-effect:non-scaling-stroke}
+.achievement-links{display:none}
+#achievement{padding:24px;background:#070c16e8;backdrop-filter:blur(9px);overflow:auto}
+#achievement .achievement-card{position:relative;max-width:1080px;width:100%;max-height:calc(100dvh - 48px);overflow:auto;padding:0;border:1px solid #c6a871;border-radius:16px;background:#111827;box-shadow:0 30px 100px #000b;color:#fff5df}
+.moment-top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:15px 20px;background:#0c1220;border-bottom:1px solid #d8bb792e;position:sticky;top:0;z-index:3}
+.moment-top>span{font-size:12px;font-weight:850;letter-spacing:.12em;color:#ebcc92}
+#achievement .moment-close{flex:none;width:44px;min-height:44px;padding:0;border:1px solid #cbb37d66;border-radius:50%;background:#1b2536;color:#fff4d8;font-size:28px;line-height:1}
+.moment-grid{display:grid;grid-template-columns:1.08fr 1fr}
+.moment-photo{margin:0;display:flex;flex-direction:column;min-width:0;background:#080e17}
+.moment-photo img{display:block;width:100%;height:100%;min-height:340px;max-height:590px;object-fit:cover;object-position:50% 35%}
+.moment-photo figcaption{padding:13px 18px;font-size:12px;line-height:1.5;color:#cdd4de;background:#0b1220}
+.moment-photo a{color:#f0ce8c;text-underline-offset:3px}
+.moment-copy{padding:28px 30px 24px;min-width:0}
+.moment-year{font-size:13px;letter-spacing:.13em;font-weight:850;color:#e9c880}
+#achievement h2{font-family:Georgia,serif;font-size:clamp(30px,3.4vw,48px);line-height:1.04;letter-spacing:-.035em;margin:14px 0 16px}
+#achievement .moment-deck{font-size:17px;line-height:1.6;color:#e0e5ed;margin:0 0 20px}
+.moment-stats{display:flex;flex-wrap:wrap;gap:12px;padding:15px 0 18px;border-top:1px solid #d6b97a40;border-bottom:1px solid #d6b97a40}
+.moment-stat{flex:1;min-width:65px}.moment-stat strong{display:block;font-size:34px;font-family:Georgia,serif;color:#ffe3a6;line-height:1.1}.moment-stat span{display:block;font-size:11px;letter-spacing:.07em;line-height:1.5;margin-top:6px;color:#cdd4de;text-transform:uppercase}
+.moment-fact{font-size:15px;line-height:1.6;color:#f0d7a5}
+.moment-mission{background:#202b3c;padding:16px;border-radius:8px;margin:20px 0 0}
+.moment-mission>span{font-size:11px;letter-spacing:.11em;font-weight:850;color:#ebcc92}
+.moment-mission h3{font-size:18px;line-height:1.35;margin:9px 0 13px;color:#fff6df}
+.moment-answers{display:grid;gap:8px}
+#achievement .moment-answers button{background:#111b2d;border:1px solid #8293aa;color:#fff5df;text-align:left;font-size:15px;line-height:1.35;padding:11px 13px;border-radius:6px;min-height:44px}
+#achievement .moment-answers button[aria-pressed=true]{border-color:#f3d18d;background:#3b3640}
+#achievement .moment-answers button[data-correct=true]{background:#163b36;border-color:#83c4b3}
+.moment-feedback{font-size:15px;line-height:1.55;margin:12px 0 0;color:#e8f5e9}
+.moment-bottom{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap;padding:16px 20px;border-top:1px solid #d8bb7933;background:#0b1220}
+.moment-tabs{display:flex;flex-wrap:wrap;gap:7px}
+#achievement .moment-tabs button{border:1px solid #768299;background:transparent;color:#d5dce8;border-radius:5px;padding:9px 12px;font-size:13px;min-height:44px}
+#achievement .moment-tabs button[aria-pressed=true]{background:#f0d297;color:#152033;border-color:#f0d297}
+#achievement .moment-next{font-size:14px;border-radius:5px;min-height:44px;padding:11px 16px;white-space:nowrap}
+#achievement .modal-display-tools{padding:0 20px 14px;background:#0b1220;margin:0}
+#achievement button:focus-visible,#achievement a:focus-visible{outline:3px solid #ffe3a4;outline-offset:3px}
+@media(max-width:700px){#achievement{padding:12px}#achievement .achievement-card{max-height:calc(100dvh - 24px);border-radius:12px}.moment-grid{grid-template-columns:1fr}.moment-photo img{height:210px;min-height:0;max-height:none;object-fit:contain;background:#080e17}.moment-photo figcaption{font-size:12px;padding:10px 16px}.moment-copy{padding:21px 20px}.moment-top{padding:10px 14px}.moment-top>span{font-size:11px}#achievement h2{font-size:36px}.moment-bottom{padding:14px;align-items:stretch}.moment-next{width:100%}.moment-tabs{width:100%}#achievement .moment-tabs button{flex:1;padding:8px;font-size:12px}.achievement-links{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px auto;padding:0 16px;max-width:650px}.achievement-links button{background:#192439;border:1px solid #b39b6b;color:#f4daaa;font-weight:750;font-size:14px;line-height:1.3;border-radius:6px;padding:10px;min-height:48px}}
+@media(prefers-reduced-motion:reduce){#achievement{backdrop-filter:none}}

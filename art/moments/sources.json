@@ -1,0 +1,37 @@
+{
+  "checked": "2026-11-19",
+  "adaptation": "Resized and responsive presentation; image ownership and source licences retained.",
+  "photos": [
+    {
+      "file": "men-parade-2026.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Arsenal_Parade_31052026_(37).jpg",
+      "event": "31 May 2026 title parade",
+      "author": "Timmy96",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "file": "invincibles-parade-2004.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Arsenal_open_top_bus_parade_2004.jpg",
+      "event": "2004 league victory parade",
+      "author": "Dineshcooper",
+      "license": "Public domain dedication by author"
+    },
+    {
+      "file": "women-league-2019.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Arsenal_WFC_v_Manchester_City_WFC,_11_May_2019_(02).jpg",
+      "event": "11 May 2019 league trophy day",
+      "author": "Katie Chan",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "file": "women-europe-2025.jpg",
+      "source": "https://www.uefa.com/womenschampionsleague/news/029a-1df953e859d5-5ff509a80e7c-1000--arsenal-return-to-european-summit/",
+      "event": "24 May 2025 European final trophy ceremony in Lisbon",
+      "author": "Arsenal FC via Getty Images",
+      "license": "Copyright retained by rights holder; no Creative Commons licence claimed",
+      "note": "Sourced from UEFA\u2019s official event report for the owner-requested educational event-story preview."
+    }
+  ]
+}
