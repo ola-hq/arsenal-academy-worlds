@@ -1,0 +1,148 @@
+{
+  "release": "editorial-14",
+  "approval": "Publish the tested polish",
+  "deploymentRun": 44780248941,
+  "publicUrl": "https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-14",
+  "checks": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 21028,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "legacy.html",
+      "status": 200,
+      "bytes": 15672,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "academy.js",
+      "status": 200,
+      "bytes": 26871,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "presenter.css",
+      "status": 200,
+      "bytes": 5687,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "showtime.css",
+      "status": 200,
+      "bytes": 7231,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/ola/ola-hq-globe.webp",
+      "status": 200,
+      "bytes": 17662,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/ola/la-ola-fc-crest.svg",
+      "status": 200,
+      "bytes": 1036,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/ola/sources.json",
+      "status": 200,
+      "bytes": 731,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "clubhouse.js",
+      "status": 200,
+      "bytes": 2569,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "content.js",
+      "status": 200,
+      "bytes": 10609,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "player-media.js",
+      "status": 200,
+      "bytes": 2813,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "credits.html",
+      "status": 200,
+      "bytes": 14336,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/sources.json",
+      "status": 200,
+      "bytes": 18198,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/host-script.html",
+      "status": 200,
+      "bytes": 40072,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/host-script.docx",
+      "status": 200,
+      "bytes": 48173,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/player-journey-sources.json",
+      "status": 200,
+      "bytes": 3996,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/bukayo-saka.jpg",
+      "status": 200,
+      "bytes": 81183,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/max-dowman.jpg",
+      "status": 200,
+      "bytes": 81592,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/smilla-holmberg.jpg",
+      "status": 200,
+      "bytes": 80377,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/marli-salmon.webp",
+      "status": 200,
+      "bytes": 98648,
+      "matchesReviewedSource": true
+    }
+  ],
+  "verificationScope": "Direct HTTP checks compare the public files to the actual browser-tested review source. These HTTP checks verify file contents, not visual or interaction behavior. Public browser outcomes are recorded separately.",
+  "date": "2026-11-20",
+  "implementation": "780622a",
+  "approvalCommit": "125d53d27b7991293359d8724f0f4cf5043a78d3",
+  "deploymentConclusion": "success",
+  "browserChecks": {
+    "publicReleaseVisible": "editorial-14 on clubhouse and activity frame",
+    "cinema": "Warm marquee and OLA band visible; Merino selection shows correct one-minute official source link",
+    "draft": "OLA band, frame and crest visible; shuffle, first reveal (#21), and clear passed; no student names entered",
+    "scouting": "24 profiles present; Saka selected with matching loaded portrait and optional-history control",
+    "journal": "First page renders and navigation returns from Scouting; OLA activity bands hidden in journal",
+    "return": "Back to clubhouse passed; tab left at starting clubhouse",
+    "console": "No captured warnings or errors in public in-app review tab",
+    "scope": "This is publication verification; complete 21-turn draft, six Vault reveals, all 24 portraits and responsive/fullscreen rehearsal are in showtime-editorial-14.json. No school-network or physical ViewSonic check."
+  },
+  "screenshots": [
+    "docs/screenshots/showtime-14-live-cinema.jpg",
+    "docs/screenshots/showtime-14-live-draft.jpg",
+    "docs/screenshots/showtime-14-live-scout.jpg"
+  ]
+}

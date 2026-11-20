@@ -1,5 +1,15 @@
 # Arsenal Academy project handoff
 
+## Live presentation-day polish editorial 14
+
+Published 20 November 2026 after the owner answered **“Publish the tested polish.”** Reviewed implementation `780622a` and approval `125d53d` are on main and `codex/arsenal-presentation-day-polish`. GitHub Pages run [44780248941](https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44780248941) completed successfully. Earlier pending-review notes below are historical and superseded.
+
+Live site: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-14 . The existing host guide at https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html remains correct and unchanged. Cinema now has the reviewed warm marquee and velvet/gold framing; OLA HQ and La Ola FC appear on activity-room bands, card paper, draft surround and quiet footer. No lesson, portrait, video, script or activity-logic change.
+
+Actual public browser checks confirmed the new styling and release marker, Merino selection with its correct 1:01 source link, Draft shuffle/reveal/clear, all 24 Scouting entries and the loaded Saka profile, journal entrance and return to clubhouse. No captured browser warning/error entries. Twenty public files, including the new stylesheet and both brand marks, returned 200 and exactly matched the reviewed source. Evidence: `docs/evidence/editorial-14-public-checks.json`; screenshots: `docs/screenshots/showtime-14-live-*.jpg`. The complete rehearsal (all 12 pages, all 21 draft turns, six Vault stories and 24 loaded portraits, desktop/classroom/phone and native Chrome fullscreen) remains in `docs/evidence/showtime-editorial-14.json`.
+
+Publication browser was returned to the starting clubhouse and retained as a useful live-site tab; temporary viewport override reset. Local preview is stopped and fixture removed. Current local host guide/kit remain valid. Only the physical classroom display and school-network/video access require an on-site check; prior media screening and image-rights limits remain. No further changes or publication approvals are pending for this polish.
+
 ## Editorial 14 publication approved
 
 20 November 2026. The owner answered **“Publish the tested polish”** to the scoped approval for the warmer Cinema and subtle OLA HQ / La Ola FC framing, with the lesson and host script unchanged. This authorizes reviewed implementation `780622a` for the existing public Academy website. Publication and public verification follow. Earlier awaiting-approval entries below are historical.

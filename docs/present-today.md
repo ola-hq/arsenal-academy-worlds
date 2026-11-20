@@ -1,8 +1,8 @@
 # Ready for today — Arsenal Academy
 
-## Today’s rehearsal and optional visual polish
+## Today’s rehearsal and published visual polish
 
-20 November: the established classroom flow passed a fresh browser rehearsal, including all 21 draft turns, six Vault stories and 24 player portraits. The Cinema/OLA framing refresh is reviewed on a separate branch and awaits publication approval. Editorial-13 and the host guide remain live and usable now. No script change is needed for the proposed polish. Physical classroom display and school network remain to be checked on arrival.
+20 November: the established classroom flow passed a fresh browser rehearsal, including all 21 draft turns, six Vault stories and 24 player portraits. The Cinema/OLA framing refresh was approved, published and checked on the public website. Editorial-14 and the unchanged host guide are live and ready. No script change is needed. Physical classroom display and school network remain to be checked on arrival.
 
 ## Published pacing correction
 
@@ -20,7 +20,7 @@ The official Arsenal 2:04 Merino Leicester highlights source is optional. Channe
 
 The complete read-aloud hosting script is now available at https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html . Cinema includes teacher-led classroom cheers and an optional 0:27 stadium source marked for preview; its crowd audio is not fully cleared.
 
-Open [the current Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-13). Select **Full screen**. Under Options, **Show room labels** makes the clickable places easier to find.
+Open [the current Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-14). Select **Full screen**. Under Options, **Show room labels** makes the clickable places easier to find.
 
 ## Use this film today
 
