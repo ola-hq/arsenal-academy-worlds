@@ -1,5 +1,9 @@
 # Arsenal Academy project handoff
 
+## Editorial 14 publication approved
+
+20 November 2026. The owner answered **“Publish the tested polish”** to the scoped approval for the warmer Cinema and subtle OLA HQ / La Ola FC framing, with the lesson and host script unchanged. This authorizes reviewed implementation `780622a` for the existing public Academy website. Publication and public verification follow. Earlier awaiting-approval entries below are historical.
+
 ## Presentation-day visual review editorial 14 — awaiting approval
 
 20 November 2026. Review branch `codex/arsenal-presentation-day-polish`, based on live baseline 939a11c. **Not published; editorial-13 remains live.** The owner requested a final rehearsal, more Cinema atmosphere and subtle OLA HQ / La Ola FC branding around the interface. New `showtime.css` adds a warm cinema marquee, velvet/navy and gold framing, room bands and quiet footer, and low-opacity crests on card paper and the draft console. The established OLA brand assets are copied unchanged and recorded in `art/ola/sources.json`. Portraits and event artwork remain untouched. Phone posters use a readable single column at narrow widths.
