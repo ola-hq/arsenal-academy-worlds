@@ -1,5 +1,15 @@
 # Arsenal Academy — verification record
 
+## Linked presenter development editorial 15 — browser review incomplete
+
+20 November 2026. Owner reported that extended-display presentation required repeated cursor travel and advancing the host guide and slides separately. Asked to connect Next on the guide with the classroom visuals. Development branch `codex/arsenal-linked-presenter`; **not published, editorial-14 remains live**. No publication approval requested yet: browser review is unfinished.
+
+Built an opt-in linked host-guide mode: Open classroom screen launches a separate audience window; the existing guide owns the interactive Academy preview and its in-memory draft/Vault state. Next/Previous/jump change the cue and room/page; preview interaction follows the matching notes. Optional Matchday stays optional in the linked sequential flow. All 16 spoken cue sections, lesson data, player media, existing activity scripts, source JSON and Word guide are unchanged. Ordinary Academy use remains independent. Only the active classroom visual fragment is transmitted through same-origin/exact-window postMessage; teacher notes and guide controls are removed, and the audience fragment is sanitized. No names, storage or server writes added.
+
+Eight automated checks passed: source isolation, connection/render acknowledgement, disconnect/recovery, stage reload, guide step behavior, optional Matchday and Vault → Draft → discoveries order. All new JS syntax checks and 41 local asset references passed; zero duplicate IDs/missing assets. Native Chrome observed the guide, interactive preview, and **Connected · Journal page 9 / 12**. Fixed initial rAF background-tab suspension by using a coalescing timer. The Mac locked again before the paired Next test completed. **Do not claim full browser testing, final screenshots, full-screen or linked draft/Vault success.** User unlock request is pending. Evidence: `docs/evidence/linked-presenter-editorial-15.json`; setup/architecture: `docs/linked-presenter.md`.
+
+Next: unlock Mac, finish actual two-window Next/Previous/jump and preview actions, no-notes display check, full draft/Vault mirror and reopen/reload recovery, native fullscreen and desktop/classroom/phone visual QA; correct any issues; save actual screenshots; then request scoped publication approval. Same computer/browser only; no phone remote. External videos open separately. Keep the guide open during a draw; reloading it resets its in-memory activity state. Local preview stopped at handoff; owned local guide/classroom review tabs may remain due to the lock. Preserve the unrelated live classroom window. Current live host guide and standard host kit remain editorial-14.
+
 ## Live presentation-day polish editorial 14
 
 Published 20 November 2026 after the owner answered **“Publish the tested polish.”** Reviewed implementation `780622a` and approval `125d53d` are on main and `codex/arsenal-presentation-day-polish`. GitHub Pages run [44780248941](https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44780248941) completed successfully. Earlier pending-review notes below are historical and superseded.

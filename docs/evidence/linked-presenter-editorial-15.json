@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-20",
+  "release": "editorial-15",
+  "status": "development only; browser verification incomplete; not approved for publication",
+  "branch": "codex/arsenal-linked-presenter",
+  "baseline": "e94de4f3eb64f10387409e0a15d526585365ad20",
+  "live": "editorial-14",
+  "scope": "Link the existing host guide to a separate, full-screen classroom visual window on the same computer/browser. Keep activity controls on the laptop.",
+  "sourceChecks": {
+    "all_16_cue_sections_exactly_unchanged": true,
+    "unchanged": [
+      "academy.js",
+      "content.js",
+      "player-media.js",
+      "season-content.js",
+      "matchday.js",
+      "experience.js",
+      "docs/host-script.json",
+      "docs/host-script.docx"
+    ],
+    "relative_asset_checks": 41,
+    "missing_assets": 0,
+    "duplicate_html_ids": 0
+  },
+  "automatedChecks": {
+    "javascript_syntax": "All four new scripts passed",
+    "tests": 8,
+    "result": "passed",
+    "coverage": [
+      "exact-source/origin rejection",
+      "stage readiness and render acknowledgement",
+      "disconnect holds last visual; pulse recovers",
+      "stage reload repeats current visual",
+      "Next changes one journal cue",
+      "optional Matchday skipped only in linked sequential flow",
+      "standalone guide and explicit optional stop retained",
+      "Vault then Draft then optional player discoveries"
+    ]
+  },
+  "browserChecks": {
+    "native": "Created isolated local host-guide/classroom review tabs. Observed guide, interactive Academy preview and Connected · Journal page 9 / 12 status. Initial background-tab snapshot stalled with rAF; changed to a coalescing timer, then connection acknowledged.",
+    "incomplete": [
+      "Next-button paired advance was interrupted by Mac lock",
+      "Classroom visual composition and no-notes inspection",
+      "complete linked draft/Vault control rehearsal and reconnect without reset",
+      "desktop/classroom/phone visual checks",
+      "native full-screen classroom entry/exit",
+      "ordinary website regression check after presenter integration"
+    ],
+    "console": "Opened guide DevTools; visible warnings were from a browser extension, not new app scripts. This was a partial inspection, not a clean full audit.",
+    "screenshots": "No finished presenter screenshots captured. An attempted native screenshot showed the unrelated live classroom window; do not use as evidence of the new UI.",
+    "blocker": "Mac locked again during the paired Next test. User unlock request is pending."
+  },
+  "privacy": "No storage, server writes, names, logins or remote-device pairing. Same-origin postMessage plus exact window identity. Only the active Academy view is copied; teacher notes and controls stripped; audience visual fragment also sanitized.",
+  "limits": [
+    "Same browser profile/computer only; phone/tablet remote control not implemented",
+    "Move the classroom window to the extended display once; some browsers open a tab that must be detached",
+    "External film windows remain separate",
+    "Do not reload the guide during a draw; canonical in-memory activity state lives in its preview"
+  ],
+  "cleanup": "Local preview stopped for handoff. Native review tabs may remain because the Mac locked; close only the owned local guide/classroom review window when unlocked. User live presentation window was not edited."
+}

@@ -5,7 +5,7 @@ let previous=null,activeDialog=null;
 function setBackgroundInert(dialog, enabled){[...document.body.children].forEach(el=>{if(el!==dialog&&el.tagName!=='SCRIPT')el.inert=enabled;});}
 function openDialog(dialog,trigger,focus){previous=trigger;activeDialog=dialog;dialog.hidden=false;setBackgroundInert(dialog,true);document.body.style.overflow='hidden';focus.focus();}
 function closeDialog(){if(!activeDialog)return;const dialog=activeDialog;dialog.hidden=true;activeDialog=null;setBackgroundInert(dialog,false);document.body.style.overflow='';if(dialog===modal){frame.src='about:blank';}previous?.focus();}
-document.querySelectorAll('[data-room]').forEach(b=>b.addEventListener('click',()=>{const room=b.dataset.room;title.textContent=labels[room];frame.src='legacy.html?v=editorial-14#'+(room==='slides'?'slides/1':room);openDialog(modal,b,document.getElementById('close'));}));
+document.querySelectorAll('[data-room]').forEach(b=>b.addEventListener('click',()=>{const room=b.dataset.room;title.textContent=labels[room];frame.src='legacy.html?v=editorial-15#'+(room==='slides'?'slides/1':room);openDialog(modal,b,document.getElementById('close'));}));
 document.getElementById('close').addEventListener('click',closeDialog);
 window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==frame.contentWindow)return;if(e.data?.type==='arsenal:close')closeDialog();if(e.data?.type==='arsenal:room'&&labels[e.data.room])title.textContent=labels[e.data.room];});
 document.addEventListener('keydown',e=>{
