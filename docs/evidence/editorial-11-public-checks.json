@@ -1,0 +1,99 @@
+{
+  "release": "editorial-11",
+  "approval": "Publish this roster update",
+  "deploymentRun": 44645068765,
+  "publicUrl": "https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-11",
+  "checks": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 20970,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "legacy.html",
+      "status": 200,
+      "bytes": 14174,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "academy.js",
+      "status": 200,
+      "bytes": 26175,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "presenter.css",
+      "status": 200,
+      "bytes": 2846,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "clubhouse.js",
+      "status": 200,
+      "bytes": 2569,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "content.js",
+      "status": 200,
+      "bytes": 7059,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "player-media.js",
+      "status": 200,
+      "bytes": 2813,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "credits.html",
+      "status": 200,
+      "bytes": 13979,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/sources.json",
+      "status": 200,
+      "bytes": 18198,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/host-script.html",
+      "status": 200,
+      "bytes": 38294,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/host-script.docx",
+      "status": 200,
+      "bytes": 47570,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/bukayo-saka.jpg",
+      "status": 200,
+      "bytes": 81183,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/max-dowman.jpg",
+      "status": 200,
+      "bytes": 81592,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/smilla-holmberg.jpg",
+      "status": 200,
+      "bytes": 80377,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/marli-salmon.webp",
+      "status": 200,
+      "bytes": 98648,
+      "matchesReviewedSource": true
+    }
+  ],
+  "verificationScope": "Direct HTTP checks compare the public files to the actual browser-tested review source. These HTTP checks complement separately recorded native Chrome public visual checks; they are not themselves visual checks."
+}

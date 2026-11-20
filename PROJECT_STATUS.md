@@ -1,5 +1,15 @@
 # Arsenal Academy — current project status
 
+## Live roster update editorial 11
+
+Published 19 November 2026 after the owner answered “Publish this roster update.” Implementation c4cb583 and approval 05fbd41b3898b7e297f3bb071131efe3bf480256 are on main and codex/arsenal-full-roster. GitHub Pages run 44645068765 completed successfully: https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44645068765 . Earlier awaiting-publication entries below are historical and superseded.
+
+Live website: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-11 . Guide: https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html (Word copy alongside). All 24 classroom profiles are present, including Saka, Dowman, Holmberg and Salmon. Fixed table-card totals are removed; two available cards per student remain. Guide order: journal and Captain’s Vault → Draft Day → optional chosen-player discoveries.
+
+After deployment, actual native Chrome public checks confirmed the editorial-11 clubhouse label, 24-player Scouting count, matching photos and selected passport information for all four restored players, and public host-guide Draft Day → final player-discoveries transition with the last Next button disabled. The isolated review window was closed. Actual public screenshot: docs/screenshots/roster-11-live.jpg. Fifteen public files returned HTTP 200 and exact reviewed-source hashes, including both guide formats and all four new photos; evidence: docs/evidence/editorial-11-public-checks.json. Desktop and classroom layout checks are recorded in the preceding review evidence.
+
+Outstanding: final phone visual screenshot was not completed (owner approved publication with that limit); no fresh console-error audit or physical ViewSonic test. Salmon’s UEFA portrait remains credited but has no confirmed open reuse licence or third-party permission; publication approval is not a copyright licence. Existing external-video audio/review limitations remain. No student names, ownership or card inventory are recorded. No new films or audio were introduced.
+
 ## Roster publication approved
 
 On 19 November 2026 the owner explicitly answered “Publish this roster update” after the scoped review of 24 player profiles, flexible card-table wording and journal → Draft Day → optional player discoveries. The approval disclosed the incomplete final phone screenshot due to the Mac lock and the credited UEFA Salmon portrait with no open reuse licence confirmed. This authorizes editorial-11 publication to the existing public GitHub Pages site. Implementation: c4cb583. Deployment and public verification follow. Earlier pending-approval notes below are review history.

@@ -1,8 +1,6 @@
 # Arsenal Academy Worlds
 
-Full-roster review editorial-11 is saved on `codex/arsenal-full-roster`: 24 player profiles, flexible card-table quantity and optional player discoveries after Draft Day. Publication is pending; editorial-10 is still live. See HANDOFF.md.
-
-Presentation update editorial-10 is approved and live at https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-10 . Read the updated host guide at docs/host-script.html. See HANDOFF.md for deployment evidence and verification limits.
+Roster update **editorial-11 is approved and live**: 24 classroom player profiles, flexible card-table quantity and optional player discoveries after Draft Day. [Open the Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-11) or [read the host guide](docs/host-script.html). See HANDOFF.md for current evidence and remaining checks.
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.
 
@@ -16,11 +14,11 @@ Teacher script: [read-along guide](docs/host-script.html) and [editable Word cop
 
 ## Current live version
 
-Development branch: `codex/arsenal-photo-popups`. Current application release: **editorial-9**, approved, deployed and browser-verified. **Start with [HANDOFF.md](HANDOFF.md)** to continue this project; it indexes decisions, testing, content review and remaining checks.
+Development branch: `codex/arsenal-full-roster`. Current application release: **editorial-11**, approved, deployed and checked in the public browser. **Start with [HANDOFF.md](HANDOFF.md)** to continue this project; it indexes decisions, testing, content review and remaining checks.
 
 Public website for presenting and sharing: https://ola-hq.github.io/arsenal-academy-worlds/ . No login is needed. The old private review copy is not the classroom website. Editorial-3 was the initial redesign; later releases are recorded in PROJECT_STATUS.md.
 
-The illustrated clubhouse opens a twelve-page editorial journal with locally hosted photography, interactive football positions, leadership reveals, teacher notes, device narration and a classroom display mode. Draft Day generates a permutation of classroom numbers 1–21 and reveals one pick at a time. Captain’s Vault reveals six distinct stories, two per legend. All 20 original physical-card profiles remain available.
+The illustrated clubhouse opens a twelve-page editorial journal with locally hosted photography, interactive football positions, leadership reveals, teacher notes, device narration and a classroom display mode. Draft Day generates a permutation of classroom numbers 1–21 and reveals one pick at a time. Captain’s Vault reveals six distinct stories, two per legend. All 24 classroom player profiles are available.
 
 ## Local preview
 

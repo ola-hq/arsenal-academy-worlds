@@ -1,8 +1,8 @@
 # Ready for today — Arsenal Academy
 
-## Proposed card-table flow editorial 11
+## Published card-table flow editorial 11
 
-Review update, not yet published: fill the table with available cards; copies vary. Keep two cards per student and one fair random order. Finish the journal and captain stories, then Draft Day, then optionally explore the players students chose. Do not promise any specific player remains available. All 24 classroom player profiles are present in the review.
+Approved and live: fill the table with available cards; copies vary. Keep two cards per student and one fair random order. Finish the journal and captain stories, then Draft Day, then optionally explore the players students chose. Do not promise any specific player remains available. All 24 classroom player profiles are live.
 
 ## Latest presenter choices
 
