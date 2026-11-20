@@ -1,5 +1,9 @@
 # Arsenal Academy project handoff
 
+## Focused revision publication approved
+
+On 19 November 2026 the owner answered “Publish the focused revision” to the scoped approval covering a brief card-choice page 9, full histories retained in Scouting and optional story cues after Draft Day. Implementation cfb8dd4 is approved for the existing public website after desktop/classroom/phone/full-screen review. Deployment and public verification follow; preceding pending-review notes are historical.
+
 ## Classroom focus review editorial 13
 
 19 November 2026. Development branch codex/arsenal-classroom-focus. Not published: editorial-12 remains live. Owner asked whether recent additions had drifted from the original classroom experience. The main structure, educational focus and eleven other journal pages are intact; the specific drift was page 9’s density. Its main spoken cue grew from about 30 words before the history addition to 263 words. This revision uses 71 spoken words, intended for a 45–60 second card-choice conversation.
