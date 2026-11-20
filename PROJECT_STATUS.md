@@ -1,5 +1,9 @@
 # Arsenal Academy — current project status
 
+## Player stories publication approved
+
+On 19 November 2026 the owner answered “Publish the player stories” to the scoped approval covering Saka, Dowman and Salmon’s photo-led journeys, expandable Scouting histories and matching host cues, following desktop/classroom/phone browser verification. Implementation 4b6f706 is approved for the existing public GitHub Pages website. Publication and public verification follow; earlier pending-review notes are historical.
+
 ## Player journeys editorial 12 ready for review
 
 19 November 2026. Development branch codex/arsenal-player-journeys. Not published: editorial-11 remains live. The owner requested meaningful history and growth for the restored Saka, Dowman and Salmon profiles, while preserving the experience’s focus.
