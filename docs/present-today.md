@@ -1,26 +1,22 @@
 # Ready for today — Arsenal Academy
 
-## Proposed pacing correction
+## Published pacing correction
 
-Editorial-13 is a review, not yet live. Page 9 is a 45–60 second card-choice conversation. Finish journal/Cinema, leadership and the Vault, then Draft Day. Optional discoveries follow the children’s selected players; Saka, Dowman and Salmon’s complete histories remain in Scouting. Avoid turning this optional stop into three required biographies. Use the matching review guide only when rehearsing that branch.
+Editorial-13 is approved and live. Page 9 is a 45–60 second card-choice conversation. Finish journal/Cinema, leadership and the Vault, then Draft Day. Optional discoveries follow the children’s selected players; Saka, Dowman and Salmon’s complete histories remain in Scouting. Avoid turning this optional stop into three required biographies. Use the updated public host guide for rehearsal and presentation.
 
-## Published player journeys
-
-Editorial-12 is approved and live. Page 9 adds a 2–3 minute Saka, Dowman and Salmon academy-story stop; use the updated public host guide. Full screen gives the classroom the clearest view. Continue to Draft Day after the journal and Vault, then optional chosen-player discoveries.
-
-## Published card-table flow editorial 11
+## Physical card table
 
 Approved and live: fill the table with available cards; copies vary. Keep two cards per student and one fair random order. Finish the journal and captain stories, then Draft Day, then optionally explore the players students chose. Do not promise any specific player remains available. All 24 classroom player profiles are live.
 
 ## Latest presenter choices
 
-Editorial-10 is approved and published (Pages run 44620594047). The owner explicitly requested removal of the Cinema review checkbox and selected North London Forever for classroom use; earlier checkbox instructions below are historical. Teacher/source details now sit in optional disclosures. No automatic media plays. All 12 journal teacher notes are in the revised host guide.
+The owner explicitly requested removal of the Cinema review checkbox and selected North London Forever for classroom use; earlier checkbox instructions below are historical. Teacher/source details now sit in optional disclosures. No automatic media plays. All 12 journal teacher notes are in the revised host guide.
 
 The official Arsenal 2:04 Merino Leicester highlights source is optional. Channel/playability and five visual samples were checked free in-browser. Pitch-side betting advertising appears. Captions unavailable; full commentary and crowd audio remain unverified. Keep the previously accepted 1:01 A Champion’s Story trailer as the main short route. Women’s photo selects the existing 1:49 Only In The Land trailer; earlier partial review limits remain. Neither link is labelled fully cleared.
 
 The complete read-aloud hosting script is now available at https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html . Cinema includes teacher-led classroom cheers and an optional 0:27 stadium source marked for preview; its crowd audio is not fully cleared.
 
-Open [the current Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-9). Select **Full screen**. Under Options, **Show room labels** makes the clickable places easier to find.
+Open [the current Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-13). Select **Full screen**. Under Options, **Show room labels** makes the clickable places easier to find.
 
 ## Use this film today
 
@@ -34,15 +30,18 @@ Introduce the idea as: feeling upset is okay; teammates, patience and effort hel
 
 ## Simple presentation flow
 
-1. **Journal:** introduce Arsenal, the team and its leadership roles.
-2. **Cinema → Short films → A Champion’s Story:** show the one-minute trailer.
-3. **Matchday → Take the team challenge:** answer together; retry is encouraged.
-4. **Draft Day:** shuffle once, then reveal one classroom number at a time. Two physical cards each.
-5. **Captain’s Vault:** let the six captains choose the mystery shields.
+1. **Journal 1–7:** introduce Arsenal, belonging, teamwork and the different ways to contribute.
+2. **Journal 8 / Cinema:** use the selected one-minute A Champion’s Story trailer. Matchday is optional; skip it when time is tight.
+3. **Journal 9–11:** preview the card table, explain the fair draw and explore leadership. Keep page 9 brief.
+4. **Journal 12 / Captain’s Vault:** reveal the six leadership stories with the captains.
+5. **Draft Day:** shuffle once, then reveal one classroom number at a time. Each student chooses two available physical cards.
+6. **Optional Scouting:** follow two or three volunteers’ chosen players. Read a longer history only when it interests the class.
 
-The presentation does not depend on any other video. The main website and interactive activities were browser-tested in the preceding release. No live code was changed during this content review.
+The host guide is the read-aloud companion for this sequence. The experience remains audio-free until you choose narration or a film. The latest release’s verification is recorded in HANDOFF.md.
 
-## What else was checked
+## Existing media review limits
+
+These are earlier free screening results, not a new full audio/video review during the pacing revision. The four restored player portraits were inspected separately during the roster update; all 24 are available.
 
 | Material | Free review completed | Decision for today |
 |---|---|---|

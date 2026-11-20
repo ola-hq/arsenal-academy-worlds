@@ -1,8 +1,6 @@
 # Arsenal Academy Worlds
 
-Classroom focus review editorial-13 is ready on `codex/arsenal-classroom-focus`, awaiting publication approval. It restores a brief card-choice page 9 and keeps complete player histories optional in Scouting. Editorial-12 remains live. See HANDOFF.md.
-
-Player stories **editorial-12 are approved and live**: Saka, Dowman and Salmon’s photo-led journeys, optional Scouting histories and matching host cues. All 24 classroom profiles and flexible card-table wording remain. [Open the Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-12-fit) · [Host guide](docs/host-script.html). See HANDOFF.md for actual verification and limits.
+Focused classroom revision **editorial-13 is approved and live**. Page 9 is a brief card-choice conversation; full player histories and optional post-draft cues remain available. [Open the Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-13) · [Read the host guide](docs/host-script.html). All 24 profiles and the established journal, Cinema, leadership, Vault and Draft Day flow remain. See HANDOFF.md for current verification.
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.
 
@@ -16,7 +14,7 @@ Teacher script: [read-along guide](docs/host-script.html) and [editable Word cop
 
 ## Current live version
 
-Development branch: `codex/arsenal-player-journeys`. Current application release: **editorial-12**, approved, deployed and checked in the public browser. **Start with [HANDOFF.md](HANDOFF.md)** to continue this project; it indexes decisions, testing, content review and remaining checks.
+Development branch: `codex/arsenal-classroom-focus`. Current application release: **editorial-13**, approved, deployed and checked in the public browser. **Start with [HANDOFF.md](HANDOFF.md)** to continue this project; it indexes decisions, testing, content review and remaining checks.
 
 Public website for presenting and sharing: https://ola-hq.github.io/arsenal-academy-worlds/ . No login is needed. The old private review copy is not the classroom website. Editorial-3 was the initial redesign; later releases are recorded in PROJECT_STATUS.md.
 

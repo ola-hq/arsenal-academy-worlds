@@ -1,5 +1,15 @@
 # Arsenal Academy project handoff
 
+## Live focused classroom revision editorial 13
+
+Published 19 November 2026 after the owner answered “Publish the focused revision.” Implementation cfb8dd4 and approval 78ef62c91a45925bf9b6e5ee64f5eb320aafcb21 are on main and codex/arsenal-classroom-focus. Pages run 44667595780 completed successfully: https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44667595780 . Earlier pending-review entries below are historical and superseded.
+
+Live site: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-13 . Host guide: https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html ; Word copy alongside. Page 9 is again a brief card-choice moment with the collector-desk illustration and one reveal question. Main narration is 71 words, planned for 45–60 seconds. The three complete player histories remain in Scouting; matching optional spoken cues follow Draft Day and students’ choices. The twelve-page journal, all 24 players, the six Vault stories, random draw, flexible physical card table, two cards per student, Cinema and audio-free/privacy preferences are retained.
+
+Actual public native Chrome checks verified the presentation entrance, Contents → page 9, question reveal, full-screen entry/exit, complete expanded composition, Scouting entrance/count 24, all three Saka/Dowman/Salmon history expansions, host-guide page 9 → page 10, and the final post-draft stop with all three stories explicitly IF NEEDED. Actual public screenshot: docs/screenshots/focus-13-live.jpg. Sixteen public files returned 200 and exact tested-source hashes, including both guide formats and retained portraits. Evidence: docs/evidence/editorial-13-public-checks.json. This completes the optional-cue browser check that was not observed at review time. Isolated publication-check window closed; unrelated tabs preserved. Local preview remains stopped.
+
+Current local guide and host kit now match the live release. The presentation-day checklist was reconciled to this same sequence, removing the superseded long page-9 instruction and old Draft-before-Vault order. Fourteen Word pages were pixel-identical to the previous inspected guide; both changed pages were rendered and inspected; total sixteen. Desktop/classroom/phone viewport review evidence remains in docs/evidence/classroom-focus-editorial-13.json. No physical ViewSonic test, fresh console audit or new full Draft/Vault draw was claimed. Existing external-video review and image-rights limits remain. Next useful step is a classroom rehearsal of this established flow, with additions driven by observed need.
+
 ## Focused revision publication approved
 
 On 19 November 2026 the owner answered “Publish the focused revision” to the scoped approval covering a brief card-choice page 9, full histories retained in Scouting and optional story cues after Draft Day. Implementation cfb8dd4 is approved for the existing public website after desktop/classroom/phone/full-screen review. Deployment and public verification follow; preceding pending-review notes are historical.
