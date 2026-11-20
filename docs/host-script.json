@@ -1,7 +1,7 @@
 {
   "title": "Arsenal Academy host script",
-  "release": "Matched to published editorial-10",
-  "timing": "Plan 45–60 minutes including discussion and 21 students choosing cards. Short route: take one answer per question, choose one Cinema film, skip Matchday and explore three scouting profiles. Card choosing sets the pace.",
+  "release": "Matched to editorial-11 review",
+  "timing": "Plan 45–60 minutes. Follow the journal and Captain’s Vault, then Draft Day. Finish with optional player discoveries from the cards students chose. Short route: one response per page, one film, skip Matchday and explore two or three chosen players. Card choosing sets the pace.",
   "use": "The big page number and heading match the journal on the classroom display. Setup and optional Matchday are separate stops, not extra journal pages. Read SAY and ASK aloud; CLICK and PAUSE guide you. Keep this script on a second device or print it. Its controls move the script only.",
   "sections": [
     {
@@ -16,7 +16,7 @@
         ],
         [
           "DO",
-          "Set out 42 physical cards for 21 students. Know each student’s classroom number 1–21. Keep a paper checklist to confirm two cards per student. Decide who the six captains are before the ceremony; the Vault randomizes stories, not students."
+          "Fill the table with your available player cards. Copies can vary: one of a player or several. Check that there are enough for every student to choose two. Know each student’s classroom number 1–21 and keep a paper checklist. Decide the six captains before the ceremony; the Vault randomizes stories, not students."
         ],
         [
           "DO",
@@ -480,43 +480,19 @@
       "id": "page9",
       "label": "Journal page 9  Your player Your story",
       "visual": "Journal 9 / 12 · YOUR PLAYER YOUR STORY → Scouting",
-      "time": "4–5 minutes",
+      "time": "1 minute",
       "blocks": [
         [
           "SAY",
-          "Welcome, scouts. Your mission is to find a player who interests you. You might notice a skill, a position, a country or a design. My scouting report currently says ‘enthusiastic and probably needs a snack.’ Let’s get more specific."
-        ],
-        [
-          "CLICK",
-          "Explore the player cards. Choose William Saliba, then Kim Little, then Mikel Merino. Use the Men / Women filters if helpful; the All filter restores everyone."
-        ],
-        [
-          "SAY",
-          "Saliba is a defender from France, known here as the Calm Wall. Kim Little is a midfielder from Scotland, with experience and precise passing. Merino is a midfielder from Spain—the player we just met in the film."
-        ],
-        [
-          "ASK",
-          "Which quality would help our class today: calm, good communication, persistence, or something else? Tell us why."
-        ],
-        [
-          "CLICK",
-          "If time allows, choose Stina Blackstenius and connect her profile with the 2025 final from journal page 6."
-        ],
-        [
-          "SAY",
-          "These digital profiles help us explore. Clicking a player does not reserve a physical card. The cards on our actual table are the choices available for the draft."
-        ],
-        [
-          "PAUSE",
-          "Give students 20 seconds to think of two or three possible choices. The same player can interest several people; everyone has different reasons."
-        ],
-        [
-          "CLICK",
-          "Return to journal → page 9 → Next page → 10 / 12. Stay inside the Academy; player video-search links are not needed."
+          "This page is a preview of our player stories. We will choose our cards after the journal, then come back to Scouting if you want to learn about your player."
         ],
         [
           "NOTE",
           "Journal teacher note: You might like their skills, position, country, or the design of the card."
+        ],
+        [
+          "CLICK",
+          "Continue the journal with Next page → 10 / 12. Keep the activity button for our later stop."
         ]
       ],
       "teacherNote": "You might like their skills, position, country, or the design of the card."
@@ -525,55 +501,19 @@
       "id": "page10",
       "label": "Journal page 10  Your turn is coming",
       "visual": "Journal 10 / 12 · YOUR TURN IS COMING → Draft Day",
-      "time": "12–18 minutes",
+      "time": "1 minute",
       "blocks": [
         [
           "SAY",
-          "It is Draft Day! Twenty-one students. Forty-two physical cards. Two cards each. Please remain seated until your classroom number is called. The excitement may stand up inside your brain."
-        ],
-        [
-          "SAY",
-          "The computer makes one random order of numbers 1 through 21. Your place in the order says nothing about your ability or importance. Everyone gets a turn."
-        ],
-        [
-          "CLICK",
-          "Start the Draft → Shuffle the draft once. Then choose Reveal next pick."
-        ],
-        [
-          "SAY",
-          "With our first selection, Arsenal Academy welcomes… classroom number [read the large number]! Come choose your two cards."
-        ],
-        [
-          "DO",
-          "Confirm the number, help the student choose two physical cards and mark your paper checklist. Let the student return before revealing the next number. Use a brief equal cheer for each student."
-        ],
-        [
-          "REPEAT",
-          "‘Our next scout is number [number]!’ ‘Number [number], your moment is here!’ ‘Welcome, number [number]—let’s find your team.’ Rotate these lines as you reveal each remaining pick."
-        ],
-        [
-          "IF NEEDED",
-          "Slow choice: ‘Pick the one that catches your eye. If you need help, tell me a color, country or role you like.’ Disappointment: ‘It is okay to feel disappointed. Let’s find another player or design you can enjoy.’"
-        ],
-        [
-          "IF NEEDED",
-          "Volume reset: ‘Team check!’ Wait for ‘Ready!’ ‘We can be excited and still hear whose turn it is.’"
-        ],
-        [
-          "DO",
-          "Do not use Clear draft or reload during the draw; progress lives only in this open session. At 21 / 21, verify every student has two cards. If interrupted, use your paper record to finish the remaining turns."
-        ],
-        [
-          "SAY",
-          "Draft complete! Hold your cards carefully. Give the whole team one cheer, including the people who helped others choose."
-        ],
-        [
-          "CLICK",
-          "Return to journal → page 10 → Next page → 11 / 12."
+          "Your turn is coming. At the end of the journal, we will use one random order of classroom numbers. Everyone gets a turn to choose two available cards from the table."
         ],
         [
           "NOTE",
           "Journal teacher note: Everyone gets to choose a card. The order is random, and every player matters."
+        ],
+        [
+          "CLICK",
+          "Continue the journal with Next page → 11 / 12. Keep the activity button for our later stop."
         ]
       ],
       "teacherNote": "Everyone gets to choose a card. The order is random, and every player matters."
@@ -586,7 +526,7 @@
       "blocks": [
         [
           "SAY",
-          "How will you lead? We have our cards. Now we need something you cannot keep in a plastic sleeve: leadership. Great captains help others, stay calm and make their team better."
+          "How will you lead? Before we choose our cards, let’s discover something you cannot keep in a plastic sleeve: leadership. Great captains help others, stay calm and make their team better."
         ],
         [
           "CLICK",
@@ -687,7 +627,7 @@
         ],
         [
           "SAY",
-          "Before we finish, look at one of your cards and complete this thought: ‘Today I noticed…’ It could be a player, a skill or something kind someone did."
+          "Before Draft Day, complete this thought: “A good teammate can…” Think of something kind or helpful you can do while we choose."
         ],
         [
           "PAUSE",
@@ -695,11 +635,11 @@
         ],
         [
           "CLICK",
-          "Return to journal → page 12 → Back to clubhouse. Optional Newman Knights bonus: open Newman Knights and connect one displayed school value with something students did today."
+          "Optional Newman Knights bonus: return to the clubhouse and open Newman Knights to connect one school value with something students did today. Then choose Draft Day. You can also use Draft Day in the activity navigation without leaving the Vault."
         ],
         [
           "SAY",
-          "Arsenal Academy session complete. Cards safe, teammates appreciated—and stadium announcer officially off duty."
+          "Our leadership stories are complete. Now it is time for the whole academy to choose their cards. Open Draft Day for our next stop."
         ],
         [
           "NOTE",
@@ -707,6 +647,108 @@
         ]
       ],
       "teacherNote": "We have a mystery draw for our six team captains!"
+    },
+    {
+      "id": "draft",
+      "label": "After the journal  Draft Day",
+      "visual": "After journal page 12 and the Vault · Open Draft Day",
+      "time": "12–18 minutes",
+      "blocks": [
+        [
+          "SAY",
+          "It is Draft Day! Twenty-one students. Two cards each from our card table. Some players have one copy; others have more. Please remain seated until your classroom number is called. The excitement may stand up inside your brain."
+        ],
+        [
+          "SAY",
+          "Have a few favorites in mind. If one card has already been chosen, we can help you find another player or design you enjoy. Each turn is one visit to the table to choose two available cards."
+        ],
+        [
+          "SAY",
+          "The computer makes one random order of numbers 1 through 21. Your place in the order says nothing about your ability or importance. Everyone gets a turn."
+        ],
+        [
+          "CLICK",
+          "Use the Draft Day navigation link, or return to journal page 10 and choose Start the Draft. Shuffle the draft once, then Reveal next pick."
+        ],
+        [
+          "SAY",
+          "With our first selection, Arsenal Academy welcomes… classroom number [read the large number]! Come choose your two cards."
+        ],
+        [
+          "DO",
+          "Confirm the number, help the student choose two physical cards and mark your paper checklist. Let the student return before revealing the next number. Use a brief equal cheer for each student."
+        ],
+        [
+          "REPEAT",
+          "‘Our next scout is number [number]!’ ‘Number [number], your moment is here!’ ‘Welcome, number [number]—let’s find your team.’ Rotate these lines as you reveal each remaining pick."
+        ],
+        [
+          "IF NEEDED",
+          "Slow choice: ‘Pick the one that catches your eye. If you need help, tell me a color, country or role you like.’ Disappointment: ‘It is okay to feel disappointed. Let’s find another player or design you can enjoy.’"
+        ],
+        [
+          "IF NEEDED",
+          "Volume reset: ‘Team check!’ Wait for ‘Ready!’ ‘We can be excited and still hear whose turn it is.’"
+        ],
+        [
+          "DO",
+          "Do not use Clear draft or reload during the draw; progress lives only in this open session. At 21 / 21, verify every student has two cards. If interrupted, use your paper record to finish the remaining turns."
+        ],
+        [
+          "SAY",
+          "Draft complete! Hold your cards carefully. Give the whole team one cheer, including the people who helped others choose."
+        ],
+        [
+          "CLICK",
+          "Optional player discoveries: choose Scouting to explore the players on students’ cards. Otherwise return to the clubhouse and finish."
+        ]
+      ],
+      "teacherNote": "Everyone gets to choose a card. The order is random, and every player matters."
+    },
+    {
+      "id": "after-cards",
+      "label": "After the draft  Your player discoveries",
+      "visual": "Scouting · The cards students chose",
+      "time": "Optional 3–5 minutes",
+      "blocks": [
+        [
+          "SAY",
+          "Cards chosen! Now who would like to introduce a player from their card? Let’s look them up together. Our scouts have excellent taste and extremely official-looking pieces of cardboard."
+        ],
+        [
+          "CLICK",
+          "Open Scouting from the navigation. There are 24 player profiles, including Bukayo Saka, Max Dowman, Smilla Holmberg and Marli Salmon. Use All players, Men or Women to find the chosen player."
+        ],
+        [
+          "DO",
+          "Invite two or three students to volunteer a player name. Students can point to their card or pass. No names, card ownership or classroom inventory are recorded on the website."
+        ],
+        [
+          "SAY",
+          "Let’s read the country, position and football superpower. What interests you about this player? A skill? Their story? The design of your card?"
+        ],
+        [
+          "ASK",
+          "What is one quality from this player you could use as a teammate today?"
+        ],
+        [
+          "PAUSE",
+          "Accept calm, courage, creativity, persistence, listening or another thoughtful answer. If several students picked the same player, invite different reasons."
+        ],
+        [
+          "SAY",
+          "A digital profile tells us about a player. The physical cards on our table decide which copies are available. One card or several copies—every player can have a story worth discovering."
+        ],
+        [
+          "CLICK",
+          "Return to the clubhouse when finished."
+        ],
+        [
+          "SAY",
+          "Cards safe, teammates appreciated—and stadium announcer officially off duty."
+        ]
+      ],
+      "teacherNote": "You might like their skills, position, country, or the design of the card."
     }
   ]
 }

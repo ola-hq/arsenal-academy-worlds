@@ -1,5 +1,9 @@
 # Ready for today — Arsenal Academy
 
+## Proposed card-table flow editorial 11
+
+Review update, not yet published: fill the table with available cards; copies vary. Keep two cards per student and one fair random order. Finish the journal and captain stories, then Draft Day, then optionally explore the players students chose. Do not promise any specific player remains available. All 24 classroom player profiles are present in the review.
+
 ## Latest presenter choices
 
 Editorial-10 is approved and published (Pages run 44620594047). The owner explicitly requested removal of the Cinema review checkbox and selected North London Forever for classroom use; earlier checkbox instructions below are historical. Teacher/source details now sit in optional disclosures. No automatic media plays. All 12 journal teacher notes are in the revised host guide.

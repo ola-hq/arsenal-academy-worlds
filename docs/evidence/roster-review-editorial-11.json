@@ -1,0 +1,128 @@
+{
+  "release": "editorial-11",
+  "status": "Development review; publication pending",
+  "date": "2026-11-19",
+  "players": 24,
+  "men": 16,
+  "women": 8,
+  "restored": [
+    "Bukayo Saka",
+    "Max Dowman",
+    "Smilla Holmberg",
+    "Marli Salmon"
+  ],
+  "physicalCopies": "Variable; no exact quantities or student ownership tracked",
+  "twoCardsPerStudent": true,
+  "studentDraftNumbers": 21,
+  "fixedTableTotalRemoved": true,
+  "newPhotos": [
+    {
+      "name": "Bukayo Saka",
+      "slug": "bukayo-saka",
+      "src": "art/players/bukayo-saka.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:1_bukayo_saka_arsenal_2025_(cropped).jpg",
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/1_bukayo_saka_arsenal_2025_%28cropped%29.jpg/500px-1_bukayo_saka_arsenal_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Chensiyuan",
+      "description": "bukayo saka",
+      "bytes": 81183,
+      "changes": "Pre-existing Commons crop; resized by Wikimedia thumbnail service; displayed with CSS object-fit."
+    },
+    {
+      "name": "Max Dowman",
+      "slug": "max-dowman",
+      "src": "art/players/max-dowman.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:1_max_dowman_2026b_(cropped).jpg",
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/1_max_dowman_2026b_%28cropped%29.jpg/500px-1_max_dowman_2026b_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Chensiyuan",
+      "description": "max downman crystal palace",
+      "bytes": 81592,
+      "changes": "Pre-existing Commons crop; resized by Wikimedia thumbnail service; displayed with CSS object-fit."
+    },
+    {
+      "name": "Smilla Holmberg",
+      "slug": "smilla-holmberg",
+      "src": "art/players/smilla-holmberg.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sweden_-_Serbia_36_(cropped).jpg",
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Sweden_-_Serbia_36_%28cropped%29.jpg/500px-Sweden_-_Serbia_36_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Mikael Hervestad",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Mikael Hervestad",
+      "description": "Sweden - Serbia",
+      "bytes": 80377,
+      "changes": "Pre-existing Commons crop; resized by Wikimedia thumbnail service; displayed with CSS object-fit."
+    },
+    {
+      "name": "Marli Salmon",
+      "slug": "marli-salmon",
+      "src": "art/players/marli-salmon.webp",
+      "source": "https://www.uefa.com/uefachampionsleague/clubs/players/250199801--marli-salmon/",
+      "download": "https://img.uefa.com/imgml/TP/players/1/2027/cutoff/250199801.webp",
+      "author": "UEFA player profile / rights holder not individually identified",
+      "license": "Copyrighted; no open reuse licence confirmed",
+      "licenseUrl": "https://www.uefa.com/termsconditions/",
+      "attribution": "UEFA official player profile; original rights retained",
+      "description": "Marli Salmon official 2026/27 player portrait",
+      "bytes": 98648,
+      "changes": "Unmodified download; displayed with CSS object-fit."
+    }
+  ],
+  "profileSources": [
+    "https://www.premierleague.com/en/players/223340/bukayo-saka/overview",
+    "https://www.bundesliga.com/en/player/max-dowman",
+    "https://www.arsenal.com/news/smilla-holmberg-joins-arsenal-aZDjc0I6cGjC",
+    "https://www.arsenal.com/news/marli-salmon-commits-his-future-to-arsenal-ag2Dg2K3ftAU",
+    "https://www.uefa.com/uefachampionsleague/clubs/players/250199801--marli-salmon/"
+  ],
+  "browser": {
+    "method": "Native Chrome, isolated review window",
+    "profiles": {
+      "Bukayo Saka": "Photo, England flag, winger and content passed",
+      "Max Dowman": "Photo, England flag, midfielder and content passed",
+      "Smilla Holmberg": "Photo, Sweden flag, defender and content passed",
+      "Marli Salmon": "Photo, England flag, defender and content passed"
+    },
+    "filters": {
+      "all": 24,
+      "men": 16,
+      "women": 8
+    },
+    "desktop": "Rendered iframe viewport 1366×768; checked restored profiles",
+    "classroom": "Rendered iframe viewport 1920×1080; checked grid and selected profile",
+    "phone": "Rendered iframe viewport 390×844; Saka selection reached correct heading/image; final screenshot incomplete because smooth scrolling and subsequent Mac lock",
+    "script": "page12 → draft → after-cards; correct labels; last Next disabled",
+    "limits": [
+      "In-app browser unavailable",
+      "Final phone visual check incomplete",
+      "Native console error audit not performed",
+      "Mac locked before isolated Chrome window cleanup"
+    ]
+  },
+  "wordGuide": {
+    "pages": 16,
+    "previouslyInspectedPixelIdenticalPages": 9,
+    "changedOrNewPagesInspected": 7
+  },
+  "staticChecks": {
+    "uniqueAlignedProfilesAndMedia": 24,
+    "creditAnchors": 24,
+    "existingFiles": 24,
+    "teacherNotesRetained": 12,
+    "scriptStops": 16,
+    "allJavaScriptSyntax": "Passed",
+    "fixedCardTotalInCurrentUIAndGuide": "Removed"
+  },
+  "noChanges": [
+    "Student data/privacy",
+    "Random draft algorithm",
+    "Six-story Vault algorithm",
+    "Cinema selections",
+    "Audio-free preference"
+  ]
+}

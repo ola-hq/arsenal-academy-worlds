@@ -83,7 +83,7 @@
         html+=copy('THE SCREENING ROOM','WATCH<br><em>THE MAGIC.</em>',s[2],button('Enter Cinema','cinema')+'<button class="quiet story-matchday" data-go="matchday">Explore this season</button><p class="small">Merino’s story. Team highlights. Stadium voices.</p>');break;
       case 8:
         html=copy('THE COLLECTORS’ ISSUE','YOUR PLAYER.<br><em>YOUR STORY.</em>',s[2],button('Explore the player cards','scout'));
-        html+='<div class="card-fan" aria-hidden="true">'+[['SALIBA','FRANCE','THE CALM WALL','02'],['LITTLE','SCOTLAND','THE CAPTAIN','10'],['RICE','ENGLAND','THE ENGINE','41']].map((c,i)=>`<div class="collectible card-${i}"><span>ARSENAL ACADEMY</span><b class="shirt-number">${c[3]}</b><h2>${c[0]}</h2><span>${c[1]}</span><strong>${c[2]}</strong></div>`).join('')+'<p>42 PHYSICAL CARDS · 2 PER STUDENT</p></div>';break;
+        html+='<div class="card-fan" aria-hidden="true">'+[['SALIBA','FRANCE','THE CALM WALL','02'],['LITTLE','SCOTLAND','THE CAPTAIN','10'],['RICE','ENGLAND','THE ENGINE','41']].map((c,i)=>`<div class="collectible card-${i}"><span>ARSENAL ACADEMY</span><b class="shirt-number">${c[3]}</b><h2>${c[0]}</h2><span>${c[1]}</span><strong>${c[2]}</strong></div>`).join('')+'<p>TWO CARDS EACH · CHOOSE FROM THE TABLE</p></div>';break;
       case 9:
         html='<div class="draw-art"><span class="kicker">EVERYONE GETS A TURN</span><b>21</b><span>STUDENTS. ONE FAIR ORDER.</span><div class="draw-balls"><span>07</span><span>14</span><span>03</span></div></div>';
         html+=copy('DRAFT DAY · THE LIVE DRAW','YOUR TURN<br><em>IS COMING.</em>',s[2],button('Start the Draft','draft'));break;

@@ -1,4 +1,4 @@
-// Licensed documentary portraits, in the same order as players in content.js.
+// Documentary portraits, in the same order as players in content.js. See individual rights in art/players/sources.json.
 const playerMedia=[
   {
     "name": "William Saliba",
@@ -99,5 +99,25 @@ const playerMedia=[
     "name": "Stina Blackstenius",
     "slug": "stina-blackstenius",
     "src": "art/players/stina-blackstenius.jpg"
+  },
+  {
+    "name": "Bukayo Saka",
+    "slug": "bukayo-saka",
+    "src": "art/players/bukayo-saka.jpg"
+  },
+  {
+    "name": "Max Dowman",
+    "slug": "max-dowman",
+    "src": "art/players/max-dowman.jpg"
+  },
+  {
+    "name": "Smilla Holmberg",
+    "slug": "smilla-holmberg",
+    "src": "art/players/smilla-holmberg.jpg"
+  },
+  {
+    "name": "Marli Salmon",
+    "slug": "marli-salmon",
+    "src": "art/players/marli-salmon.webp"
   }
 ];

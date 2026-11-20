@@ -1,5 +1,19 @@
 # Arsenal Academy project handoff
 
+## Full classroom roster and flexible card table awaiting publication
+
+19 November 2026. Development branch `codex/arsenal-full-roster`, review release editorial-11. The public website remains the approved editorial-10 release. Fresh publication approval is required for this patch.
+
+Owner restored the four previously excluded players and no longer wants a fixed 42-card table total. Added Bukayo Saka (England, winger), Max Dowman (England, midfielder), Smilla Holmberg (Sweden, defender/right-back) and Marli Salmon (England, defender) to the existing 20 profiles: 24 total, 16 men and eight women. This is the classroom collection, not the entire current Arsenal squad. Website profile order is not an asserted physical card checklist number. No exact physical copy quantities or student ownership are recorded. The owner may put one or several copies of each card on the table.
+
+Removed the fixed table-card total from the clubhouse, journal, Draft Day and host guide. Two available cards per student and the existing random 21-student order remain. The guide now follows the journal and Vault, then Draft Day, then optional discoveries about students’ chosen players. Journal pages 9 and 10 preview their activities without requiring them immediately. All 12 teacher notes remain included. HTML guide controls understand the two extra activity stops; Word guide has 16 clean cue pages.
+
+Browser verification used an isolated native Chrome window because the in-app browser connection was unavailable. All four restored profiles showed matching photos, names, flags and information; filters showed 24 / 16 / 8; rendered iframe review sizes were 1366×768 and 1920×1080. The 390×844 phone layout rendered and selecting Saka reached the correct profile heading/image in accessibility state, but the saved screenshot was taken during smooth scrolling. The Mac subsequently locked before the final phone screenshot could be repeated. Do not claim a completed final phone visual check or console-error audit. Host guide Next moved page 12 → Draft Day → optional player discoveries, with correct labels and final button state. All 16 Word pages were checked: nine unchanged pages were pixel-identical to the previously inspected render; seven changed/new pages were opened and inspected. JS syntax, all 24 media/name/source alignments, file existence, credit anchors, teacher-note equality and removal of fixed totals passed.
+
+Saka and Dowman photographs: Chensiyuan, CC BY-SA 4.0. Holmberg: Mikael Hervestad, CC BY-SA 4.0. Salmon: official UEFA 2026/27 portrait; no open reuse licence or third-party permission confirmed. Preserve that disclosure; do not call all 24 images openly licensed. Source pages, authors and licences are in art/players/sources.json and credits.html. No image was generated or substituted for a different person; portraits were visually inspected. No new Cinema films or audio were added.
+
+Remaining: final phone visual check when the Mac is unlocked, owner approval, publication, then public verification. One isolated Chrome review window may remain open because the Mac locked before cleanup. The temporary layout fixture is removed before commit. Review evidence: docs/evidence/roster-review-editorial-11.json and docs/screenshots/roster-11-*.jpg. Current script source: docs/host-script.json; reproducible builder: scripts/build-host-script.py.
+
 ## Live presentation update editorial 10
 
 Published 19 November 2026 after the owner answered “Publish this presentation update.” Release approval commit d4bd0bd923628f481d69380c7b14ced8a358f652. GitHub Pages run 44620594047 completed successfully: https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44620594047 .

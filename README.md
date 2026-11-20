@@ -1,5 +1,7 @@
 # Arsenal Academy Worlds
 
+Full-roster review editorial-11 is saved on `codex/arsenal-full-roster`: 24 player profiles, flexible card-table quantity and optional player discoveries after Draft Day. Publication is pending; editorial-10 is still live. See HANDOFF.md.
+
 Presentation update editorial-10 is approved and live at https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-10 . Read the updated host guide at docs/host-script.html. See HANDOFF.md for deployment evidence and verification limits.
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.

@@ -258,5 +258,61 @@
     "attribution": "",
     "description": "Sweden - Serbia",
     "bytes": 67326
+  },
+  {
+    "name": "Bukayo Saka",
+    "slug": "bukayo-saka",
+    "src": "art/players/bukayo-saka.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:1_bukayo_saka_arsenal_2025_(cropped).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/1_bukayo_saka_arsenal_2025_%28cropped%29.jpg/500px-1_bukayo_saka_arsenal_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Chensiyuan",
+    "description": "bukayo saka",
+    "bytes": 81183,
+    "changes": "Pre-existing Commons crop; resized by Wikimedia thumbnail service; displayed with CSS object-fit."
+  },
+  {
+    "name": "Max Dowman",
+    "slug": "max-dowman",
+    "src": "art/players/max-dowman.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:1_max_dowman_2026b_(cropped).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/1_max_dowman_2026b_%28cropped%29.jpg/500px-1_max_dowman_2026b_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Chensiyuan",
+    "description": "max downman crystal palace",
+    "bytes": 81592,
+    "changes": "Pre-existing Commons crop; resized by Wikimedia thumbnail service; displayed with CSS object-fit."
+  },
+  {
+    "name": "Smilla Holmberg",
+    "slug": "smilla-holmberg",
+    "src": "art/players/smilla-holmberg.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sweden_-_Serbia_36_(cropped).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Sweden_-_Serbia_36_%28cropped%29.jpg/500px-Sweden_-_Serbia_36_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Mikael Hervestad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Mikael Hervestad",
+    "description": "Sweden - Serbia",
+    "bytes": 80377,
+    "changes": "Pre-existing Commons crop; resized by Wikimedia thumbnail service; displayed with CSS object-fit."
+  },
+  {
+    "name": "Marli Salmon",
+    "slug": "marli-salmon",
+    "src": "art/players/marli-salmon.webp",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/players/250199801--marli-salmon/",
+    "download": "https://img.uefa.com/imgml/TP/players/1/2027/cutoff/250199801.webp",
+    "author": "UEFA player profile / rights holder not individually identified",
+    "license": "Copyrighted; no open reuse licence confirmed",
+    "licenseUrl": "https://www.uefa.com/termsconditions/",
+    "attribution": "UEFA official player profile; original rights retained",
+    "description": "Marli Salmon official 2026/27 player portrait",
+    "bytes": 98648,
+    "changes": "Unmodified download; displayed with CSS object-fit."
   }
 ]
