@@ -1,8 +1,6 @@
 # Arsenal Academy Worlds
 
-Player journey update editorial-12 is ready on `codex/arsenal-player-journeys`, awaiting publication approval. Page 9 and three Scouting profiles now include sourced histories and growth stories, with matching host cues. Editorial-11 remains live. See HANDOFF.md.
-
-Roster update **editorial-11 is approved and live**: 24 classroom player profiles, flexible card-table quantity and optional player discoveries after Draft Day. [Open the Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-11) or [read the host guide](docs/host-script.html). See HANDOFF.md for current evidence and remaining checks.
+Player stories **editorial-12 are approved and live**: Saka, Dowman and Salmon’s photo-led journeys, optional Scouting histories and matching host cues. All 24 classroom profiles and flexible card-table wording remain. [Open the Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-12-fit) · [Host guide](docs/host-script.html). See HANDOFF.md for actual verification and limits.
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.
 
@@ -16,7 +14,7 @@ Teacher script: [read-along guide](docs/host-script.html) and [editable Word cop
 
 ## Current live version
 
-Development branch: `codex/arsenal-full-roster`. Current application release: **editorial-11**, approved, deployed and checked in the public browser. **Start with [HANDOFF.md](HANDOFF.md)** to continue this project; it indexes decisions, testing, content review and remaining checks.
+Development branch: `codex/arsenal-player-journeys`. Current application release: **editorial-12**, approved, deployed and checked in the public browser. **Start with [HANDOFF.md](HANDOFF.md)** to continue this project; it indexes decisions, testing, content review and remaining checks.
 
 Public website for presenting and sharing: https://ola-hq.github.io/arsenal-academy-worlds/ . No login is needed. The old private review copy is not the classroom website. Editorial-3 was the initial redesign; later releases are recorded in PROJECT_STATUS.md.
 

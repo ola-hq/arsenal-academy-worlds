@@ -1,0 +1,111 @@
+{
+  "release": "editorial-12",
+  "approval": "Publish the player stories",
+  "deploymentRun": 44665072771,
+  "publicUrl": "https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-12-fit",
+  "checks": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 20974,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "legacy.html",
+      "status": 200,
+      "bytes": 14328,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "academy.js",
+      "status": 200,
+      "bytes": 27736,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "presenter.css",
+      "status": 200,
+      "bytes": 6626,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "clubhouse.js",
+      "status": 200,
+      "bytes": 2573,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "content.js",
+      "status": 200,
+      "bytes": 10642,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "player-media.js",
+      "status": 200,
+      "bytes": 2813,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "credits.html",
+      "status": 200,
+      "bytes": 13979,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/sources.json",
+      "status": 200,
+      "bytes": 18198,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/host-script.html",
+      "status": 200,
+      "bytes": 40990,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/host-script.docx",
+      "status": 200,
+      "bytes": 48487,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/player-journey-sources.json",
+      "status": 200,
+      "bytes": 3996,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/bukayo-saka.jpg",
+      "status": 200,
+      "bytes": 81183,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/max-dowman.jpg",
+      "status": 200,
+      "bytes": 81592,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/smilla-holmberg.jpg",
+      "status": 200,
+      "bytes": 80377,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/marli-salmon.webp",
+      "status": 200,
+      "bytes": 98648,
+      "matchesReviewedSource": true
+    }
+  ],
+  "verificationScope": "Direct HTTP checks compare the public files to the actual browser-tested review source. These HTTP checks complement separately recorded native Chrome public visual checks; they are not themselves visual checks.",
+  "nativeChromeVerification": {
+    "beforeFitCorrection": "Public clubhouse → ViewSonic Journal → Contents → page 9 worked. All three story buttons selected matching content. Full-screen displayed Saka’s complete story and reflection. All three Scouting history expansions and official source links were checked. Public host guide page 9 → page 10 worked.",
+    "fitCorrection": "A narrower window obscured the final reflection behind the folio. Correction c7cf13b lets that spread grow below 1251px. Visually verified locally with the exact embedded layout and complete question visible; all corrected public files then returned 200 with exact source hashes. Fresh public clubhouse loaded after deployment, but Mac locked before the last journal click, preventing the final corrected public windowed visual check.",
+    "screenshot": "docs/screenshots/journeys-12-live.jpg is an actual public full-screen Saka screenshot; the narrow-window-only correction does not alter that full-screen layout.",
+    "cleanup": "Local preview server stopped. One isolated verification Chrome window remains because the Mac locked before cleanup."
+  }
+}

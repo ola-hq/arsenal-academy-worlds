@@ -1,5 +1,15 @@
 # Arsenal Academy — current project status
 
+## Live player stories editorial 12
+
+Published 19 November 2026 after the owner answered “Publish the player stories.” Implementation 4b6f706 and approval cf786a6511e23264a0810796717f24e73134e995 were deployed by successful Pages run 44664326992. The narrow-window correction c7cf13bbc984e93387e9f689feab835af41b5094 was deployed successfully by run 44665072771: https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44665072771 . Earlier pending-review entries are historical and superseded.
+
+Live: https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-12-fit . Guide: https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html . Editable Word is alongside it. Page 9 now has three photo-led journeys; Saka, Dowman and Salmon passports have expandable sourced histories; matching host cues retain all twelve journal pages and the existing activity flow. No extra player, audio, video or data collection was added. Standard local host guide and host kit now match editorial-12.
+
+Actual public native Chrome checks verified the clubhouse presentation entrance, Contents → page 9, all three selected journey states/content, full-screen Saka story with complete question, 24-player Scouting count, all three new history expansions/source links and host-guide page 9 → 10. Actual public full-screen screenshot: docs/screenshots/journeys-12-live.jpg. Sixteen public files returned 200 and exact reviewed-source hashes, including corrected CSS/cache paths, both guide formats and portraits. Evidence: docs/evidence/editorial-12-public-checks.json.
+
+Public testing found the last question could be obscured in a narrower window. A small responsive correction lets this spread grow below 1251px; the same embedded layout was visually checked locally with the full question visible, then its exact public files were verified. The final public clubhouse reload succeeded, but the Mac locked before the last journal click. Do not claim that final corrected windowed public visual check was completed. Full-screen public screenshot remains representative: this correction applies only to narrower windows. One owned Chrome verification window remains open because lock prevented cleanup; local server stopped. Use Full screen for classroom presentation. No physical ViewSonic test or fresh console audit; earlier external-video and portrait rights limits remain.
+
 ## Player stories publication approved
 
 On 19 November 2026 the owner answered “Publish the player stories” to the scoped approval covering Saka, Dowman and Salmon’s photo-led journeys, expandable Scouting histories and matching host cues, following desktop/classroom/phone browser verification. Implementation 4b6f706 is approved for the existing public GitHub Pages website. Publication and public verification follow; earlier pending-review notes are historical.
