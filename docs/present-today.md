@@ -1,5 +1,9 @@
 # Ready for today — Arsenal Academy
 
+## Today’s rehearsal and optional visual polish
+
+20 November: the established classroom flow passed a fresh browser rehearsal, including all 21 draft turns, six Vault stories and 24 player portraits. The Cinema/OLA framing refresh is reviewed on a separate branch and awaits publication approval. Editorial-13 and the host guide remain live and usable now. No script change is needed for the proposed polish. Physical classroom display and school network remain to be checked on arrival.
+
 ## Published pacing correction
 
 Editorial-13 is approved and live. Page 9 is a 45–60 second card-choice conversation. Finish journal/Cinema, leadership and the Vault, then Draft Day. Optional discoveries follow the children’s selected players; Saka, Dowman and Salmon’s complete histories remain in Scouting. Avoid turning this optional stop into three required biographies. Use the updated public host guide for rehearsal and presentation.

@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-20",
+  "release": "editorial-14",
+  "status": "reviewed locally; owner publication approval pending",
+  "branch": "codex/arsenal-presentation-day-polish",
+  "baseline": "939a11ca1b0c95940ea115f5a21ba7bfe00650f9",
+  "live_release": "editorial-13",
+  "changes": [
+    "Existing OLA HQ globe and La Ola FC crest in room bands and quiet footer",
+    "Subtle crest on player-card paper and draft console, outside portraits",
+    "Cinema velvet/navy surround, warm marquee lights, gold frames and clearer screen/action arrangement",
+    "Readable single-column film posters at narrow phone widths",
+    "Versioned styles and iframe reference editorial-14"
+  ],
+  "source_checks": {
+    "unchanged": [
+      "academy.js",
+      "content.js",
+      "player-media.js",
+      "season-content.js",
+      "matchday.js",
+      "experience.js",
+      "docs/host-script.json",
+      "docs/host-script.html",
+      "docs/host-script.docx"
+    ],
+    "html_and_clubhouse_js": "Exact baseline after removing decorative bands, showtime stylesheet link and version increment",
+    "local_asset_references": 42,
+    "missing_assets": 0,
+    "duplicate_ids": 0
+  },
+  "browser": {
+    "sizes": [
+      {
+        "width": 1366,
+        "height": 768,
+        "purpose": "desktop and parent room frame"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "purpose": "classroom display layout"
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "purpose": "phone Cinema/Draft/Scouting"
+      }
+    ],
+    "journal": "All 12 pages navigated forward and backward; settled Contents count checked for each on reverse; teacher notes open; page 9 remains brief",
+    "draft": {
+      "all_21_revealed_once": [
+        2,
+        21,
+        19,
+        17,
+        16,
+        7,
+        20,
+        5,
+        13,
+        4,
+        1,
+        9,
+        18,
+        15,
+        6,
+        14,
+        10,
+        8,
+        12,
+        3,
+        11
+      ],
+      "reveal_disabled_at_end": true,
+      "clear_returns_to_start": true,
+      "student_names_entered": false
+    },
+    "vault": {
+      "completed": true,
+      "stories": [
+        "Wenger / The Invincibles Architect",
+        "Campbell / The Big-Game Goalscorer",
+        "Adams / Mr Arsenal",
+        "Campbell / The Invincible Defender",
+        "Adams / The One-Club Legend",
+        "Wenger / The Trophy-Winning Coach"
+      ],
+      "two_each": true
+    },
+    "scouting": {
+      "profiles_clicked": 24,
+      "selected_portraits_loaded": 24,
+      "men_filter": 16,
+      "women_filter": 8,
+      "saka_optional_history_present": true,
+      "all_portraits_local": true
+    },
+    "cinema": {
+      "category_counts": {
+        "shorts": 3,
+        "highlights": 5,
+        "stories": 4,
+        "chants": 1,
+        "all": 10
+      },
+      "merino_selected_and_watch_link": true,
+      "merino_source": "https://www.youtube.com/watch?v=KF9XJtA5e3k",
+      "native_youtube_playback_observed": true,
+      "new_full_audio_screening": false,
+      "phone_selection_and_watch_control_visible": true
+    },
+    "popups": {
+      "four_championship_photos_loaded": true,
+      "newman_four_values_present": true
+    },
+    "matchday": "Three correct answers complete the challenge, 3 / 3; dated 19 November snapshot retained, no live-feed claim",
+    "full_screen": {
+      "native_chrome": "Exit full screen toggle value 1 on entry; Full screen value 0 after exit; return to clubhouse passed",
+      "in_app_browser": "True fullscreen blocked by browser; existing focus-view fallback and exit worked"
+    },
+    "console": "In-app review tab captured zero warning/error entries after activity checks. Not a native Chrome DevTools audit.",
+    "responsive": "Cinema, Draft, Scouting document widths equal 390px viewport; actual screenshots inspected. Cinema phone title crowding corrected."
+  },
+  "screenshots": [
+    "docs/screenshots/showtime-14-cinema-desktop.jpg",
+    "docs/screenshots/showtime-14-cinema-classroom.jpg",
+    "docs/screenshots/showtime-14-cinema-full.jpg",
+    "docs/screenshots/showtime-14-cinema-phone.jpg",
+    "docs/screenshots/showtime-14-cinema-phone-selected.jpg",
+    "docs/screenshots/showtime-14-draft-classroom.jpg",
+    "docs/screenshots/showtime-14-draft-phone.jpg",
+    "docs/screenshots/showtime-14-scout-classroom.jpg",
+    "docs/screenshots/showtime-14-scout-phone.jpg",
+    "docs/screenshots/showtime-14-cinema-chrome-fullscreen.jpg"
+  ],
+  "limits": [
+    "No physical ViewSonic or school-network test",
+    "No new full video/audio clearance; earlier screening limits remain",
+    "Existing portrait rights limits retained, including UEFA Salmon portrait",
+    "Matchday remains an explicitly dated snapshot, not a live feed"
+  ],
+  "cleanup": "Owned native YouTube source tab and review window closed; unrelated windows left intact. In-app review tab closed and viewport override reset."
+}

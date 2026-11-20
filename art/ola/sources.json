@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-20",
+  "purpose": "User-requested OLA branding around the interface, not inside player photos or event artwork. Existing local project assets copied unchanged.",
+  "assets": [
+    {
+      "file": "ola-hq-globe.webp",
+      "source": "Existing OLA HQ site project / assets/entrances/ola-hq-globe-only-header-20261007.webp",
+      "description": "Existing OLA HQ ocean globe header mark."
+    },
+    {
+      "file": "la-ola-fc-crest.svg",
+      "source": "Existing OLA HQ site project / assets/deeper/la-ola-fc-crest.svg",
+      "description": "Existing code-native La Ola FC wave crest."
+    }
+  ],
+  "note": "User brand assets; no new third-party licence claim. Other photo rights records remain unchanged."
+}

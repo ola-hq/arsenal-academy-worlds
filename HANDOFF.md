@@ -1,5 +1,15 @@
 # Arsenal Academy project handoff
 
+## Presentation-day visual review editorial 14 — awaiting approval
+
+20 November 2026. Review branch `codex/arsenal-presentation-day-polish`, based on live baseline 939a11c. **Not published; editorial-13 remains live.** The owner requested a final rehearsal, more Cinema atmosphere and subtle OLA HQ / La Ola FC branding around the interface. New `showtime.css` adds a warm cinema marquee, velvet/navy and gold framing, room bands and quiet footer, and low-opacity crests on card paper and the draft console. The established OLA brand assets are copied unchanged and recorded in `art/ola/sources.json`. Portraits and event artwork remain untouched. Phone posters use a readable single column at narrow widths.
+
+Lesson data, activity logic, media selections and all host-guide formats are byte-identical to the baseline. The short page 9, optional Scouting histories, Vault-before-Draft order, flexible card table, all 24 players, audio-free default and privacy behavior are preserved. HTML changes reduce exactly to decorative additions and the editorial-14 version increment.
+
+Actual browser rehearsal: all 12 journal pages; full 21-number draft with every number once and end/clear states; all six unique Vault stories with two each of Adams, Campbell and Wenger; all 24 selected portraits loaded, men/women counts 16/8; all five Cinema categories and selected Merino watch control; all four championship photos; Newman values; all three Matchday challenge answers. Native Chrome played the existing one-minute Merino trailer and passed true full-screen entry/exit and return to clubhouse. In-app browser focus fallback also passed. Reviewed 1366×768 desktop, 1920×1080 classroom and 390×844 phone layouts. Phone poster crowding was found and corrected. In-app captured warning/error logs were empty; no native DevTools audit claimed.
+
+Evidence: `docs/evidence/showtime-editorial-14.json`; actual `docs/screenshots/showtime-14-*.jpg`. No physical ViewSonic/school-network test or fresh complete video/audio screening. Dated Matchday snapshot and existing rights/review limits remain. Owned browser test tabs/window closed, viewport override reset; temporary review fixture removed and local server stopped before handoff. Next step: owner approval for this visual polish, then deployment and actual public verification. The current live host guide remains valid and unchanged.
+
 ## Live focused classroom revision editorial 13
 
 Published 19 November 2026 after the owner answered “Publish the focused revision.” Implementation cfb8dd4 and approval 78ef62c91a45925bf9b6e5ee64f5eb320aafcb21 are on main and codex/arsenal-classroom-focus. Pages run 44667595780 completed successfully: https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44667595780 . Earlier pending-review entries below are historical and superseded.
