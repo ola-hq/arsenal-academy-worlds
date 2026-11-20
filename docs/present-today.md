@@ -1,5 +1,9 @@
 # Ready for today — Arsenal Academy
 
+## Proposed pacing correction
+
+Editorial-13 is a review, not yet live. Page 9 is a 45–60 second card-choice conversation. Finish journal/Cinema, leadership and the Vault, then Draft Day. Optional discoveries follow the children’s selected players; Saka, Dowman and Salmon’s complete histories remain in Scouting. Avoid turning this optional stop into three required biographies. Use the matching review guide only when rehearsing that branch.
+
 ## Published player journeys
 
 Editorial-12 is approved and live. Page 9 adds a 2–3 minute Saka, Dowman and Salmon academy-story stop; use the updated public host guide. Full screen gives the classroom the clearest view. Continue to Draft Day after the journal and Vault, then optional chosen-player discoveries.

@@ -7,7 +7,7 @@ const story=[
 ['🏅','EUROPEAN CHAMPIONS TWICE','Arsenal Women won Europe in 2007 and again in 2025, beating Barcelona 1–0.','Their 2007 title was called the UEFA Women’s Cup. Their 2025 title was the Champions League!'],
 ['🧤','EVERY PLAYER MATTERS','Goalkeepers. Defenders. Midfielders. Forwards. Substitutes. Managers. Every contribution counts.','You can play, plan, encourage or help others improve. You don’t have to be on the pitch to belong or lead.'],
 ['🎬','WATCH THE MAGIC','See the skills. Cheer for the goals. Find someone who inspires you.','Now we watch some highlights. Keep an eye out for a player you like!'],
-['🃏','YOUR PLAYER YOUR STORY','Meet Saka, Dowman and Salmon: three Hale End journeys, with different ways to help a team.','Hale End is Arsenal’s academy. Discover each journey, then connect practice, patience and encouragement to our own team. You might like a card for its skills, position, country, or design.'],
+['🃏','YOUR PLAYER YOUR STORY','Find a player you’re curious about. Later, choose two cards from our table.',"You might choose a card for its skills, position, country or design. Everyone’s reason counts. Explore longer player stories after the draft if students are interested."],
 ['🎲','DRAFT ORDER','Every student gets a fair chance. We will reveal our selection order one at a time.','Everyone gets to choose a card. The order is random, and every player matters.'],
 ['🧭','WHAT MAKES A LEADER?','Tony Adams: loyalty and courage. Sol Campbell: strength and composure. Arsène Wenger: vision and belief.','Great captains help others, stay calm, and make their team better.'],
 ['🛡️','THE CAPTAIN’S VAULT','Six badges. Three Arsenal legends. Six stories of leadership.','We have a mystery draw for our six team captains!']

@@ -1,0 +1,52 @@
+{
+  "release": "editorial-13 review",
+  "branch": "codex/arsenal-classroom-focus",
+  "published": false,
+  "liveRelease": "editorial-12",
+  "date": "2026-11-19",
+  "auditFinding": "Core classroom flow and eleven other journal pages remain intact. Page 9 became disproportionately dense: main spoken script grew from 30 words before the academy story feature to 263 words. This focused review brings it to 71 words and a planned 45–60 second card-choice conversation.",
+  "originalIntent": [
+    "Immersive Arsenal magazine with rich imagery and readable classroom text",
+    "Belonging, teamwork, leadership and every contribution matters",
+    "Cinema and interactive roles support the journal",
+    "Captain’s Vault followed by fair Draft Day and two available cards per student",
+    "Optional discoveries follow the children’s chosen players",
+    "Audio-free default and no student names or ownership records"
+  ],
+  "liveAudit": {
+    "reviewed": "Public clubhouse entrance, Contents, roles page and Substitute reveal, Cinema transition, player-story spread, leadership page and Adams reveal, and Vault entrance.",
+    "resolvedPriorLimit": "Actual public windowed page 9 now showed the complete Saka reflection above the folio, completing the visual check previously interrupted by the Mac lock. Screenshot focus-audit-live-before.jpg.",
+    "scope": "Spot checks and editorial comparison, not a fresh full Draft or six-story Vault regression run."
+  },
+  "reviewChange": [
+    "Restore the collector desk illustration and card-choice prompt on page 9",
+    "One interactive question and a short lead-in to later card selection",
+    "Keep all three full histories and source links in Scouting",
+    "Move shorter spoken story cues into optional post-draft discovery, selected by student interest",
+    "Keep 12 pages, 24 profiles, original random draft and six Vault stories"
+  ],
+  "nativeChromeReview": {
+    "desktop": "1366×768 iframe: collapsed/expanded prompt, all text and Explore button visibly fit.",
+    "classroom": "1920×1080 iframe: expanded question, imagery and footer visually inspected.",
+    "phone": "390×844 iframe: stacked text, expanded prompt and Explore button visually inspected; page scrolls normally.",
+    "fullscreen": "Standalone local journal full-screen entry/exit and complete page visually inspected.",
+    "navigation": "Explore opens Scouting with 24 players; Saka history expansion and source link still present. Journal Next reaches 10/12; host-guide Next reaches page 10.",
+    "guideLimit": "Optional post-draft cues verified in source and rendered Word; final browser navigation to that anchor was closed before its new content was observed."
+  },
+  "staticChecks": [
+    "JavaScript syntax passed",
+    "All 24 profile records exactly match editorial-12",
+    "All three full journey records exactly match editorial-12",
+    "Six Vault stories and eleven other journal story records exactly match editorial-12",
+    "All twelve teacher notes match the host guide",
+    "16 host-script stops retained",
+    "Whitespace checks passed"
+  ],
+  "wordReview": "16 pages. Fourteen pixel-identical to previously inspected guide; changed pages 11 and 16 rendered and opened at full resolution. No clipping or pagination overflow.",
+  "limits": [
+    "No physical ViewSonic or phone hardware test",
+    "No fresh console audit",
+    "Existing video review and image rights limits remain",
+    "This is a local review, not the published version"
+  ]
+}

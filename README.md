@@ -1,5 +1,7 @@
 # Arsenal Academy Worlds
 
+Classroom focus review editorial-13 is ready on `codex/arsenal-classroom-focus`, awaiting publication approval. It restores a brief card-choice page 9 and keeps complete player histories optional in Scouting. Editorial-12 remains live. See HANDOFF.md.
+
 Player stories **editorial-12 are approved and live**: Saka, Dowman and Salmon’s photo-led journeys, optional Scouting histories and matching host cues. All 24 classroom profiles and flexible card-table wording remain. [Open the Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-12-fit) · [Host guide](docs/host-script.html). See HANDOFF.md for actual verification and limits.
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.
