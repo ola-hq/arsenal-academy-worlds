@@ -1,5 +1,17 @@
 # Arsenal Academy — verification record
 
+## Player journeys editorial 12 ready for review
+
+19 November 2026. Development branch codex/arsenal-player-journeys. Not published: editorial-11 remains live. The owner requested meaningful history and growth for the restored Saka, Dowman and Salmon profiles, while preserving the experience’s focus.
+
+Journal page 9 now has three real-photo buttons and one selected academy journey with three historical milestones, an explicitly classroom-created team lesson and a reflection question. Saka: academy, 2018 debut and resilience from the saved 2021 final penalty to scoring in the 2024 England shoot-out. Dowman: under-18 debut at 13, 2025 league debut from the bench, youngest Premier League goalscorer on 14 March 2026. Salmon: joined at nine in 2019, 2025 tour and competitive senior debut that December. No claims that children must match their unusually young debuts. The other eleven journal pages and the 24-player collection remain; the card-table plan, Draft, Vault, Cinema and privacy behavior are retained.
+
+Their Scouting passports have optional From academy to first team expansions with the same milestones and official sources. Page 9 and post-draft host cues match; all twelve teacher notes remain. Historical dates avoid stale “current age” claims. Official source records and access limits are in docs/player-journey-sources.json. Classroom lessons are editorial connections, not attributed player quotes. Existing approved images and credits are reused; no new video, generated image or sound.
+
+Native Chrome checks passed for the changed spread at 1366×768 and 1920×1080, plus a 390×844 phone viewport. Corrected photo framing, gold-on-navy kicker contrast and a cramped phone name label. All three story buttons and Scouting expansions were checked; 24 profiles remain. Guide Next moves page 9 to 10 correctly. Word guide remains 16 pages: fourteen pixel-identical prior pages, both changed pages rendered and visually inspected. Evidence: docs/evidence/player-journeys-editorial-12.json. Actual review screenshots: docs/screenshots/journeys-12-*.jpg. These are local review screenshots, not live-site screenshots.
+
+Remaining: scoped owner publication approval, deploy to main, then verify public files and actual public browser. No physical classroom-device test or fresh console audit. Earlier portrait rights/video review limits remain. Host-guide review files are in outputs/player-journeys-review. Temporary fixture removed and isolated Chrome window closed.
+
 ## Live roster update editorial 11
 
 Published 19 November 2026 after the owner answered “Publish this roster update.” Implementation c4cb583 and approval 05fbd41b3898b7e297f3bb071131efe3bf480256 are on main and codex/arsenal-full-roster. GitHub Pages run 44645068765 completed successfully: https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/44645068765 . Earlier awaiting-publication entries below are historical and superseded.

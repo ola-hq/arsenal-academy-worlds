@@ -1,0 +1,32 @@
+{
+  "release": "editorial-12 review",
+  "branch": "codex/arsenal-player-journeys",
+  "published": false,
+  "liveRelease": "editorial-11",
+  "reviewDate": "2026-11-19",
+  "nativeChrome": {
+    "desktop": "1366×768 authored iframe: all three photo buttons selected matching story and pressed state; text readable. Corrected photo framing.",
+    "classroom": "1920×1080 authored iframe: Saka story, images, milestones, lesson, question and 9/12 folio visually inspected.",
+    "phone": "390×844 authored iframe: stacked story layout and scrolling visually inspected; corrected Dowman label fit; selected Dowman and verified the matching story.",
+    "scouting": "Opened Scouting through page 9; count 24. Selected Saka, Dowman and Salmon and opened the new details: matching milestones and official source links in accessibility state. Saka expanded profile visually inspected.",
+    "hostGuide": "Page 9 contains new matching cues; Next reaches page 10 with correct progress.",
+    "cleanup": "Isolated review window closed; temporary viewport fixture removed. Preview server stopped after checks."
+  },
+  "staticChecks": [
+    "JS syntax passed",
+    "12 journal pages retained",
+    "24 profiles retained",
+    "three journeys map to existing photos and source records",
+    "all 12 teacher notes exactly match guide",
+    "16 script stops retained",
+    "git diff whitespace check passed"
+  ],
+  "wordGuide": "16 pages. Fourteen pages pixel-identical to prior inspected roster guide. Changed pages 11 and 16 opened and inspected; no clipping or pagination overflow.",
+  "limits": [
+    "Viewport tests are rendered in native Chrome using a temporary iframe fixture, not physical ViewSonic or phone hardware.",
+    "No fresh browser console audit.",
+    "Only changed behavior was retested; full Draft/Vault draws were previously tested and are unchanged.",
+    "No new media or audio added. Existing photo rights and external-video limits remain."
+  ],
+  "sourceRecord": "docs/player-journey-sources.json"
+}

@@ -1,6 +1,6 @@
 {
   "title": "Arsenal Academy host script",
-  "release": "Matched to published editorial-11",
+  "release": "Matched to editorial-12 player journeys review",
   "timing": "Plan 45–60 minutes. Follow the journal and Captain’s Vault, then Draft Day. Finish with optional player discoveries from the cards students chose. Short route: one response per page, one film, skip Matchday and explore two or three chosen players. Card choosing sets the pace.",
   "use": "The big page number and heading match the journal on the classroom display. Setup and optional Matchday are separate stops, not extra journal pages. Read SAY and ASK aloud; CLICK and PAUSE guide you. Keep this script on a second device or print it. Its controls move the script only.",
   "sections": [
@@ -479,23 +479,55 @@
     {
       "id": "page9",
       "label": "Journal page 9  Your player Your story",
-      "visual": "Journal 9 / 12 · YOUR PLAYER YOUR STORY → Scouting",
-      "time": "1 minute",
+      "visual": "Journal 9 / 12 · YOUR PLAYER YOUR STORY · Academy journeys",
+      "time": "2–3 minutes",
       "blocks": [
         [
           "SAY",
-          "This page is a preview of our player stories. We will choose our cards after the journal, then come back to Scouting if you want to learn about your player."
-        ],
-        [
-          "NOTE",
-          "Journal teacher note: You might like their skills, position, country, or the design of the card."
+          "Before the big stadium, there was somewhere to learn. Hale End is Arsenal’s academy—a place where young players train with coaches and teammates. Saka, Dowman and Salmon all came through it. Even stars had a first practice. Nobody arrives with a fully charged football superpower."
         ],
         [
           "CLICK",
-          "Continue the journal with Next page → 10 / 12. Keep the activity button for our later stop."
+          "Stay on journal 9 / 12. Saka’s journey is selected first; tap Dowman, then Salmon as you tell their stories. Save the Explore the player cards button for after Draft Day."
+        ],
+        [
+          "SAY",
+          "Bukayo Saka joined Arsenal as a child and made his first-team debut at 17 in 2018. He grew into a role model—but he has difficult moments too. His penalty was saved in the EURO 2020 final, which was played in 2021. At EURO 2024, he stepped up and scored in England’s shoot-out win over Switzerland. A difficult moment did not end his story. What could you say to a teammate who wants to try again?"
+        ],
+        [
+          "CLICK",
+          "Tap Dowman."
+        ],
+        [
+          "SAY",
+          "Max Dowman played for the under-18s at 13, then made his Premier League debut from the bench at 15 in August 2025. In March 2026 he scored against Everton at 16 years and 73 days—the youngest scorer in Premier League history. That spotlight came after years of learning. What could you practise before your next chance?"
+        ],
+        [
+          "CLICK",
+          "Tap Salmon."
+        ],
+        [
+          "SAY",
+          "Marli Salmon joined Arsenal’s academy at nine in 2019. In 2025 he went on the first-team pre-season tour, then made his competitive debut against Club Brugge that December at 16. He is a defender: helping the team is not only about scoring. How can you help a teammate without scoring a goal?"
+        ],
+        [
+          "PAUSE",
+          "Take one or two responses across the three stories; invite a pass. Keep the pace brisk. Their debuts were unusually young: everyone develops at a different pace, and nobody needs to match their ages or become a professional to belong. The classroom lessons are our connections, not quotations from the players."
+        ],
+        [
+          "SAY",
+          "Different skills. Different steps. Coaches and teammates along the way. We can practise, ask for help and help someone else grow. After the journal, we will choose our cards and explore the players you picked."
+        ],
+        [
+          "NOTE",
+          "Journal teacher note: Hale End is Arsenal’s academy. Discover each journey, then connect practice, patience and encouragement to our own team. You might like a card for its skills, position, country, or design."
+        ],
+        [
+          "CLICK",
+          "Continue with Next page to journal 10 / 12."
         ]
       ],
-      "teacherNote": "You might like their skills, position, country, or the design of the card."
+      "teacherNote": "Hale End is Arsenal’s academy. Discover each journey, then connect practice, patience and encouragement to our own team. You might like a card for its skills, position, country, or design."
     },
     {
       "id": "page10",
@@ -728,6 +760,10 @@
           "Let’s read the country, position and football superpower. What interests you about this player? A skill? Their story? The design of your card?"
         ],
         [
+          "CLICK",
+          "If a student chooses Saka, Dowman or Salmon, open From academy to first team in their Scouting passport for the milestones and team question. Other profiles retain their existing information. Use the photo source link for image credits; written milestone sources are inside the journey."
+        ],
+        [
           "ASK",
           "What is one quality from this player you could use as a teammate today?"
         ],
@@ -748,7 +784,7 @@
           "Cards safe, teammates appreciated—and stadium announcer officially off duty."
         ]
       ],
-      "teacherNote": "You might like their skills, position, country, or the design of the card."
+      "teacherNote": "Hale End is Arsenal’s academy. Discover each journey, then connect practice, patience and encouragement to our own team. You might like a card for its skills, position, country, or design."
     }
   ]
 }

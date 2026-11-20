@@ -7,7 +7,7 @@ const story=[
 ['🏅','EUROPEAN CHAMPIONS TWICE','Arsenal Women won Europe in 2007 and again in 2025, beating Barcelona 1–0.','Their 2007 title was called the UEFA Women’s Cup. Their 2025 title was the Champions League!'],
 ['🧤','EVERY PLAYER MATTERS','Goalkeepers. Defenders. Midfielders. Forwards. Substitutes. Managers. Every contribution counts.','You can play, plan, encourage or help others improve. You don’t have to be on the pitch to belong or lead.'],
 ['🎬','WATCH THE MAGIC','See the skills. Cheer for the goals. Find someone who inspires you.','Now we watch some highlights. Keep an eye out for a player you like!'],
-['🃏','DRAFT DAY!','Discover the players. Choose from the cards on our table.','You might like their skills, position, country, or the design of the card.'],
+['🃏','YOUR PLAYER YOUR STORY','Meet Saka, Dowman and Salmon: three Hale End journeys, with different ways to help a team.','Hale End is Arsenal’s academy. Discover each journey, then connect practice, patience and encouragement to our own team. You might like a card for its skills, position, country, or design.'],
 ['🎲','DRAFT ORDER','Every student gets a fair chance. We will reveal our selection order one at a time.','Everyone gets to choose a card. The order is random, and every player matters.'],
 ['🧭','WHAT MAKES A LEADER?','Tony Adams: loyalty and courage. Sol Campbell: strength and composure. Arsène Wenger: vision and belief.','Great captains help others, stay calm, and make their team better.'],
 ['🛡️','THE CAPTAIN’S VAULT','Six badges. Three Arsenal legends. Six stories of leadership.','We have a mystery draw for our six team captains!']
@@ -45,4 +45,100 @@ const legends=[
 ['Sol Campbell','The Big-Game Goalscorer','Campbell scored Arsenal’s goal in the 2006 Champions League final.','Anyone can have a big moment.'],
 ['Arsène Wenger','The Invincibles Architect','Wenger managed Arsenal through 38 unbeaten Premier League matches in 2003–04.','Preparation and teamwork make incredible things possible.'],
 ['Arsène Wenger','The Trophy-Winning Coach','Wenger served Arsenal for 22 years, winning three Premier League titles and seven FA Cups.','A great coach helps others become their best.']
+];
+
+// Dated milestones; classroom lessons are our interpretation, not player quotations.
+const playerJourneys=[
+  {
+    "name": "Bukayo Saka",
+    "shortName": "Saka",
+    "headline": "From Hale End to a role model",
+    "teaser": "A young learner became someone the next generation could look up to.",
+    "steps": [
+      [
+        "The beginning",
+        "Joined Arsenal’s Hale End academy as a child."
+      ],
+      [
+        "The breakthrough",
+        "Made his first-team debut at 17 in November 2018."
+      ],
+      [
+        "Courage to try again",
+        "A penalty was saved in the EURO 2020 final, played in 2021. At EURO 2024 he scored in England’s shoot-out win over Switzerland."
+      ]
+    ],
+    "lesson": "Our team lesson: a difficult moment does not have to be the end of your story.",
+    "question": "What could you say to a teammate who wants to try again?",
+    "sources": [
+      [
+        "Arsenal: Saka’s academy journey and milestones",
+        "https://www.arsenal.com/news/bukayo-saka-signs-new-long-term-contract-aFcin3f65ht4"
+      ],
+      [
+        "UEFA: Saka’s response at EURO 2024",
+        "https://www.uefa.com/uefaeuro/history/news/028f-1b4f3f996527-439d0321102a-1000--england-analysis-bukayo-saka-s-match-winning-performance/"
+      ]
+    ]
+  },
+  {
+    "name": "Max Dowman",
+    "shortName": "Dowman",
+    "headline": "Small steps. A huge moment.",
+    "teaser": "Years in the academy came before the record-breaking spotlight.",
+    "steps": [
+      [
+        "Learning his craft",
+        "Played for Arsenal’s under-18 team at just 13."
+      ],
+      [
+        "A chance from the bench",
+        "Made his Premier League debut against Leeds in August 2025, aged 15."
+      ],
+      [
+        "A place in history",
+        "Scored against Everton on 14 March 2026, aged 16 years and 73 days—the Premier League’s youngest goalscorer."
+      ]
+    ],
+    "lesson": "Our team lesson: practise your skills and be ready to help when your turn comes.",
+    "question": "What could you practise before your next chance?",
+    "sources": [
+      [
+        "Premier League: Dowman’s academy and debut",
+        "https://www.premierleague.com/en/news/4391363/who-is-15-year-old-max-dowman-after-arsenal-debut-in-premier-league-v-leeds-united"
+      ],
+      [
+        "Premier League: goalscoring record",
+        "https://www.premierleague.com/en/news/662064/records-players"
+      ]
+    ]
+  },
+  {
+    "name": "Marli Salmon",
+    "shortName": "Salmon",
+    "headline": "Quiet work. A big opportunity.",
+    "teaser": "A defender’s journey shows that helping the team goes beyond scoring.",
+    "steps": [
+      [
+        "The beginning",
+        "Joined Arsenal’s academy at nine in July 2019."
+      ],
+      [
+        "Learning with the first team",
+        "Joined the 2025 pre-season tour and played against AC Milan in Singapore."
+      ],
+      [
+        "A European debut",
+        "Came on against Club Brugge in December 2025, aged 16, for his first competitive senior appearance."
+      ]
+    ],
+    "lesson": "Our team lesson: stay ready, communicate and notice how you can help.",
+    "question": "How can you help a teammate without scoring a goal?",
+    "sources": [
+      [
+        "Arsenal: Salmon’s academy journey and debut",
+        "https://www.arsenal.com/news/marli-salmon-commits-his-future-to-arsenal-ag2Dg2K3ftAU"
+      ]
+    ]
+  }
 ];

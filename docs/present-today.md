@@ -1,5 +1,9 @@
 # Ready for today — Arsenal Academy
 
+## Player journey review
+
+Editorial-12 is not yet live. Its page 9 adds a 2–3 minute Saka, Dowman and Salmon academy-story stop; use the matching review host guide when rehearsing this branch. Continue to Draft Day after the journal and Vault, then optional chosen-player discoveries.
+
 ## Published card-table flow editorial 11
 
 Approved and live: fill the table with available cards; copies vary. Keep two cards per student and one fair random order. Finish the journal and captain stories, then Draft Day, then optionally explore the players students chose. Do not promise any specific player remains available. All 24 classroom player profiles are live.

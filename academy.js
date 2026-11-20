@@ -49,6 +49,14 @@
   const copy = (kicker, title, body, action='')=>`<div class="story-copy"><span class="kicker">${kicker}</span><h1 id="slideTitle" tabindex="-1">${title}</h1><p>${body}</p>${action}</div>`;
   const button=(text,room)=>`<button class="primary" data-go="${room}">${text}</button>`;
   const prompt=(text,answer)=>`<details class="question"><summary>${text}</summary><p>${answer}</p></details>`;
+  const journeyBody = j => `<ol class="journey-steps">${j.steps.map(step=>`<li><strong>${step[0]}</strong><span>${step[1]}</span></li>`).join('')}</ol><p class="journey-lesson">${j.lesson}</p><p class="journey-question"><strong>Your turn to think</strong> ${j.question}</p>`;
+  function selectJourney(index,announce=false){
+    const j=playerJourneys[index];
+    $('#journeyPanel').innerHTML=`<span class="kicker">HALE END · ARSENAL’S ACADEMY</span><h2>${j.headline}</h2><p class="journey-teaser">${j.teaser}</p>${journeyBody(j)}`;
+    all('[data-journey]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.journey)===index)));
+    if(announce)$('#journeyAnnouncement').textContent=`${j.name}. ${j.headline}`;
+  }
+  document.addEventListener('click',e=>{const b=e.target.closest('[data-journey]');if(b)selectJourney(Number(b.dataset.journey),true);});
   const foil = '<svg class="shield-art" viewBox="0 0 160 190" aria-hidden="true"><path d="M12 12L80 3l68 9v84c0 40-32 68-68 89-36-21-68-49-68-89Z" fill="currentColor"/><path d="M26 25l54-8 54 8v70c0 29-22 53-54 73-32-20-54-44-54-73Z" fill="none" stroke="#131c2b" stroke-width="3"/><path d="M80 39l9 27 29 1-23 18 8 28-23-16-23 16 8-28-23-18 29-1Z" fill="#131c2b"/></svg>';
   function renderSlide() {
     const s=story[slide], spread=$('#spread');
@@ -82,8 +90,8 @@
         html=image('cinema-room.jpg','A football stadium screening in the academy cinema');
         html+=copy('THE SCREENING ROOM','WATCH<br><em>THE MAGIC.</em>',s[2],button('Enter Cinema','cinema')+'<button class="quiet story-matchday" data-go="matchday">Explore this season</button><p class="small">Merino’s story. Team highlights. Stadium voices.</p>');break;
       case 8:
-        html=copy('THE COLLECTORS’ ISSUE','YOUR PLAYER.<br><em>YOUR STORY.</em>',s[2],button('Explore the player cards','scout'));
-        html+='<div class="card-fan" aria-hidden="true">'+[['SALIBA','FRANCE','THE CALM WALL','02'],['LITTLE','SCOTLAND','THE CAPTAIN','10'],['RICE','ENGLAND','THE ENGINE','41']].map((c,i)=>`<div class="collectible card-${i}"><span>ARSENAL ACADEMY</span><b class="shirt-number">${c[3]}</b><h2>${c[0]}</h2><span>${c[1]}</span><strong>${c[2]}</strong></div>`).join('')+'<p>TWO CARDS EACH · CHOOSE FROM THE TABLE</p></div>';break;
+        html=copy('THE NEXT CHAPTER','YOUR PLAYER.<br><em>YOUR STORY.</em>',s[2],'<p class="instruction">Tap a player. Discover how their story grew.</p>'+button('Explore the player cards','scout')+'<p class="small">TWO CARDS EACH · CHOOSE FROM THE TABLE</p>');
+        html+='<div class="academy-pathways"><div class="journey-choices" aria-label="Choose an academy journey">'+playerJourneys.map((j,i)=>{const media=playerMedia[players.findIndex(p=>p[0]===j.name)];return `<button data-journey="${i}" aria-pressed="${i===0}" aria-label="Discover ${j.name}’s academy story"><img src="${media.src}" alt=""><span>${j.shortName}</span><small>Discover the journey</small></button>`;}).join('')+'</div><section id="journeyPanel" aria-label="Selected academy journey"></section><p id="journeyAnnouncement" class="sr-only" role="status"></p></div>';break;
       case 9:
         html='<div class="draw-art"><span class="kicker">EVERYONE GETS A TURN</span><b>21</b><span>STUDENTS. ONE FAIR ORDER.</span><div class="draw-balls"><span>07</span><span>14</span><span>03</span></div></div>';
         html+=copy('DRAFT DAY · THE LIVE DRAW','YOUR TURN<br><em>IS COMING.</em>',s[2],button('Start the Draft','draft'));break;
@@ -95,6 +103,7 @@
         html+=copy('THE FINAL REVEAL','THE CAPTAIN’S<br><em>VAULT.</em>',s[2],'<div class="mini-shields" aria-hidden="true">'+foil.repeat(6)+'</div>'+button('Open the Vault','captains'));break;
     }
     spread.innerHTML=html+`<div class="spread-folio"><span>${chapters[slide].toUpperCase()}</span><span>${String(slide+1).padStart(2,'0')} / 12</span></div>`;
+    if(slide===8)selectJourney(0);
     document.querySelector('[data-nav=slides]').href='#slides/'+(slide+1);
     $('#count').textContent=`${slide+1} / 12`;
     $('#notes').textContent=s[3];
@@ -155,6 +164,9 @@
     chosen=i;const a=players[i],media=playerMedia[i];
     $('#playerName').textContent=a[0];$('#playerInfo').innerHTML=countryMark(a[3])+`<span class="passport-position">${escapeText(a[4])}</span>`;
     $('#playerPower').textContent=a[5];$('#playerStory').textContent=a[6];$('#playerAward').textContent=a[7];
+    const journey=playerJourneys.find(j=>j.name===a[0]),detail=$('#playerJourney');
+    detail.hidden=!journey;detail.open=false;
+    $('#playerJourneyContent').innerHTML=journey?journeyBody(journey)+`<div class="journey-sources">${journey.sources.map(source=>`<a href="${source[1]}" target="_blank" rel="noopener noreferrer">${source[0]}</a>`).join('')}</div>`:'';
     $('#playerPortrait').innerHTML=`<img src="${media.src}" alt="${escapeText(a[0])}" width="480" height="600"><figcaption>PLAYER PORTRAIT · DIGITAL ACADEMY PROFILE</figcaption>`;
     const credit=$('#playerPhotoCredit');credit.href=`credits.html#photo-${media.slug}`;credit.textContent='Photo credit & source';
     const l=$('#playerVideo');l.href='https://www.youtube.com/@Arsenal/search?query='+encodeURIComponent(a[0]+' highlights');l.hidden=false;

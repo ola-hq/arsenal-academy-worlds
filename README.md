@@ -1,5 +1,7 @@
 # Arsenal Academy Worlds
 
+Player journey update editorial-12 is ready on `codex/arsenal-player-journeys`, awaiting publication approval. Page 9 and three Scouting profiles now include sourced histories and growth stories, with matching host cues. Editorial-11 remains live. See HANDOFF.md.
+
 Roster update **editorial-11 is approved and live**: 24 classroom player profiles, flexible card-table quantity and optional player discoveries after Draft Day. [Open the Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-11) or [read the host guide](docs/host-script.html). See HANDOFF.md for current evidence and remaining checks.
 
 An independent, static Arsenal classroom experience. No build, package installation, account or database is required.
