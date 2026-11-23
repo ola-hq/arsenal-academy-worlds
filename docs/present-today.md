@@ -1,8 +1,16 @@
 # Ready for today — Arsenal Academy
 
+## Linked presenter mode — live 23 November 2026
+
+Open the [online presenter guide](https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html?v=editorial-15) on the laptop. Select **Open classroom screen**, move that separate window onto the extended display once, then select **Full screen** there. Keep the guide on the laptop: **Next stop & screen** moves the notes and visuals together. Use the guide’s interactive preview for Draft Day, Vault reveals, player discoveries and other activities.
+
+Use the same computer and browser/profile for both windows. If the browser opens a tab, detach it into a separate window. External film sites still open separately. Keep the guide open during the draft; reopening the audience window preserves its state, but reloading the guide resets the in-memory draw. The Word and downloaded HTML guides remain independent reading copies; use the online guide for linked control.
+
+The ordinary Academy remains available and works independently. The lesson, spoken script and classroom flow are preserved. Publication and public verification are recorded in HANDOFF.md; earlier release notes below describe the preceding rehearsals.
+
 ## Today’s rehearsal and published visual polish
 
-20 November: the established classroom flow passed a fresh browser rehearsal, including all 21 draft turns, six Vault stories and 24 player portraits. The Cinema/OLA framing refresh was approved, published and checked on the public website. Editorial-14 and the unchanged host guide are live and ready. No script change is needed. Physical classroom display and school network remain to be checked on arrival.
+20 November: the established classroom flow passed a fresh browser rehearsal, including all 21 draft turns, six Vault stories and 24 player portraits. The Cinema/OLA framing refresh was approved, published and checked on the public website. The visual polish is retained in editorial-15, with the spoken script preserved. No script change is needed. Physical classroom display and school network remain to be checked on arrival.
 
 ## Published pacing correction
 
@@ -20,7 +28,7 @@ The official Arsenal 2:04 Merino Leicester highlights source is optional. Channe
 
 The complete read-aloud hosting script is now available at https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html . Cinema includes teacher-led classroom cheers and an optional 0:27 stadium source marked for preview; its crowd audio is not fully cleared.
 
-Open [the current Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-14). Select **Full screen**. Under Options, **Show room labels** makes the clickable places easier to find.
+Open [the current Academy](https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-15). Select **Full screen**. Under Options, **Show room labels** makes the clickable places easier to find.
 
 ## Use this film today
 

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "release": "editorial-15",
-  "status": "browser review complete; awaiting owner publication approval",
+  "status": "reviewed, approved, published and publicly verified",
   "branch": "codex/arsenal-linked-presenter",
   "baseline": "e94de4f3eb64f10387409e0a15d526585365ad20",
   "live": "editorial-14",
@@ -157,5 +157,12 @@
       "Physical ViewSonic and school-network rehearsal remain outside this browser review",
       "Same computer/browser only; external video windows remain separate; guide reload resets in-memory draw"
     ]
+  },
+  "publication": {
+    "date": "2026-11-23",
+    "approval": "Publish linked presenter mode",
+    "deploymentRun": 45236406916,
+    "publicVerification": "docs/evidence/editorial-15-public-checks.json",
+    "guide": "https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html?v=editorial-15"
   }
 }

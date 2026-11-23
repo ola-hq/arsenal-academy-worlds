@@ -1,0 +1,204 @@
+{
+  "release": "editorial-15",
+  "approval": "Publish linked presenter mode",
+  "deploymentRun": 45236406916,
+  "publicUrl": "https://ola-hq.github.io/arsenal-academy-worlds/?v=editorial-15",
+  "checks": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 21083,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "legacy.html",
+      "status": 200,
+      "bytes": 15736,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "academy.js",
+      "status": 200,
+      "bytes": 26871,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "presenter.css",
+      "status": 200,
+      "bytes": 5687,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "showtime.css",
+      "status": 200,
+      "bytes": 7231,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "presenter-link.js",
+      "status": 200,
+      "bytes": 7208,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "presenter-link.css",
+      "status": 200,
+      "bytes": 2271,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "presenter-bridge.js",
+      "status": 200,
+      "bytes": 1960,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "classroom.html",
+      "status": 200,
+      "bytes": 865,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "classroom.js",
+      "status": 200,
+      "bytes": 3868,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "classroom.css",
+      "status": 200,
+      "bytes": 1327,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "classroom-stage.html",
+      "status": 200,
+      "bytes": 867,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "classroom-stage.js",
+      "status": 200,
+      "bytes": 1990,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "classroom-stage.css",
+      "status": 200,
+      "bytes": 709,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/ola/ola-hq-globe.webp",
+      "status": 200,
+      "bytes": 17662,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/ola/la-ola-fc-crest.svg",
+      "status": 200,
+      "bytes": 1036,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/ola/sources.json",
+      "status": 200,
+      "bytes": 731,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "clubhouse.js",
+      "status": 200,
+      "bytes": 2569,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "content.js",
+      "status": 200,
+      "bytes": 10609,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "player-media.js",
+      "status": 200,
+      "bytes": 2813,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "credits.html",
+      "status": 200,
+      "bytes": 14336,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/sources.json",
+      "status": 200,
+      "bytes": 18198,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/host-script.html",
+      "status": 200,
+      "bytes": 40444,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/host-script.docx",
+      "status": 200,
+      "bytes": 48173,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "docs/player-journey-sources.json",
+      "status": 200,
+      "bytes": 3996,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/bukayo-saka.jpg",
+      "status": 200,
+      "bytes": 81183,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/max-dowman.jpg",
+      "status": 200,
+      "bytes": 81592,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/smilla-holmberg.jpg",
+      "status": 200,
+      "bytes": 80377,
+      "matchesReviewedSource": true
+    },
+    {
+      "file": "art/players/marli-salmon.webp",
+      "status": 200,
+      "bytes": 98648,
+      "matchesReviewedSource": true
+    }
+  ],
+  "verificationScope": "Direct HTTP checks compare the public files to the actual browser-tested review source. These HTTP checks verify file contents, not visual or interaction behavior. Public browser outcomes are recorded separately.",
+  "date": "2026-11-23",
+  "implementation": "6cb39e4",
+  "review": "5dbd8c1",
+  "approvalCommit": "3d982716edd305a8be2b85e603a22c0fa4d3df87",
+  "deploymentConclusion": "success",
+  "publicGuide": "https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html?v=editorial-15",
+  "browserChecks": {
+    "browser": "native Safari, actual public HTTPS origin",
+    "guide": "Public online guide loaded with Open classroom screen and matching page-1 cue",
+    "connection": "Button opened the public classroom popup; linked page 1 appeared",
+    "next": "One Next stop & screen moved guide cue/selector/preview and classroom content/status from page 1 to 2",
+    "privacy": "Audience AX tree had no host script or Teacher’s voice panel",
+    "fullscreen": "Native entry showed only the classroom visual; Escape restored toolbar",
+    "draft": "Draft Day selected matching host cue; shuffle and first reveal produced classroom number 17 in both host and audience; test draw then cleared",
+    "cleanup": "Classroom test popup closed; public guide reloaded to page 1, independent state with Open classroom screen ready; original Safari Start Page and unrelated windows preserved",
+    "scope": "The full 21-turn draft, six Vault stories, histories, Matchday, Chrome/Safari and layout rehearsal were done pre-publication on the identical reviewed runtime; not repeated in full on the public site."
+  },
+  "screenshots": [
+    "docs/screenshots/presenter-15-live-laptop.jpg",
+    "docs/screenshots/presenter-15-live-classroom.jpg"
+  ]
+}

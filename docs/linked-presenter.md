@@ -1,12 +1,12 @@
-# Linked presenter guide — development review
+# Linked presenter guide
 
-Browser-reviewed and awaiting owner publication approval. Current live release remains editorial-14. See HANDOFF.md and docs/evidence/linked-presenter-editorial-15.json before publishing.
+Approved, published and verified on the public website on 23 November 2026. Current release is editorial-15. Online guide: https://ola-hq.github.io/arsenal-academy-worlds/docs/host-script.html?v=editorial-15 . See HANDOFF.md and docs/evidence/editorial-15-public-checks.json for release evidence.
 
 ## The classroom problem
 
 The first live session used extended displays: notes on the laptop and the Academy on the ViewSonic. The presenter had to advance two pages and move the cursor between displays. Students engaged with the visuals, leadership discussion and physical card draft. The requested improvement is control from the laptop while the audience sees the corresponding visuals.
 
-## Intended setup
+## Setup
 
 1. Open the online host guide in the same browser/profile on the presentation computer.
 2. Select Open classroom screen. If the browser blocks the popup, allow it for this site and try again. If it opens as a tab, detach that tab into a separate window.
@@ -31,4 +31,4 @@ This does not pair separate phones/tablets. It needs two windows on the same com
 
 Chrome and Safari both passed paired navigation and native fullscreen entry/exit. The full Safari rehearsal covered all twelve journal pages, all 21 mirrored draft picks, audience close/reopen and reload without losing the pick, all six Vault reveals and completion, keeping teacher notes off the audience view, Cinema selection, expanded Saka history and the complete Matchday challenge. Ordinary browsing remained independent of the linked session. Actual 1366×768 linked-guide, 1920×1080 classroom-stage and 390×844 standalone-guide layouts were checked in temporary scaled browser fixtures; native laptop and fullscreen windows were inspected too. Eight automated protocol/guide tests passed. Runtime files remain identical to reviewed implementation 6cb39e4.
 
-Actual screenshots and detailed evidence are under docs/screenshots/presenter-15-* and docs/evidence/linked-presenter-editorial-15.json. Temporary fixtures were removed, the preview server stopped and owned review windows closed. Remaining: owner approval to publish, then deployment/public verification. Physical classroom display and school-network access still require an on-site check. The Word guide remains an independent printable companion; linked control is a web-guide feature.
+Actual screenshots and detailed evidence are under docs/screenshots/presenter-15-* and docs/evidence/linked-presenter-editorial-15.json. Temporary fixtures were removed, the preview server stopped and owned review windows closed. The owner approved publication; deployment and actual public two-window/Next/privacy/fullscreen/Draft checks passed, with all 29 public file hashes matching the reviewed release. Physical classroom display and school-network access still require an on-site check. The Word guide remains an independent printable companion; linked control is a web-guide feature.
