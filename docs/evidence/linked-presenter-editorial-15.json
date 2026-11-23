@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "release": "editorial-15",
-  "status": "development only; browser verification incomplete; not approved for publication",
+  "status": "browser review complete; awaiting owner publication approval",
   "branch": "codex/arsenal-linked-presenter",
   "baseline": "e94de4f3eb64f10387409e0a15d526585365ad20",
   "live": "editorial-14",
@@ -121,5 +121,41 @@
       "final Chrome paired-navigation retest"
     ],
     "blocker": "Mac locked again after the Saka selection. A new unlock request is pending. No publication approval requested."
+  },
+  "finalReview": {
+    "date": "2026-11-23",
+    "sourceCommit": "6cb39e4",
+    "chrome": {
+      "fresh_source_loaded": true,
+      "paired_next": "Guide page 1 → 2, matching selector and preview; classroom page-2 content and status confirmed",
+      "fullscreen": "Native entry hides toolbar and notes; Escape restores toolbar",
+      "laptop_screenshot": "presenter-15-laptop.jpg"
+    },
+    "safari_additional": {
+      "scouting_history": "Saka history opened in canonical preview and matched the audience expanded state, milestones and source links",
+      "matchday": "All three answers mirrored, reaching 3 / 3 and completion message",
+      "layouts": [
+        "1920×1080 classroom stage in temporary scaled iframe fixture",
+        "1366×768 linked host guide in temporary scaled iframe fixture",
+        "390×844 standalone host guide in temporary scaled iframe fixture; Next moved page 2 → 3"
+      ],
+      "layout_observation": "Classroom frame fits; laptop linked guide has side-by-side controls/notes; phone guide text and controls wrap without visible clipping"
+    },
+    "regression": "Ordinary homepage Presenter guide link present. Ordinary journal navigated to page 4 while an independent linked audience stayed on page 3; ordinary browsing does not control the linked display.",
+    "source_integrity": "All presenter runtime files and Academy core checked byte-identical to reviewed 6cb39e4 after removing the temporary fixture link; no app implementation changes needed during final QA.",
+    "automated_tests": "8 protocol/guide tests passed previously for unchanged source; not rerun without a code change",
+    "screenshots": [
+      "docs/screenshots/presenter-15-laptop.jpg",
+      "docs/screenshots/presenter-15-chrome-classroom.jpg",
+      "docs/screenshots/presenter-15-classroom-1920.jpg",
+      "docs/screenshots/presenter-15-guide-phone.jpg",
+      "docs/screenshots/presenter-15-guide-1366.jpg"
+    ],
+    "cleanup": "Owned Safari audience windows and guide/layout/regression tabs closed; original Safari Start Page preserved. Owned local Chrome rehearsal window closed; unrelated Chrome windows preserved. Both temporary layout HTML files removed; temporary classroom link removed; local server stopped.",
+    "remaining": [
+      "Owner publication approval, then deployment/public verification",
+      "Physical ViewSonic and school-network rehearsal remain outside this browser review",
+      "Same computer/browser only; external video windows remain separate; guide reload resets in-memory draw"
+    ]
   }
 }

@@ -1,6 +1,6 @@
 # Linked presenter guide — development review
 
-Not live or fully browser-verified. Current live release remains editorial-14. See HANDOFF.md and docs/evidence/linked-presenter-editorial-15.json before publishing.
+Browser-reviewed and awaiting owner publication approval. Current live release remains editorial-14. See HANDOFF.md and docs/evidence/linked-presenter-editorial-15.json before publishing.
 
 ## The classroom problem
 
@@ -27,6 +27,8 @@ This does not pair separate phones/tablets. It needs two windows on the same com
 - The existing Academy logic is unchanged. A second randomized draft is never used for the classroom view: it displays the canonical preview’s exact revealed numbers. Reopening the display does not reset the canonical preview.
 - No persistent browser storage, student records, external sync service or backend was added.
 
-## Remaining verification
+## Verification and publication
 
-The resumed 23 November Safari review passed guide Next/Previous/jump, all twelve preview-to-guide pages, all 21 exact draft turns, reopening/reloading the display without losing the pick, all six Vault stories and completion, native fullscreen and teacher-note privacy. The classroom fullscreen screenshot is saved. Remaining items are in HANDOFF.md and the resumedReview evidence: Chrome paired navigation, final laptop image/layout checks, expanded history/Matchday spot checks and the ordinary-site regression. The Mac locked again during that review. Eight automated protocol/guide tests pass. Publish only after the remaining review, any corrections and owner approval.
+Chrome and Safari both passed paired navigation and native fullscreen entry/exit. The full Safari rehearsal covered all twelve journal pages, all 21 mirrored draft picks, audience close/reopen and reload without losing the pick, all six Vault reveals and completion, keeping teacher notes off the audience view, Cinema selection, expanded Saka history and the complete Matchday challenge. Ordinary browsing remained independent of the linked session. Actual 1366×768 linked-guide, 1920×1080 classroom-stage and 390×844 standalone-guide layouts were checked in temporary scaled browser fixtures; native laptop and fullscreen windows were inspected too. Eight automated protocol/guide tests passed. Runtime files remain identical to reviewed implementation 6cb39e4.
+
+Actual screenshots and detailed evidence are under docs/screenshots/presenter-15-* and docs/evidence/linked-presenter-editorial-15.json. Temporary fixtures were removed, the preview server stopped and owned review windows closed. Remaining: owner approval to publish, then deployment/public verification. Physical classroom display and school-network access still require an on-site check. The Word guide remains an independent printable companion; linked control is a web-guide feature.
