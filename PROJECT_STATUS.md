@@ -1,5 +1,19 @@
 # Arsenal Academy — current project status
 
+## Academy toolbar presenter entrance — ready for review, not published
+
+23 November 2026. Owner clarified that Presenter mode must appear directly beside Full screen and Options in the Academy journal, with Clubhouse still available. Branch: `codex/academy-presenter-entry`, based on published editorial-15.
+
+Added a secondary Presenter mode link to the clubhouse and standalone journal toolbars. In an open Academy room, it opens the existing online guide in a separate tab at the matching cue. All twelve journal pages map to their own notes; Cinema → page 8, Vault → page 12, Draft → draft, Scouting → after-cards and Matchday → matchday. It does not replace or navigate away from the standalone Academy. The guide retains its existing Open classroom screen step and browser/profile requirement. Existing draft/Vault selections in an ordinary Academy window are not imported into a newly opened guide; use the guide to start and control a linked activity.
+
+No script text, roster, classroom activity logic, media, privacy protocol or guide launch code changed. Only experience.js, mobile toolbar spacing and the two HTML asset-cache keys changed. A phone-sized toolbar now fits Full screen, Presenter mode, Options and Clubhouse together. Compact photo-pop-up controls remain unchanged.
+
+Browser evidence: actual in-app browser at 1280×720 and native in-app full-screen; opened page-2 guide from the new toolbar, connected classroom on page 2, advanced it to page 3 while ordinary Academy remained on page 2. Checked matching toolbar links on pages 1–12 and Draft. No captured warning/error entries in the reviewed Academy tab. Checked 390×844 rendering in a temporary same-origin scaled iframe fixture (the viewport capability did not affect the in-app browser; only the fixture’s outer Academy experience script was forced to standalone mode). No physical phone or ViewSonic test claimed.
+
+Eight existing guide/protocol tests passed; JS syntax and whitespace checks passed. Screenshots are in docs/screenshots/presenter-entry-*.jpg. Temporary review fixtures removed, owned tabs closed, original two live in-app tabs preserved and preview stopped after review.
+
+OLA HQ entrances are a related, separate change: public PR https://github.com/ola-hq/ola-hq/pull/99 and matching private-template PR https://github.com/ola-hq/ola-hq-master/pull/25. Those now have desktop/mobile browser review too. Main/live branches are unchanged; request scoped approval for the Academy toolbar and both hub source/projection updates together.
+
 ## Live linked presenter mode editorial 15
 
 Published 23 November 2026 after the owner explicitly said **“Publish linked presenter mode.”** Implementation `6cb39e4`, completed review `5dbd8c1` and approval/export commit `3d98271` are on main and `codex/arsenal-linked-presenter`. [GitHub Pages run 45236406916](https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/45236406916) completed successfully. Earlier pending-approval/review sections below are historical and superseded.

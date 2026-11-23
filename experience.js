@@ -21,13 +21,23 @@
   let focus=false,nativeSeen=false,notice='',labels=false;
   const state=()=>({focus,nativeFullscreen:Boolean(document.fullscreenElement||document.webkitFullscreenElement),labels});
   const slots=[...document.querySelectorAll('[data-experience-controls]')];
+  function presenterHref(){
+    let hash=location.hash;
+    const frame=document.querySelector('#experience');
+    if(frame&&!document.querySelector('#overlay')?.hidden){
+      try{hash=frame.contentWindow.location.hash;}catch{}
+    }
+    const page=hash.match(/^#slides\/(1[0-2]|[1-9])$/);
+    const cue=page?'page'+page[1]:({'#cinema':'page8','#captains':'page12','#draft':'draft','#scout':'after-cards','#matchday':'matchday'}[hash]||'setup');
+    return 'docs/host-script.html?v=editorial-15#'+cue;
+  }
   slots.forEach(slot=>{
     slot.classList.add('experience-controls');
     if(slot.dataset.experienceControls==='compact'){
       slot.innerHTML='<button type="button" class="exp-button" data-exp-focus aria-pressed="false">Full screen</button>';
       return;
     }
-    slot.innerHTML=`<button type="button" class="exp-button" data-exp-focus aria-pressed="false">Full screen</button><details class="exp-settings"><summary>Options</summary><div class="exp-menu"><strong class="exp-menu-title">Make it your matchday</strong>${document.querySelector('.world')?'<button type="button" data-exp-labels class="exp-button" aria-pressed="false">Show room labels</button>':''}<p>Esc exits full screen. In the journal, use the arrow keys to turn pages.</p><button type="button" class="exp-button" data-exp-done>Done</button></div></details><span class="exp-feedback" role="status" hidden></span>`;
+    slot.innerHTML=`<button type="button" class="exp-button" data-exp-focus aria-pressed="false">Full screen</button><a class="exp-button" data-exp-presenter href="${presenterHref()}" target="_blank" rel="noopener noreferrer" title="Open your host script and linked classroom controls in a new tab">Presenter mode</a><details class="exp-settings"><summary>Options</summary><div class="exp-menu"><strong class="exp-menu-title">Make it your matchday</strong>${document.querySelector('.world')?'<button type="button" data-exp-labels class="exp-button" aria-pressed="false">Show room labels</button>':''}<p>Esc exits full screen. In the journal, use the arrow keys to turn pages.</p><button type="button" class="exp-button" data-exp-done>Done</button></div></details><span class="exp-feedback" role="status" hidden></span>`;
   });
   function broadcast(){
     const current=state();
@@ -37,6 +47,12 @@
     document.querySelectorAll('.exp-feedback').forEach(el=>{el.hidden=!notice;el.replaceChildren();if(notice){const text=document.createElement('span');text.textContent=notice;const close=document.createElement('button');close.type='button';close.dataset.expDismiss='';close.textContent='Dismiss';el.append(text,close);}});
     const frame=document.querySelector('#experience');if(frame?.contentWindow)frame.contentWindow.postMessage({type:'arsenal:experience-state',state:current},location.origin);
   }
+  function updatePresenterLinks(){document.querySelectorAll('[data-exp-presenter]').forEach(link=>link.href=presenterHref());}
+  window.addEventListener('hashchange',updatePresenterLinks);
+  window.addEventListener('message',event=>{
+    const frame=document.querySelector('#experience');
+    if(event.origin===location.origin&&event.source===frame?.contentWindow&&event.data?.type==='arsenal:room')updatePresenterLinks();
+  });
   function toggleFocus(){
     if(focus){focus=false;notice='';broadcast();const exit=document.exitFullscreen||document.webkitExitFullscreen;if((document.fullscreenElement||document.webkitFullscreenElement)&&exit)Promise.resolve(exit.call(document)).catch(()=>{});return;}
     focus=true;notice='';broadcast();
@@ -47,6 +63,8 @@
   function closeOptions(){let closed=false;document.querySelectorAll('.exp-settings').forEach(el=>{if(el.open){el.open=false;closed=true;}});return closed;}
   window.AcademyExperience={state,toggleFocus,closeOptions};
   document.addEventListener('click',event=>{
+    const presenter=event.target.closest('[data-exp-presenter]');
+    if(presenter)presenter.href=presenterHref();
     if(event.target.closest('[data-exp-focus]'))toggleFocus();
     if(event.target.closest('[data-exp-labels]')){labels=!labels;broadcast();}
     if(event.target.closest('[data-exp-dismiss]')){notice='';broadcast();}
@@ -57,7 +75,7 @@
   function fullscreenChanged(){if(document.fullscreenElement||document.webkitFullscreenElement){nativeSeen=true;focus=true;}else if(nativeSeen){nativeSeen=false;focus=false;notice='';}broadcast();}
   document.addEventListener('fullscreenchange',fullscreenChanged);document.addEventListener('webkitfullscreenchange',fullscreenChanged);
   document.addEventListener('keydown',event=>{if(event.key==='Escape'&&closeOptions()){event.preventDefault();event.stopImmediatePropagation();return;}if(event.key==='Escape'&&focus&&!document.querySelector('dialog[open]')){event.preventDefault();event.stopImmediatePropagation();toggleFocus();}},true);
-  const frame=document.querySelector('#experience');if(frame)frame.addEventListener('load',broadcast);
+  const frame=document.querySelector('#experience');if(frame)frame.addEventListener('load',()=>{broadcast();updatePresenterLinks();});
   if('ResizeObserver' in window){const observer=new ResizeObserver(entries=>entries.forEach(entry=>document.documentElement.style.setProperty(entry.target.classList.contains('overlaybar')?'--overlay-toolbar-height':'--home-toolbar-height',Math.ceil(entry.target.getBoundingClientRect().height)+'px')));document.querySelectorAll('.top,.overlaybar').forEach(el=>observer.observe(el));}
   broadcast();
 })();

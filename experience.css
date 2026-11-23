@@ -8,3 +8,4 @@
 @media(max-width:760px){.overlaybar #close{font-size:0!important;min-width:74px}.overlaybar #close:after{content:'Clubhouse';font-size:12px}.overlaybar .exp-button{padding-inline:10px}}
 
 @media(max-width:760px){.overlaybar [data-exp-focus]{font-size:0!important;min-width:50px}.overlaybar [data-exp-focus]:after{content:"Full screen";font-size:12px}.overlaybar [data-exp-focus][aria-pressed=true]:after{content:"Exit"}}
+@media(max-width:760px){.overlaybar .experience-controls{gap:5px}.overlaybar .exp-button[data-exp-presenter],.overlaybar .exp-settings>summary{font-size:12px;padding-inline:8px}.overlaybar [data-exp-focus]{padding-inline:8px}.overlaybar #close{min-width:68px;padding-inline:8px!important}}
