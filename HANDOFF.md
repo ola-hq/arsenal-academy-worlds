@@ -1,5 +1,11 @@
 # Arsenal Academy project handoff
 
+## Linked presenter publication approved
+
+23 November 2026. The owner explicitly answered **“Publish linked presenter mode”** after reviewing the tested laptop and classroom screenshots and receiving the same-computer/browser explanation. This approves implementation `6cb39e4` and completed review `5dbd8c1` for the existing public Academy website. Publication and actual public verification follow; earlier pending-approval sections below are historical.
+
+The download export was also made self-contained: its inline reading controls remain independent, and it links clearly to the online host guide for linked-window control. The online runtime and all sixteen cue sections are byte-identical to the browser-tested implementation, and the Word guide is unchanged. Current local HTML/Word kit is aligned with the approved release; archive integrity and sixteen cue sections checked.
+
 ## Linked presenter editorial 15 — reviewed and awaiting publication approval
 
 23 November 2026. Development branch `codex/arsenal-linked-presenter`; implementation `6cb39e4`. **Browser review is complete; not published. Editorial-14 remains live.** The owner’s extended-display problem is addressed by a linked web host guide: laptop notes and interactive controls, plus a separate classroom window containing visuals only. One Next/Previous/jump changes both. Preview navigation also updates the matching guide cue. All sixteen spoken cue sections, lesson data, player photos, activity logic, privacy behavior and the printable Word guide remain unchanged.
