@@ -8,7 +8,7 @@ The first live session used extended displays: notes on the laptop and the Acade
 
 ## Optional entrance from the Academy
 
-Development branch `codex/academy-presenter-entry` adds **Presenter mode** beside Full screen and Options. It opens this guide in another tab at the matching page or room cue. Select **Open classroom screen** in the guide to begin the linked session. The ordinary Academy remains independent; current draft picks or Vault reveals are not transferred into a new guide. This toolbar addition was reviewed and its publication approved on 23 November 2026; follow Academy PR #1 for its merge record.
+Development branch `codex/academy-presenter-entry` adds **Presenter mode** beside Full screen and Options. It opens this guide in another tab at the matching page or room cue. Select **Open classroom screen** in the guide to begin the linked session. The ordinary Academy remains independent; current draft picks or Vault reveals are not transferred into a new guide. This toolbar addition was published and verified on 23 November 2026 (PR #1, Pages run 45250775020). Use https://ola-hq.github.io/arsenal-academy-worlds/?v=presenter-entry-1 to avoid an older cached homepage.
 
 ## Setup
 

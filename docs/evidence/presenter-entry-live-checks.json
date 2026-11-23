@@ -1,0 +1,30 @@
+{
+  "academy_merge": "79d0564a2d7989b02514358b9f8a4ea55d3d8bec",
+  "academy_deployment": 45250775020,
+  "files": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "c7255638d2bf341da9aca5098e64757e95032fafeea1f737e12dc26b19d461f0",
+      "matches_reviewed_source": true
+    },
+    {
+      "path": "legacy.html",
+      "status": 200,
+      "sha256": "1153a6d52293544cf56dcbc775a7667383fb8e149806c62eb0e7c8a2794de862",
+      "matches_reviewed_source": true
+    },
+    {
+      "path": "experience.js",
+      "status": 200,
+      "sha256": "0f13955fc135f0acce323a5ac8cab68d1a5de2b8e479d02d206606a49a1eac68",
+      "matches_reviewed_source": true
+    },
+    {
+      "path": "experience.css",
+      "status": 200,
+      "sha256": "0d1941fbecb44bc086a9aa6b01ebf6dfd1f0318b3839afb933317119ad6ff333",
+      "matches_reviewed_source": true
+    }
+  ]
+}
