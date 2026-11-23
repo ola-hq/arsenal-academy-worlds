@@ -29,4 +29,4 @@ This does not pair separate phones/tablets. It needs two windows on the same com
 
 ## Remaining verification
 
-The initial page-9 connection was observed. Full paired navigation, mirror content/privacy and all activity/recovery/fullscreen/layout tests still require actual browser checks after Mac unlock. Eight automated protocol/guide tests pass. Do not publish this development release until those checks, corrections and actual screenshots are complete and the owner approves it.
+The resumed 23 November Safari review passed guide Next/Previous/jump, all twelve preview-to-guide pages, all 21 exact draft turns, reopening/reloading the display without losing the pick, all six Vault stories and completion, native fullscreen and teacher-note privacy. The classroom fullscreen screenshot is saved. Remaining items are in HANDOFF.md and the resumedReview evidence: Chrome paired navigation, final laptop image/layout checks, expanded history/Matchday spot checks and the ordinary-site regression. The Mac locked again during that review. Eight automated protocol/guide tests pass. Publish only after the remaining review, any corrections and owner approval.

@@ -58,5 +58,68 @@
     "External film windows remain separate",
     "Do not reload the guide during a draw; canonical in-memory activity state lives in its preview"
   ],
-  "cleanup": "Local preview stopped for handoff. Native review tabs may remain because the Mac locked; close only the owned local guide/classroom review window when unlocked. User live presentation window was not edited."
+  "cleanup": "Local preview stopped for handoff. Native review tabs may remain because the Mac locked; close only the owned local guide/classroom review window when unlocked. User live presentation window was not edited.",
+  "resumedReview": {
+    "date": "2026-11-23",
+    "sourceCommit": "6cb39e4",
+    "browser": "Native Safari, isolated host-guide tab and its own classroom popup; Chrome was changing focus during the check",
+    "passed": {
+      "guide_next": "page 1 → 2; guide selector, preview count, classroom status and classroom page-2 content matched",
+      "guide_previous": "page 2 → 1 matched",
+      "jump": "guide selector page 1 → 8 matched",
+      "optional_matchday": "linked Next page 8 → 9; Previous page 9 → 8",
+      "cinema": "Enter Cinema kept notes on page 8; selecting A Champion’s Story mirrored title, portrait and the 1:01 link",
+      "full_screen": "Native Safari fullscreen showed only the classroom visual; Escape returned to the classroom toolbar",
+      "notes_privacy": "Opened Teacher notes in laptop preview. Teacher’s voice, its prompt, notes toggle and host script were absent in the classroom AX tree",
+      "draft_order": [
+        2,
+        11,
+        12,
+        17,
+        9,
+        1,
+        4,
+        6,
+        16,
+        13,
+        20,
+        19,
+        3,
+        15,
+        5,
+        21,
+        14,
+        7,
+        8,
+        10,
+        18
+      ],
+      "draft_mirror": "Compared complete cumulative order after every one of the 21 turns; all matched; 21 unique numbers, end control disabled",
+      "draft_reopen": "Closed and reopened audience popup after pick 1 (#2); current pick preserved",
+      "draft_reload": "Reloaded classroom popup after pick 1 (#2); current pick preserved",
+      "vault_stories": [
+        "Tony Adams / The One-Club Legend",
+        "Arsène Wenger / The Invincibles Architect",
+        "Tony Adams / Mr Arsenal",
+        "Arsène Wenger / The Trophy-Winning Coach",
+        "Sol Campbell / The Invincible Defender",
+        "Sol Campbell / The Big-Game Goalscorer"
+      ],
+      "vault_mirror": "All six revealed names and story titles matched across both windows; Finish ceremony mirrored complete state",
+      "preview_navigation": "Preview Next page, pages 1 through 12; host guide selector and preview count followed for every page",
+      "scouting": "From completed Draft → Scouting, guide followed optional post-draft cue; all 24 entries present; selected Saka showed his portrait and the history control"
+    },
+    "screenshots": [
+      "docs/screenshots/presenter-15-classroom-fullscreen.jpg"
+    ],
+    "notYetVerified": [
+      "expanded Scouting history mirror (lock interrupted click)",
+      "linked Matchday challenge",
+      "final laptop screenshot file",
+      "narrow/phone and explicit classroom-size layout fixtures",
+      "normal website regression in this release",
+      "final Chrome paired-navigation retest"
+    ],
+    "blocker": "Mac locked again after the Saka selection. A new unlock request is pending. No publication approval requested."
+  }
 }

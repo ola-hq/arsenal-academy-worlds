@@ -1,5 +1,21 @@
 # Arsenal Academy — verification record
 
+## Linked presenter review resumed — core Safari checks passed
+
+23 November 2026. Source `6cb39e4` on `codex/arsenal-linked-presenter`. **Development only; editorial-14 remains live.** The owner unlocked the Mac and testing resumed. IAB was unavailable and Chrome kept changing focus, so an isolated native Safari host-guide tab and its own classroom popup were used. Core real-browser behavior now passed:
+
+- One guide Next advanced page 1 → 2 on notes, preview and classroom; Previous returned to 1. Direct jump to 8 worked. Linked Next 8 → 9 and Previous 9 → 8 skipped optional Matchday.
+- Preview Next page navigated all twelve journal pages, and the guide selector followed each page.
+- Enter Cinema kept the matching page-8 notes; selected Merino title, portrait and 1:01 source link appeared in the classroom.
+- Every turn of a complete 21-pick draft matched between host and audience, comparing cumulative order after each reveal. All numbers appeared once. Closing/reopening the audience window and reloading it after pick 1 retained the same pick (#2), without resetting the canonical draw.
+- All six captain names and story titles matched between windows; two Adams, two Wenger, two Campbell. Finish ceremony displayed completion.
+- Native Safari full-screen entry displayed only the classroom visual, and Escape restored its toolbar. Opened teacher notes in the host preview; the teacher voice, note text/toggle and host script were absent from the audience AX tree.
+- Draft → Scouting selected the optional post-draft guide cue; all 24 profiles were present and selecting Saka showed his portrait and history control.
+
+Actual saved screenshot: `docs/screenshots/presenter-15-classroom-fullscreen.jpg`, the page-2 classroom visual in native fullscreen. The laptop view was visually inspected in the tool, but not saved to a file before the Mac locked again. Evidence details and exact draft order / all six stories are appended under `resumedReview` in `docs/evidence/linked-presenter-editorial-15.json`. The previous incomplete-review section below is historical and now superseded for the passed items.
+
+**Still pending:** final Chrome paired-navigation check, saved laptop screenshot, smaller/explicit classroom-size layout checks, expanded Scouting history and Matchday mirror spot checks, and ordinary-site regression check. The Mac locked during the Saka history click; a new unlock request is pending. No publication approval has been asked for this feature. Do not describe the entire browser review as complete yet. No app source changed during this resumed turn; the eight earlier automated tests remain applicable. Local preview stopped at handoff. Owned Safari host-guide tab and classroom popup remain because the Mac locked; unrelated Safari start tab and Chrome/live presentation windows were preserved.
+
 ## Linked presenter development editorial 15 — browser review incomplete
 
 20 November 2026. Owner reported that extended-display presentation required repeated cursor travel and advancing the host guide and slides separately. Asked to connect Next on the guide with the classroom visuals. Development branch `codex/arsenal-linked-presenter`; **not published, editorial-14 remains live**. No publication approval requested yet: browser review is unfinished.
