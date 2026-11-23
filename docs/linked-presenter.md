@@ -6,6 +6,10 @@ Approved, published and verified on the public website on 23 November 2026. Curr
 
 The first live session used extended displays: notes on the laptop and the Academy on the ViewSonic. The presenter had to advance two pages and move the cursor between displays. Students engaged with the visuals, leadership discussion and physical card draft. The requested improvement is control from the laptop while the audience sees the corresponding visuals.
 
+## Optional entrance from the Academy
+
+Development branch `codex/academy-presenter-entry` adds **Presenter mode** beside Full screen and Options. It opens this guide in another tab at the matching page or room cue. Select **Open classroom screen** in the guide to begin the linked session. The ordinary Academy remains independent; current draft picks or Vault reveals are not transferred into a new guide. This toolbar addition was reviewed and its publication approved on 23 November 2026; follow Academy PR #1 for its merge record.
+
 ## Setup
 
 1. Open the online host guide in the same browser/profile on the presentation computer.
