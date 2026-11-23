@@ -1,5 +1,9 @@
 # Arsenal Academy — verification record
 
+## Publication approved — Academy toolbar and OLA HQ entrances
+
+23 November 2026. Owner explicitly requested: “Can you make it live, please? ... all that needs to be live and going. Can you fix this, please?” This authorizes publishing the reviewed Presenter mode toolbar addition (Academy PR #1), OLA HQ Academy/Guide entrances (public PR #99), and matching private visitor-source templates (master PR #25). Existing pending-approval entries below are historical. Check the linked PR merge and Pages run records for publication state; public browser verification follows deployment.
+
 ## Academy toolbar presenter entrance — ready for review, not published
 
 23 November 2026. Owner clarified that Presenter mode must appear directly beside Full screen and Options in the Academy journal, with Clubhouse still available. Branch: `codex/academy-presenter-entry`, based on published editorial-15.
