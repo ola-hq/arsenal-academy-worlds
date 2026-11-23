@@ -1,5 +1,13 @@
 # Arsenal Academy — current project status
 
+## Live Academy toolbar verified — 23 November 2026
+
+Published the owner-approved Presenter mode toolbar via PR #1, merge `79d0564a2d7989b02514358b9f8a4ea55d3d8bec`. GitHub Pages run [45250775020](https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/45250775020) succeeded. Current access URL: https://ola-hq.github.io/arsenal-academy-worlds/?v=presenter-entry-1 . Existing URLs still identify the same Academy; an already-open older page needs refresh. The explicit version URL avoids the reproduced stale HTML cache.
+
+Actual public browser check confirmed the journal toolbar (Full screen / Presenter mode / Options / Clubhouse), page-2 Presenter mode opened matching page-2 notes, Open classroom screen connected at page 2, and Next advanced both guide and classroom to page 3. Audience rendered page 3 without host notes. The ordinary Academy stayed on page 2. All four changed runtime files returned HTTP 200 and exactly matched approved source. Screenshot: docs/screenshots/presenter-entry-live.jpg. Evidence: docs/evidence/presenter-entry-live-checks.json. No lesson, roster, spoken script, media or synchronization protocol changes.
+
+OLA HQ’s Academy tab/photo portal and Deeper Waves Academy card were also published and visually checked. A follow-up cache correction is tracked in public ola-hq PR #100 / private master PR #26; it versions the three primary Academy destination URLs. The hub deploy completed, but its post-deployment workflow reported an existing stale FPL snapshot. Automatic approval review rejected running the separate FPL refresh because it commits unrelated football data; it was not retried or bypassed. That warning does not prevent the Academy/nav release from being served. Obtain separate owner approval before refreshing that data.
+
 ## Publication approved — Academy toolbar and OLA HQ entrances
 
 23 November 2026. Owner explicitly requested: “Can you make it live, please? ... all that needs to be live and going. Can you fix this, please?” This authorizes publishing the reviewed Presenter mode toolbar addition (Academy PR #1), OLA HQ Academy/Guide entrances (public PR #99), and matching private visitor-source templates (master PR #25). Existing pending-approval entries below are historical. Check the linked PR merge and Pages run records for publication state; public browser verification follows deployment.
