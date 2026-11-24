@@ -1,5 +1,10 @@
 # Arsenal Academy project handoff
 
+## Academy footer return route — 24 November 2026
+
+Added an OLA HQ button to the clubhouse and standalone journal footers, preserving Presenter Guide and source links. No lesson, presenter, roster, media or data behavior changes. Browser clicked the button through to the public OLA HQ homepage; footer screenshot is docs/screenshots/academy-return-local.jpg. Related OLA HQ patch repairs Deeper Waves card fit, moves its Arsenal Academy portal before Club DNA and adds La Ola FC Academy navigation. Publication state is recorded in PR/Pages history, not inferred from local QA.
+
+
 ## Live Academy toolbar verified — 23 November 2026
 
 Published the owner-approved Presenter mode toolbar via PR #1, merge `79d0564a2d7989b02514358b9f8a4ea55d3d8bec`. GitHub Pages run [45250775020](https://github.com/ola-hq/arsenal-academy-worlds/actions/runs/45250775020) succeeded. Current access URL: https://ola-hq.github.io/arsenal-academy-worlds/?v=presenter-entry-1 . Existing URLs still identify the same Academy; an already-open older page needs refresh. The explicit version URL avoids the reproduced stale HTML cache.

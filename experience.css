@@ -9,3 +9,5 @@
 
 @media(max-width:760px){.overlaybar [data-exp-focus]{font-size:0!important;min-width:50px}.overlaybar [data-exp-focus]:after{content:"Full screen";font-size:12px}.overlaybar [data-exp-focus][aria-pressed=true]:after{content:"Exit"}}
 @media(max-width:760px){.overlaybar .experience-controls{gap:5px}.overlaybar .exp-button[data-exp-presenter],.overlaybar .exp-settings>summary{font-size:12px;padding-inline:8px}.overlaybar [data-exp-focus]{padding-inline:8px}.overlaybar #close{min-width:68px;padding-inline:8px!important}}
+
+.footer .hq-home-link{display:inline-flex;align-items:center;min-height:44px;margin:6px 8px 6px 0;padding:0 16px;border:1px solid #d6b16e;border-radius:8px;color:#f3d89d;text-decoration:none;font-weight:800;background:#211b22}.footer .hq-home-link:hover{background:#362a2b}.footer .hq-home-link:focus-visible{outline:3px solid #f3d89d;outline-offset:3px}
